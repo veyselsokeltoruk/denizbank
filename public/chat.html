@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Chatbot</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    a {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body class="flex flex-col h-screen py-10 sm:py-0 justify-between">
+  <div id="chat-container" class="flex flex-col p-4 space-y-2 overflow-auto"></div>
+  <div id="input-container" class="flex items-center p-4 bg-white w-full justify-center gap-3">
+    <input type="text" id="user-input" placeholder="Mesajınızı buraya yazın..."
+      class="flex w-full border border-gray-300 rounded-md h-full px-2 py-4 focus:outline-none focus:ring focus:border-blue-300">
+    <button id="send-button" class="bg-blue-500 hover:bg-blue-600 text-white font-bold px-3 py-4 rounded">
+      Gönder
+    </button>
+  </div>
+
+  <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+  <script>
+    // RiveScript botunu oluştur
+    const bot = new RiveScript({ utf8: true });
+
+    // RiveScript botunu yükle
+    bot.loadFile(["bot.rive"]).then(() => {
+      console.log("Toruk bot başarıyla yüklendi!");
+      bot.sortReplies();
+
+      // Botun ilk mesajını gönder
+      bot.reply("user", "Merhaba").then(reply => {
+        displayMessage(reply, "bot");
+      });
+    }).catch(error => {
+      console.log("Toruk bot yüklenirken hata oluştu:", error);
+    });
+
+    // Mesaj gönderme fonksiyonu
+    function sendMessage() {
+      // Input alanındaki mesajı al
+      const message = document.getElementById("user-input").value.trim().toLocaleLowerCase('tr-TR');
+
+      // Mesajın boş olup olmadığını ve 3 karakterden kısa olup olmadığını kontrol et
+      if (message === "" || message.length < 3) {
+        alert("Lütfen en az 3 karakter içeren bir mesaj girin.");
+        return; // Mesaj gönderme işlemi gerçekleştirilmez
+      }
+
+      displayMessage(message, "user");
+
+      bot.reply("user", message).then(reply => {
+        displayMessage(reply, "bot");
+      });
+
+      document.getElementById("user-input").value = "";
+    }
+
+
+    // Mesajları ekrana yazdırma fonksiyonu
+    function displayMessage(message, sender) {
+      const messageDiv = document.createElement("div");
+      messageDiv.innerHTML = message;
+
+      if (sender === "user") {
+        messageDiv.classList.add("bg-blue-900", "text-white", "rounded-br-lg", "rounded-tl-lg", "rounded-tr-lg", "p-4", "self-end", "max-w-lg");
+      } else {
+        messageDiv.classList.add("bg-blue-400", "text-white", "rounded-bl-lg", "rounded-tl-lg", "rounded-tr-lg", "p-4", "self-start", "max-w-lg");
+      }
+
+      document.getElementById("chat-container").appendChild(messageDiv);
+      document.getElementById("chat-container").scrollTop = document.getElementById("chat-container").scrollHeight;
+    }
+
+    // Gönder düğmesine tıklandığında
+    document.getElementById("send-button").addEventListener("click", () => {
+      sendMessage();
+    });
+
+    // Input alanına klavye olaylarını dinleyen bir event listener ekle
+    document.getElementById("user-input").addEventListener("keydown", function (event) {
+      // Eğer basılan tuş Enter ise ve input alanı boş değilse
+      if (event.key === "Enter" && this.value.trim() !== "") {
+        // Mesajı gönder
+        sendMessage();
+      }
+    });
+  </script>
+</body>
+
+</html>
