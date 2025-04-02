@@ -7,7 +7,6 @@ export default defineConfig({
     vue(),
     tailwindcss(),
 ],
-  base: '/ir/2023/2023TR/',
   assetsInclude: ['**/*.gltf', '**/*.png', '**/*.jpg'],
   build: {
     rollupOptions: {
