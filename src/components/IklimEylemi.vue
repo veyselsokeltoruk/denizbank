@@ -1,303 +1,295 @@
 <template>
-    <div class="flex flex-col items-center my-9">
+    <div class="flex flex-col items-center my-12">
         <div class="w-full flex flex-col items-center">
-            <div class="w-full max-w-[1024px] px-3 lg:px-0">
-                <a href="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=41" target="_blank">
-                    <h1 class="text-[#072CAD] text-md sm:text-3xl font-bold mb-6">
+            <!-- Header Section -->
+            <div class="w-full max-w-[1200px] px-4 lg:px-0">
+                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=41" target="_blank"
+                   class="group transition-all duration-300">
+                    <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
                         İklim Eylemi
                     </h1>
                 </a>
-                <p class="text-black text-sm sm:text-xl font-light mb-9">
+
+                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
                     İş Bankası, sahip olduğumuz kaynakları korumak için risk ve fırsat analizleri yapmakta, iklim
-                    eyleminde çözümün bir parçası olmak için çalışmaktadır.
+                    eyleminde çözümün bir parçası olmak için çalışmaktadır.
                 </p>
-                <div class="w-full flex flex-col gap-3 mb-9">
-                    <div class="flex gap-10 items-center pt-3">
-                        <img class="h-6" src="/tik-ikon.png" alt="">
-                        <p class="text-black text-sm sm:text-xl font-light">
-                            Net Sıfır Bankacılık Birliği üyesi İş Bankası, 2023 yılında karbonsuzlaşma hedeflerini
-                            açıkladı.
+
+                <!-- Features with hover effects -->
+                <div class="w-full flex flex-col gap-5 mb-12">
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                            <span class="font-semibold">Net Sıfır Bankacılık Birliği</span> üyesi İş Bankası, 2023 yılında
+                            <span class="font-semibold">karbonsuzlaşma hedeflerini</span> açıkladı.
                         </p>
                     </div>
-                    <div class="flex gap-10 items-center pt-3">
-                        <img class="h-6" src="/tik-ikon.png" alt="">
-                        <p class="text-black text-sm sm:text-xl font-light">
-                            Yurt içinde TL cinsinden yeşil borçlanma aracı ihraç eden ilk banka oldu.
+
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                            Yurt içinde <span class="font-semibold">TL cinsinden yeşil borçlanma aracı</span> ihraç eden
+                            <span class="font-semibold">ilk banka</span> oldu.
                         </p>
                     </div>
-                    <div class="flex gap-10 items-center pt-3">
-                        <img class="h-6" src="/tik-ikon.png" alt="">
-                        <p class="text-black text-sm sm:text-xl font-light">
+
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
                             İş Bankası 2030 yılına kadar emisyon yoğunluğunu 2021 baz yılına göre enerji üretimi
-                            sektöründe %61, çimentoda %21 ve demir-çelikte %10 azaltmayı hedefledi.
+                            sektöründe <span class="font-semibold">%61</span>, çimentoda <span class="font-semibold">%21</span>
+                            ve demir-çelikte <span class="font-semibold">%10</span> azaltmayı hedefledi.
                         </p>
                     </div>
-                    <div class="flex gap-10 items-center pt-3">
-                        <img class="h-6" src="/tik-ikon.png" alt="">
-                        <p class="text-black text-sm sm:text-xl font-light">
-                            İş Bankası, 2023 yılında Net-Sıfır Bankacılık Birliği taahhütlerine paralel olarak 2040
-                            yılına kadar kömürle ilgili faaliyetlerin finansmanını sonlandıracağını açıkladı.
+
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                            İş Bankası, 2023 yılında Net-Sıfır Bankacılık Birliği taahhütlerine paralel olarak
+                            <span class="font-semibold">2040 yılına kadar kömürle ilgili faaliyetlerin finansmanını sonlandıracağını</span>
+                            açıkladı.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="bg-[#DAF2FF] w-full">
-                <p class="text-[#072CAD] text-2xl font-bold text-center py-6">2023'te öne çıkanlar
+
+            <!-- Stats Header -->
+            <div class="bg-gradient-to-r from-[#DAF2FF] to-[#E6F7FF] w-full py-8">
+                <p class="text-[#072CAD] text-2xl sm:text-3xl font-bold text-center pb-8">
+                    2023'te öne çıkanlar
                 </p>
-            </div>
-            <swiper :navigation="true" :modules="modules" :autoplay="autoplay" :breakpoints="breakpoints"
-                class="mySwiper" style="height: max-content; background-color: #DAF2FF; padding-bottom: 2rem;"
-                @swiper="onSwiper">
-                <swiper-slide class="slider-align-center inlineOverride">
-                    <div class="flex flex-col justify-center">
-                        <div class="border-b border-[#072CAD] mb-6">
+
+                <!-- Stats Cards Carousel -->
+                <div class="stats-carousel max-w-[1200px] mx-auto px-4">
+                    <div class="flex flex-wrap justify-center gap-8">
+                        <!-- Card 1 -->
+                        <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
+                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
+                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center mb-3">
+                                Yenilenebilir enerji projelerinin toplam enerji projeleri portföyündeki payı
+                            </p>
+                            <div class="flex justify-center items-end">
+                                <span class="text-3xl text-[#072CAD] font-semibold">%{{ yenilenebilirEnerjiPayi }}</span>
+                            </div>
                         </div>
-                        <p class="text-black text-sm sm:text-2xl font-light">
-                            Yenilenebilir enerji projelerinin <br> toplam enerji projeleri <br> portföyündeki payı
-                        </p>
-                        <count-up :end-val="77" :duration="3" :delay="1" :options="options"
-                            class="text-xl sm:text-3xl text-[#072CAD] font-light">
-                            <template #prefix>
-                                <span class="text-xl sm:text-3xl text-[#072CAD] font-light">%</span>
-                            </template>
-                        </count-up>
-                    </div>
-                </swiper-slide>
-                <swiper-slide class="slider-align-center inlineOverride">
-                    <div class="flex flex-col justify-center">
-                        <div class="border-b border-[#072CAD] mb-6">
+
+                        <!-- Card 2 -->
+                        <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
+                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
+                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center mb-3">
+                                CDP İklim Değişikliği Programında
+                            </p>
+                            <div class="mt-2 mb-2">
+                                <span class="text-4xl text-[#072CAD] font-bold">"A"</span>
+                            </div>
+                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center">
+                                Global Liderlik seviyesi
+                            </p>
                         </div>
-                        <p class="text-black text-sm sm:text-2xl font-light">
-                            CDP İklim Değişikliği Programında
-                        </p>
-                        <p class="text-xl sm:text-3xl text-[#072CAD] font-light">
-                            “A”
-                        </p>
-                        <p class="text-black text-sm sm:text-2xl font-light">
-                            Global Liderlik seviyesi
-                        </p>
-                    </div>
-                </swiper-slide>
-                <swiper-slide class="slider-align-center inlineOverride">
-                    <div class="flex flex-col justify-center">
-                        <div class="border-b border-[#072CAD] mb-6">
+
+                        <!-- Card 3 -->
+                        <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
+                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
+                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center mb-3">
+                                Finanse edilen yenilenebilir enerji projeleriyle üretilen temiz enerji
+                            </p>
+                            <div class="flex flex-col items-center">
+                                <span class="text-3xl text-[#072CAD] font-semibold">{{ temizEnerji }}</span>
+                                <span class="text-gray-700 text-sm sm:text-lg font-medium">milyon MWh</span>
+                            </div>
                         </div>
-                        <div class="max-h-[260px] overflow-auto flex flex-col">
-                            <p class="text-black text-sm sm:text-2xl font-light">
-                                Finanse edilen yenilenebilir enerji <br> projeleriyle üretilen temiz enerji</p>
-                            <count-up :end-val="48.1" :duration="3" :delay="1" :options="options" :decimal-places="1"
-                                class="text-xl sm:text-3xl text-[#072CAD] font-light">
-                            </count-up>
-                            <p class="text-black text-sm sm:text-2xl font-light">
-                                milyon MWh
+
+                        <!-- Card 4 -->
+                        <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
+                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
+                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center mb-3">
+                                CDP Su Güvenliği programı
+                            </p>
+                            <div class="mt-2 mb-2">
+                                <span class="text-4xl text-[#072CAD] font-bold">"A-"</span>
+                            </div>
+                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center">
+                                Liderlik seviyesi
                             </p>
                         </div>
                     </div>
-                </swiper-slide>
-                <swiper-slide class="slider-align-center inlineOverride">
-                    <div class="flex flex-col justify-center">
-                        <div class="border-b border-[#072CAD] mb-6">
-                        </div>
-                        <p class="text-black text-sm sm:text-2xl font-light">
-                            CDP Su Güvenliği programı
-                        </p>
-                        <p class="text-xl sm:text-3xl text-[#072CAD] font-light">
-                            “A-”
-                        </p>
-                        <p class="text-black text-sm sm:text-2xl font-light">
-                            Liderlik seviyesi
-                        </p>
-                    </div>
-                </swiper-slide>
-            </swiper>
-            <div class="w-full max-w-[1024px] px-3 lg:px-0">
-                <div class="flex md:flex-row flex-col items-stretch gap-12 h-max my-12">
-                    <fieldset class="flex flex-col md:w-1/2 border-2 border-[#072CAD] p-5">
-                        <legend class="text-[#072CAD] text-center px-2">Katkı Sağlanan SKA’lar</legend>
-                        <div class="w-full flex flex-col gap-4">
-                            <div class="flex justify-evenly gap-1">
-                                <div class="w-1/3 max-w-[85px]">
-                                    <img src="/7.png" alt="">
+                </div>
+            </div>
+
+            <!-- Additional Info Boxes -->
+            <div class="w-full max-w-[1200px] px-4 lg:px-0">
+                <div class="flex md:flex-row flex-col items-stretch gap-10 my-12">
+                    <!-- First Box - SKA'lar -->
+                    <fieldset class="flex flex-col md:w-1/2 border-2 border-[#072CAD] p-6 rounded-lg hover:shadow-lg transition-all">
+                        <legend class="text-[#072CAD] text-center px-4 font-semibold text-lg">Katkı Sağlanan SKA'lar</legend>
+                        <div class="w-full flex flex-col gap-6 py-4">
+                            <!-- First Row -->
+                            <div class="flex justify-evenly gap-3">
+                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
+                                    <img src="/7.png" alt="" class="rounded-md shadow-sm">
                                 </div>
-                                <div class="w-1/3 max-w-[85px]">
-                                    <img src="/8.png" alt="">
+                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
+                                    <img src="/8.png" alt="" class="rounded-md shadow-sm">
                                 </div>
-                                <div class="w-1/3 max-w-[85px]">
-                                    <img src="/9.png" alt="">
+                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
+                                    <img src="/9.png" alt="" class="rounded-md shadow-sm">
                                 </div>
                             </div>
-                            <div class="flex justify-evenly">
-                                <div class="w-1/3 max-w-[85px]">
-                                    <img src="/11.png" alt="">
+
+                            <!-- Second Row -->
+                            <div class="flex justify-center gap-3">
+                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
+                                    <img src="/11.png" alt="" class="rounded-md shadow-sm">
                                 </div>
-                                <div class="w-1/3 max-w-[85px]">
-                                    <img src="/13.png" alt="">
+                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
+                                    <img src="/13.png" alt="" class="rounded-md shadow-sm">
                                 </div>
                             </div>
                         </div>
                     </fieldset>
-                    <fieldset class="flex flex-col md:w-1/2 border-2 border-[#072CAD] p-7">
-                        <legend class="text-[#072CAD] text-center px-2">İlgili Sermaye Ögeleri</legend>
-                        <div class="flex flex-col gap-5 h-full justify-center">
-                            <div class="flex items-center justify-center gap-5 h-1/2 w-full">
-                                <div
-                                    class="flex items-center text-left sm:text-lg text-sm font-semibold text-[#DC0D66] w-1/2 gap-2">
+
+                    <!-- Second Box - Sermaye Ögeleri -->
+                    <fieldset class="flex flex-col md:w-1/2 border-2 border-[#072CAD] p-6 rounded-lg hover:shadow-lg transition-all">
+                        <legend class="text-[#072CAD] text-center px-4 font-semibold text-lg">İlgili Sermaye Ögeleri</legend>
+                        <div class="flex flex-col gap-6 h-full justify-center py-4">
+                            <!-- First Row -->
+                            <div class="flex items-center justify-center gap-5 w-full">
+                                <div class="flex items-center text-left sm:text-base text-sm font-semibold text-[#DC0D66] w-1/2 gap-3 p-3 hover:bg-red-50 rounded-lg transition-all">
                                     <img class="w-1/3 object-contain" src="/finansal-sermaye-yatay.webp" alt="">
-                                    <span class>Finansal Sermaye</span>
+                                    <span>Finansal Sermaye</span>
                                 </div>
-                                <div
-                                    class="flex items-center text-left sm:text-lg text-sm font-semibold text-[#EB8A24] w-1/2 gap-2">
+                                <div class="flex items-center text-left sm:text-base text-sm font-semibold text-[#EB8A24] w-1/2 gap-3 p-3 hover:bg-orange-50 rounded-lg transition-all">
                                     <img class="w-1/3 object-contain" src="/entelektuel-sermaye-yatay.webp" alt="">
                                     <span>Entelektüel Sermaye</span>
                                 </div>
                             </div>
-                            <div class="flex items-center justify-center gap-5 h-1/2 w-full">
-                                <div
-                                    class="flex items-center text-left sm:text-lg text-sm font-semibold text-[#4ABFDF] w-1/2 gap-2">
+
+                            <!-- Second Row -->
+                            <div class="flex items-center justify-center gap-5 w-full">
+                                <div class="flex items-center text-left sm:text-base text-sm font-semibold text-[#4ABFDF] w-1/2 gap-3 p-3 hover:bg-blue-50 rounded-lg transition-all">
                                     <img class="w-1/3 object-contain" src="/sosyal-sermaye-yatay.webp" alt="">
                                     <span>Sosyal-İlişkisel Sermaye</span>
                                 </div>
-                                <div
-                                    class="flex items-center text-left sm:text-lg text-sm font-semibold text-[#5CB533] w-1/2 gap-2">
+                                <div class="flex items-center text-left sm:text-base text-sm font-semibold text-[#5CB533] w-1/2 gap-3 p-3 hover:bg-green-50 rounded-lg transition-all">
                                     <img class="w-1/3 object-contain" src="/dogal-sermaye-yatay.webp" alt="">
                                     <span>Doğal Sermaye</span>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
-
                 </div>
             </div>
         </div>
-        <div class="m-9 max-w-[1024px] w-full px-3 lg:px-0">
-            <h1 class="text-[#072CAD] font-bold text-center mb-8">
+
+        <!-- Links Section -->
+        <div class="my-12 max-w-[1200px] w-full px-4 lg:px-0">
+            <h1 class="text-[#072CAD] font-bold text-center text-2xl mb-8">
                 Bu bölümde ulaşabileceğiniz içerikler
             </h1>
-            <div class="flex w-full md:flex-row flex-col md:gap-12 gap-2 items-center">
-                <div class="flex flex-col md:w-1/2 w-5/6 gap-2">
-                    <div class="flex items-center justify-between">
-                        <a class="text-[#072CAD] underline text-sm md:text-base"
-                            href="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=42" target="_blank">
+
+            <div class="flex w-full md:flex-row flex-col md:gap-8 gap-4">
+                <!-- Left Column -->
+                <div class="flex flex-col md:w-1/2 w-full gap-4">
+                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=42" target="_blank"
+                       class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
+                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Karbonsuzlaşma Hedefleri
-                        </a>
-                        <img class="h-4" src="/arrow.svg" alt="">
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <a class="text-[#072CAD] underline text-sm md:text-base"
-                            href="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=43" target="_blank">
+                        </span>
+                        <img class="h-5" src="/arrow.svg" alt="">
+                    </a>
+
+                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=43" target="_blank"
+                       class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
+                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Kredilerde Çevresel ve Sosyal Risk Yönetimi
-                        </a>
-                        <img class="h-4" src="/arrow.svg" alt="">
-                    </div>
+                        </span>
+                        <img class="h-5" src="/arrow.svg" alt="">
+                    </a>
                 </div>
-                <div class="flex flex-col md:w-1/2 w-5/6 gap-2">
-                    <div class="flex items-center justify-between">
-                        <a class="text-[#072CAD] underline text-sm md:text-base"
-                            href="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=42" target="_blank">
+
+                <!-- Right Column -->
+                <div class="flex flex-col md:w-1/2 w-full gap-4">
+                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=42" target="_blank"
+                       class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
+                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             İklim Risklerinin Yönetimi
-                        </a>
-                        <img class="h-4" src="/arrow.svg" alt="">
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <a class="text-[#072CAD] underline text-sm md:text-base"
-                            href="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=44" target="_blank">
+                        </span>
+                        <img class="h-5" src="/arrow.svg" alt="">
+                    </a>
+
+                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=44" target="_blank"
+                       class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
+                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Yeşil Ekonomiye Katkı Sağlayan Ürün ve Hizmetler
-                        </a>
-                        <img class="h-4" src="/arrow.svg" alt="">
-                    </div>
+                        </span>
+                        <img class="h-5" src="/arrow.svg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="border-b border-[#072CAD] w-full">
-        </div>
+
+        <div class="border-b-2 border-[#072CAD] w-full opacity-50"></div>
     </div>
 </template>
 
-<script setup lang="ts">
-import { Swiper, SwiperSlide } from 'swiper/vue';
+<script setup>
+import { ref, onMounted } from 'vue';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
+// Animation counters
+const yenilenebilirEnerjiPayi = ref(0);
+const temizEnerji = ref(0);
 
-import { Autoplay, Navigation } from 'swiper/modules';
+onMounted(() => {
+  const animateCount = (targetRef, finalValue, duration) => {
+    const steps = 60;
+    const stepValue = finalValue / steps;
+    let current = 0;
+    const interval = duration / steps;
 
-import CountUp from 'vue-countup-v3';
+    const timer = setInterval(() => {
+      current += stepValue;
+      if (current >= finalValue) {
+        targetRef.value = finalValue;
+        clearInterval(timer);
+      } else {
+        targetRef.value = Math.round(current * 10) / 10;
+      }
+    }, interval);
+  };
 
-import type { CountUpOptions } from 'vue-countup-v3';
-
-const props = defineProps({
-    nummber: String,
-    label: String,
+  // Start animations with slight delays
+  setTimeout(() => animateCount(yenilenebilirEnerjiPayi, 77, 2000), 500);
+  setTimeout(() => animateCount(temizEnerji, 48.1, 2500), 700);
 });
-
-const options: CountUpOptions = {
-    enableScrollSpy: true,
-    scrollSpyOnce: true,
-    scrollSpyDelay: 300,
-    decimal: ',',
-    separator: '.'
-}
-
-const modules = [Autoplay, Navigation];
-
-const autoplay = {
-    delay: 5500,
-    disableOnInteraction: false,
-}
-
-const breakpoints = {
-    '640': {
-        slidesPerView: 2,
-        spaceBetween: 20,
-    },
-    '768': {
-        slidesPerView: 3,
-        spaceBetween: 40,
-    },
-    '1024': {
-        slidesPerView: 4,
-        spaceBetween: 50,
-    },
-}
-
-const onSwiper = (swiper) => {
-    swiper.params.autoplay.delay = 5500;
-    swiper.autoplay.start();
-}
 </script>
 
-<style>
-.swiper-slide {
-    height: auto;
-    background-color: transparent;
+<style scoped>
+.stats-carousel {
+  scrollbar-width: thin;
+  scrollbar-color: #072CAD transparent;
 }
 
-.swiper {
-    height: 15rem;
-    background-color: transparent;
-}
-</style>
-
-<style>
-.swiper-slide {
-    height: auto;
-    background-color: transparent;
+.stats-carousel::-webkit-scrollbar {
+  height: 8px;
 }
 
-.swiper {
-    height: 15rem;
-    background-color: transparent;
+.stats-carousel::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-@media only screen and (max-width: 640px) {
-    .slider-align-center {
-        align-items: center;
-    }
+.stats-carousel::-webkit-scrollbar-thumb {
+  background-color: #072CAD;
+  border-radius: 20px;
 }
 
-@media screen and (min-width:641px) {
-    .inlineOverride {
-        align-items: start;
-    }
+@media (max-width: 768px) {
+  .stats-carousel {
+    overflow-x: auto;
+  }
+
+  .stats-carousel > div {
+    width: max-content;
+    padding: 0 20px;
+  }
 }
 </style>

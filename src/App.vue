@@ -16,46 +16,57 @@ const closeMenu = () => {
 
 <template>
   <!-- Fixed Header -->
-  <header class="fixed top-0 left-0 w-full z-50">
+  <header class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <!-- Main Navigation Bar -->
-    <div class="bg-white shadow-md w-full">
-      <div class="container mx-auto px-4 py-2 flex items-center justify-between xl:justify-evenly">
-        <!-- Logo (always visible on larger screens, hidden on mobile when menu closed) -->
-        <div class="hidden xl:block">
-          <RouterLink to="/" class="flex items-center">
-            <img class="h-12" src="/denizbank.svg" alt="İş Bankası Logo">
-          </RouterLink>
-        </div>
-
-        <!-- Mobile Logo (for smaller screens) -->
-        <div class="xl:hidden flex-1">
-          <RouterLink to="/" class="flex items-center" @click="closeMenu">
-            <img class="h-10" src="/denizbank.svg" alt="İş Bankası Logo">
-          </RouterLink>
-        </div>
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <RouterLink to="/" class="flex items-center" @click="closeMenu">
+          <img class="h-10 md:h-12" src="/denizbank.svg" alt="İş Bankası Logo">
+        </RouterLink>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden xl:flex items-center space-x-4">
-          <RouterLink activeClass="bg-[#06BFDD] text-white" to="/degeryaratma"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300">
-            Nasıl Değer Yaratıyoruz?</RouterLink>
-          <RouterLink activeClass="bg-[#06BFDD] text-white" to="/guvenilir"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300">
-            Güvenilir Finansal Aktör</RouterLink>
-          <RouterLink activeClass="bg-[#06BFDD] text-white" to="/sorumluop"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300">
-            Sorumlu Operasyonlar</RouterLink>
-          <RouterLink activeClass="bg-[#06BFDD] text-white" to="/iyivatandas"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300">
-            İyi Kurumsal Vatandaş</RouterLink>
-          <RouterLink activeClass="bg-[#06BFDD] text-white" to="/raporlar"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300">
-            Finansal Raporlar ve Ekler</RouterLink>
+        <nav class="hidden lg:flex items-center space-x-4">
+          <RouterLink
+            to="/degeryaratma"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/degeryaratma' }"
+          >
+            Nasıl Değer Yaratıyoruz?
+          </RouterLink>
+          <RouterLink
+            to="/guvenilir"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
+          >
+            Güvenilir Finansal Aktör
+          </RouterLink>
+          <RouterLink
+            to="/sorumluop"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/sorumluop' }"
+          >
+            Sorumlu Operasyonlar
+          </RouterLink>
+          <RouterLink
+            to="/iyivatandas"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
+          >
+            İyi Kurumsal Vatandaş
+          </RouterLink>
+          <RouterLink
+            to="/raporlar"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/raporlar' }"
+          >
+            Finansal Raporlar ve Ekler
+          </RouterLink>
         </nav>
 
         <!-- Hamburger Button -->
         <button @click="toggleMenu" type="button"
-          class="xl:hidden text-white bg-[#06BFDD] p-2 rounded-full focus:outline-none transition duration-300">
+          class="lg:hidden text-white bg-[#06BFDD] p-2 rounded-full focus:outline-none transition duration-300">
           <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
             <path v-if="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -66,28 +77,60 @@ const closeMenu = () => {
     </div>
 
     <!-- Mobile Menu Dropdown -->
-    <div v-if="open" class="xl:hidden bg-white shadow-lg w-full">
+    <div
+      v-if="open"
+      class="lg:hidden bg-white shadow-lg w-full absolute left-0 top-full mobile-menu-height overflow-y-auto"
+    >
       <div class="container mx-auto px-4 py-4 flex flex-col space-y-3">
-        <RouterLink activeClass="bg-[#06BFDD] text-white" to="/degeryaratma" @click="closeMenu"
-          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300 text-center">
-          Nasıl Değer Yaratıyoruz?</RouterLink>
-        <RouterLink activeClass="bg-[#06BFDD] text-white" to="/guvenilir" @click="closeMenu"
-          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300 text-center">
-          Güvenilir Finansal Aktör</RouterLink>
-        <RouterLink activeClass="bg-[#06BFDD] text-white" to="/sorumluop" @click="closeMenu"
-          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300 text-center">
-          Sorumlu Operasyonlar</RouterLink>
-        <RouterLink activeClass="bg-[#06BFDD] text-white" to="/iyivatandas" @click="closeMenu"
-          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300 text-center">
-          İyi Kurumsal Vatandaş</RouterLink>
-        <RouterLink activeClass="bg-[#06BFDD] text-white" to="/raporlar" @click="closeMenu"
-          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] border rounded-md px-4 py-2 transition duration-300 text-center">
-          Finansal Raporlar ve Ekler</RouterLink>
+        <RouterLink
+          to="/degeryaratma"
+          @click="closeMenu"
+          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
+          :class="{ 'bg-[#06BFDD] text-white': $route.path === '/degeryaratma' }"
+        >
+          Nasıl Değer Yaratıyoruz?
+        </RouterLink>
+        <RouterLink
+          to="/guvenilir"
+          @click="closeMenu"
+          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
+          :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
+        >
+          Güvenilir Finansal Aktör
+        </RouterLink>
+        <RouterLink
+          to="/sorumluop"
+          @click="closeMenu"
+          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
+          :class="{ 'bg-[#06BFDD] text-white': $route.path === '/sorumluop' }"
+        >
+          Sorumlu Operasyonlar
+        </RouterLink>
+        <RouterLink
+          to="/iyivatandas"
+          @click="closeMenu"
+          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
+          :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
+        >
+          İyi Kurumsal Vatandaş
+        </RouterLink>
+        <RouterLink
+          to="/raporlar"
+          @click="closeMenu"
+          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
+          :class="{ 'bg-[#06BFDD] text-white': $route.path === '/raporlar' }"
+        >
+          Finansal Raporlar ve Ekler
+        </RouterLink>
       </div>
     </div>
   </header>
 
-  <RouterView />
+  <!-- Main Content with proper padding for fixed header -->
+  <main class="pt-16 md:pt-20">
+    <RouterView />
+  </main>
+
   <ChatBot />
   <MoreContent />
 </template>
@@ -105,5 +148,10 @@ const closeMenu = () => {
 
 main {
   min-height: calc(100vh - 64px);
+}
+
+/* Custom class for mobile menu height */
+.mobile-menu-height {
+  max-height: 70vh;
 }
 </style>

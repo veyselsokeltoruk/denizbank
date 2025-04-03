@@ -150,7 +150,7 @@ const hideTooltip = () => {
 
 // SDG logo yolunu alma fonksiyonu
 const getSdgImagePath = (number) => {
-  return `/${number}.png`;
+  return `/denizefr24/${number}.png`;
 };
 
 // SDG Tanımları

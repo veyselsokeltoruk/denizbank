@@ -19,38 +19,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Ana renk değişkenleri - DegerYaratmaView.vue ile uyumlu */
+/* Ana renk değişkenleri */
 :root {
-  --primary-color: #072CAD;
+  --primary-color: #06BFDD;
   --primary-light: #E0F7FB;
-  --primary-dark: #0526A0;
+  --primary-dark: #05a5c0;
   --text-on-primary: #ffffff;
-  --text-primary: #072CAD;
-  --accent-color: #072CAD;
-  --accent-light: #DAF2FF;
-  --gray-light: #F5F7FA;
-  --gray-medium: #E2E8F0;
-}
-
-/* Genel Stil Düzenlemeleri */
-body {
-  color: #333;
-  background-color: #fff;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  color: var(--primary-dark);
+  --text-primary: #06BFDD;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -62,7 +37,7 @@ a:hover {
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 14px;
+  width: 16px;
 }
 
 *::-webkit-scrollbar-track {
@@ -75,48 +50,13 @@ a:hover {
   border: 3px solid #ffffff;
 }
 
-/* Kartlar ve Bileşenler */
-.card {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(7, 44, 173, 0.1);
+.card-hover {
   transition: all 0.3s ease;
 }
 
-.card:hover {
+.card-hover:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(7, 44, 173, 0.15);
-}
-
-/* Buttonlar */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem 1.5rem;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
-  color: var(--text-on-primary);
-}
-
-.btn-primary:hover {
-  background-color: var(--primary-dark);
-}
-
-.btn-outline {
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
-  background-color: transparent;
-}
-
-.btn-outline:hover {
-  background-color: var(--primary-color);
-  color: var(--text-on-primary);
+  box-shadow: 0 10px 20px rgba(6, 191, 221, 0.2);
 }
 
 /* Animasyonlar */
@@ -146,65 +86,5 @@ a:hover {
   }
   100% {
     transform: scale(1);
-  }
-}
-
-/* Floating Button */
-.back-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: var(--primary-color);
-  color: white;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  cursor: pointer;
-  z-index: 99;
-}
-
-.back-to-top.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.back-to-top:hover {
-  background-color: var(--primary-dark);
-}
-
-/* Özel Font Stillendirme */
-.elyazisi {
-  font-family: "elyazisi", cursive;
-}
-
-/* Swiper Stillemeleri */
-.swiper-button-next,
-.swiper-button-prev {
-  color: var(--primary-color) !important;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--primary-color) !important;
-}
-
-/* Mobil Duyarlılık */
-@media (max-width: 768px) {
-  .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
   }
 }

@@ -65,7 +65,7 @@ export default {
     },
     methods: {
         getImageUrl(title) {
-            return `/ir/2023/2023TR/${title.toLowerCase().replace(/ğ/g, 'g')
+            return `/denizefr24/${title.toLowerCase().replace(/ğ/g, 'g')
                 .replace(/ü/g, 'u')
                 .replace(/ş/g, 's')
                 .replace(/ı/g, 'i')

@@ -14,7 +14,7 @@
           title="Yönetim Kurulu Başkanı"
           ek="'nın"
           message="İş Bankası'nın, köklerinden gelen değerleri modern gereklilikler ile birleştirmeyi başardığını ve alanında öncü kurumlar arasında kendine güçlü bir yer edindiğini görmekten büyük mutluluk duyuyoruz."
-          link="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=9"
+          link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=9"
         />
 
         <MessageCard
@@ -22,7 +22,7 @@
           title="Genel Müdür"
           ek="'ün"
           message="Taşıdığımız mirasın büyüklüğünün bilinciyle ikinci yüzyılımıza hazırlanıyoruz."
-          link="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=10"
+          link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=10"
         />
 
         <MessageCard
@@ -30,7 +30,7 @@
           title="Sürdürülebilirlik Lideri"
           ek="'nin"
           message="İş Bankası olarak 100. yılımıza girerken, karbonsuzlaşma yolunda belirlediğimiz hedefler, Bankamızın sürdürülebilirlik stratejisinin temel unsurlarını temsil ediyor ve müşterilerimizin yeşil dönüşümünde yol gösterici bir iş ortağı olma amacımızı yansıtıyor."
-          link="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf#page=15"
+          link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=15"
         />
       </div>
     </div>
@@ -65,7 +65,7 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/ir/2023/2023TR/bg-pattern.png');
+  background-image: url('/denizefr24/bg-pattern.png');
   background-size: 200px;
   opacity: 0.05;
   z-index: 0;

@@ -18,8 +18,9 @@ const seciliPencere = ref('birinci');
 const isAnimating = ref(false);
 
 // Public klasöründeki görsellere doğrudan erişim için helper fonksiyon
+// Alt dizinde çalışıyor olma durumuna göre düzeltildi
 const getImagePath = (name) => {
-  return `/${name}`;
+  return `/denizefr24/${name}`;
 };
 
 // Kategori bilgileri - public klasöründeki görsellere doğrudan erişim
@@ -407,5 +408,12 @@ const getContent = () => {
 
 [data-aos].aos-animate {
   pointer-events: auto;
+}
+
+/* Mobil cihazlar için özel stil ayarlamaları */
+@media (max-width: 768px) {
+  .h-130 {
+    height: 200px;
+  }
 }
 </style>

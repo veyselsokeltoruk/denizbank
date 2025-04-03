@@ -1,12 +1,14 @@
 <template>
   <div>
+    <!-- Header Section -->
     <div class="bg-[#DAF2FF] py-6 mt-12">
       <p class="text-[#072CAD] text-md sm:text-2xl font-bold text-center">
         Sürdürülebilirlik Alanında Dâhil Olunan İnisiyatifler ve Endeksler
       </p>
     </div>
 
-    <div class="swiper-container bg-[#DAF2FF] pt-4">
+    <!-- Logos Slider Container -->
+    <div class="bg-[#DAF2FF] pt-4">
       <swiper
         :navigation="{
           nextEl: '.swiper-button-next',
@@ -19,52 +21,55 @@
         :modules="modules"
         :autoplay="autoplay"
         :breakpoints="breakpoints"
-        class="mySwiper"
-        style="height: max-content; background-color: #DAF2FF; padding-bottom: 2rem"
+        class="bg-[#DAF2FF] pb-8"
         @swiper="onSwiper"
       >
         <swiper-slide v-for="(logo, index) in logos" :key="index">
           <div class="flex flex-col justify-center items-center h-full p-4">
-            <div class="border-b border-[#072CAD] w-1/2 mb-6"></div>
-            <div class="logo-card">
-              <!-- Logo görüntüleme, fallback ile -->
+            <div class="w-1/2 border-b border-[#072CAD] mb-6"></div>
+
+            <!-- Logo Card -->
+            <div class="w-full h-28 flex items-center justify-center bg-white rounded-xl p-4 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg relative">
+              <!-- SVG Logos -->
               <template v-if="logo.path.endsWith('.svg')">
-                <!-- SVG dosyaları için CSS background kullanma -->
                 <div
-                  class="logo-background w-full h-full bg-contain bg-center bg-no-repeat"
+                  class="w-full h-full bg-contain bg-center bg-no-repeat"
                   :style="{ backgroundImage: `url(${getImagePath(logo.path)})` }"
                   :title="logo.alt"
                 ></div>
 
-                <!-- Fallback - SVG yüklenmezse metni göster -->
+                <!-- SVG Fallback -->
                 <div
-                  class="fallback-text"
                   v-show="svgFailed[index]"
+                  class="absolute inset-0 flex items-center justify-center bg-white text-[#072CAD] font-bold text-center p-2"
                   @error="handleSvgError(index)"
                 >{{ logo.alt }}</div>
               </template>
 
-              <!-- SVG olmayan dosyalar için normal img kullanma -->
+              <!-- Regular Images -->
               <img
                 v-else
                 :src="getImagePath(logo.path)"
                 :alt="logo.alt"
-                class="logo-image"
+                class="max-h-20 max-w-full object-contain"
                 @error="handleImageError(index)"
               >
 
-              <!-- Fallback - Görsel yüklenmezse metni göster -->
-              <div v-if="imageErrors[index]" class="fallback-content">{{ logo.alt }}</div>
+              <!-- Image Fallback -->
+              <div
+                v-if="imageErrors[index]"
+                class="absolute inset-0 flex items-center justify-center bg-white text-[#072CAD] font-bold text-center p-2"
+              >
+                {{ logo.alt }}
+              </div>
             </div>
           </div>
         </swiper-slide>
 
-        <!-- Navigation buttons -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-        <!-- Pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- Navigation & Pagination -->
+        <div class="swiper-button-next !text-[#072CAD]"></div>
+        <div class="swiper-button-prev !text-[#072CAD]"></div>
+        <div class="swiper-pagination !bottom-0 !text-[#072CAD]"></div>
       </swiper>
     </div>
   </div>
@@ -80,7 +85,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// Logo verileri - FTSE4good için alternatif format da eklendi
+// Logo verileri
 const logos = [
   { path: '/logos/30Club.webp', alt: '30% Club' },
   { path: '/logos/bist-logo.webp', alt: 'BIST' },
@@ -88,10 +93,7 @@ const logos = [
   { path: '/logos/cdp-logo.webp', alt: 'CDP' },
   { path: '/logos/logo-ert.png', alt: 'ERT' },
   { path: '/logos/wep-logo.png', alt: 'WEP' },
-  // FTSE4good için 3 alternatif (biri çalışacaktır)
-  { path: '/logos/ftse4good.svg', alt: 'FTSE4Good' }, // Orijinal SVG
-  // { path: '/logos/ftse4good.png', alt: 'FTSE4Good (PNG)' }, // PNG alternatifi (dosyayı oluşturursanız)
-  // { path: '/logos/ftse4good.webp', alt: 'FTSE4Good (WebP)' }, // WebP alternatifi (dosyayı oluşturursanız)
+  { path: '/logos/ftse4good.svg', alt: 'FTSE4Good' },
   { path: '/logos/GRI-logo.webp', alt: 'GRI' },
   { path: '/logos/NZBA-PRB.webp', alt: 'NZBA-PRB' },
   { path: '/logos/Refintiv_Logo.webp', alt: 'Refinitiv' },
@@ -103,44 +105,25 @@ const logos = [
   { path: '/logos/unep-fi.webp', alt: 'UNEP FI' }
 ];
 
-// Image error tracking
+// Error handling states
 const imageErrors = ref(Array(logos.length).fill(false));
 const svgFailed = ref(Array(logos.length).fill(false));
 
-// Handle image loading errors
+// Error handling functions
 const handleImageError = (index) => {
   imageErrors.value[index] = true;
 };
 
-// Handle SVG background loading errors
-// Not: Bu tam olarak çalışmaz çünkü CSS background error eventi yoktur
-// Sadece örnek amaçlıdır
 const handleSvgError = (index) => {
   svgFailed.value[index] = true;
 };
 
-// Public klasöründeki görsellere doğrudan erişim için helper fonksiyon
+// Image path helper function with subdirectory support
 const getImagePath = (name) => {
-  // Dosya adında büyük/küçük harf sorunlarını önlemek için
-  // Tam yolu kontrol edip doğru şekilde yazabilirsiniz
-
-  // SVG için FTSE4good dosya adı kontrolü
-  if (name.toLowerCase().includes('ftse4good.svg')) {
-    // Doğru dosya adını kullanın (büyük/küçük harf duyarlı olabilir)
-    // Bu örneğin dosya adı FTSE4Good.svg olarak kaydedilmişse:
-    // return '/logos/FTSE4Good.svg';
-
-    // SVG yüklenmiyorsa alternatif bir format deneyin:
-    // return '/logos/ftse4good.png';
-
-    // Mevcut dosya adını kullan:
-    return name;
-  }
-
-  return name;
+  return name.startsWith('/') ? `/denizefr24${name}` : `/denizefr24/${name}`;
 };
 
-// Swiper yapılandırması
+// Swiper configuration
 const modules = [Autoplay, Navigation, Pagination];
 
 const autoplay = {
@@ -169,73 +152,16 @@ const onSwiper = (swiper) => {
 };
 </script>
 
-<style scoped>
-:deep(.swiper-slide) {
-  height: auto;
-  background-color: #DAF2FF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+<style>
+/* Only keeping minimal necessary styling that can't be handled with Tailwind */
+.swiper-pagination-bullet-active {
+  background-color: #072CAD !important;
 }
 
-:deep(.swiper) {
-  height: auto;
-  background-color: #DAF2FF;
-  padding-bottom: 40px;
-}
-
-:deep(.swiper-button-next),
-:deep(.swiper-button-prev) {
-  color: #072CAD;
-}
-
-:deep(.swiper-pagination-bullet-active) {
-  background-color: #072CAD;
-}
-
-.logo-card {
-  width: 100%;
-  height: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  border-radius: 0.75rem;
-  padding: 1rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: all 0.3s ease;
-  position: relative; /* Fallback içeriği için */
-}
-
-.logo-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.logo-image {
-  max-height: 80px;
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.logo-background {
-  width: 100%;
-  height: 80px;
-}
-
-.fallback-content, .fallback-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: #072CAD;
-  font-weight: bold;
-  text-align: center;
-  padding: 0.5rem;
+.swiper-slide {
+  height: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 </style>

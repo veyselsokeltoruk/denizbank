@@ -69,7 +69,7 @@ onMounted(() => {
         <p class="text-lg mb-8 max-w-2xl mx-auto">
           İkinci yüzyılımıza hazırlanırken, daha sürdürülebilir ve kapsayıcı bir gelecek için taahhütlerimizi keşfedin.
         </p>
-        <a href="/ir/2023/2023TR/is_bankasi_faaliyet_raporu_web.pdf" target="_blank"
+        <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf" target="_blank"
            class="inline-flex items-center bg-white text-[#072CAD] px-6 py-3 rounded-lg hover:bg-[#E0F7FB] transition duration-300">
           <span class="font-semibold">2023 Faaliyet Raporu</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -125,7 +125,7 @@ h1, h2, h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/ir/2023/2023TR/bg-pattern.png');
+  background-image: url('/denizefr24/bg-pattern.png');
   background-size: 200px;
   opacity: 0.05;
   z-index: 0;

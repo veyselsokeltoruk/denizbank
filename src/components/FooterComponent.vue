@@ -99,7 +99,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/ir/2023/2023TR/denizbank_faaliyet_raporu_web.pdf" target="_blank" class="text-gray-400 hover:text-white transition-colors">
+                  <a href="/denizefr24/denizbank_faaliyet_raporu_web.pdf" target="_blank" class="text-gray-400 hover:text-white transition-colors">
                     2023 Faaliyet Raporu
                   </a>
                 </li>

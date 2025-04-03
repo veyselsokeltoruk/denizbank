@@ -35,7 +35,7 @@ export default {
     data() {
         return {
             showPopup: false,
-            popupPath: "/ir/2023/2023TR/chat.html",
+            popupPath: "/denizefr24/chat.html",
             topics: [
                 "Sürdürülebilirlik", "Sürdürülebilir Kalkınma Amaçları", "Değer Modeli", "İş Bankası Bankacılığı",
                 "Öncelikli Konular", "Kapsayıcı Ekonomi", "Müşteri Odaklılık", "Sorumlu Bankacılık", "İnsan Hakları",
