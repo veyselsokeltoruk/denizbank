@@ -1,17 +1,17 @@
 <template>
     <div class="flex flex-col items-center my-12">
         <div class="w-full flex flex-col items-center">
-                <!-- Header Section -->
+            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
                    class="group transition-all duration-300">
                    <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
-                        Yetenek Çekme ve Elde Tutma
+                    Veri Gizliliği ve Güvenliği
                     </h1>
                 </a>
 
                 <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
-                    DenizBank  iş mükemmelliğini sağlamak için tüm süreçlerinde doğru işe doğru insan politikasını izlemektedir.
+                    Risklerin doğru yönetilmesi, güncel güvenlik önlemlerinin alınması ve çalışanların siber güvenlik konusunda bilinçlendirilmesi, veri güvenliğini sağlamanın en etkili yollarıdır.
                 </p>
 
                 <!-- Features with hover effects -->
@@ -19,29 +19,22 @@
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	%22,9 DFHG Çalışan Devir Oranı
+                            	2024 yılında DFHG kadın çalışan oranı %52
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında yapılan yönetici atamalarının %79’u mevcut çalışanlar arasından yapılmıştır.
+                            	DenizBank çalışan sayısı 12.207
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                           	2024’te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.DenizBank, toplamda 3 GW kurulu gücün devreye girmesine katkıda bulunarak, bugüne kadar yenilenebilir enerji projelerine toplam 1,5 milyar ABD doları finansman desteği sağlamıştır.
-                        </p>
+                            	DFHG Kadın Yönetici Oranı %38                        </p>
                     </div>
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında, 69 etkinlikle 10 bin üniversite öğrencisine ulaşılmıştır.
-                        </p>
-                    </div> 
             </div>
 
             </div>

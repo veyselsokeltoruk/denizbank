@@ -66,6 +66,11 @@
                   </router-link>
                 </li>
                 <li>
+                  <router-link to="/saglamktemeller" class="text-gray-400 hover:text-white transition-colors">
+                    xxxx
+                  </router-link>
+                </li>
+                <li>
                   <router-link to="/raporlar" class="text-gray-400 hover:text-white transition-colors">
                     Raporlar ve Göstergeler
                   </router-link>

@@ -4,7 +4,7 @@
         <img
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             src="/04_SPR.jpg"
-            alt="Sorumlu Operasyonlar"
+            alt="İlerisi için Sürdürülebilir Finansman"
         >
 
         <!-- Gradient Overlay -->
@@ -20,13 +20,13 @@
                     <h2
                         class="handwritten text-[#A0D5FF] text-left font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 md:mb-4"
                     >
-                        Sorumlu Operasyonlar
+                    İlerisi için Sürdürülebilir Finansmanlar
                     </h2>
                     <div class="w-20 h-1 bg-[#A0D5FF] rounded-full mb-4 transition-all duration-500 group-hover:w-32"></div>
                     <p
                         class="text-white text-sm md:text-lg xl:text-xl font-light md:block max-w-md leading-relaxed"
                     >
-                        Tercih edilen bir işveren ve iş ortağı
+                    Sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla; finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendiriyoruz.
                     </p>
                 </div>
 
@@ -35,17 +35,19 @@
                     class="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-lg mt-4 transform transition-all duration-500 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 hidden md:block"
                 >
                     <ul class="text-white space-y-2">
+                        <span>İlgili Sermaye Öğeleri</span>
+                        <br><br>
                         <li class="flex items-center gap-2">
                             <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Sürdürülebilir iş modeli</span>
+                            <span>Finansal Sermaye</span>
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Çalışan memnuniyeti ve gelişimi</span>
+                            <span>Üretilmiş Sermaye</span>
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>İş süreçlerinde verimlilik ve şeffaflık</span>
+                            <span>Doğal Sermaye</span>
                         </li>
                     </ul>
 
