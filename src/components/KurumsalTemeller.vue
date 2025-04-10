@@ -7,7 +7,7 @@
                    class="group transition-all duration-300">
                    <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
                     Veri Gizliliği ve Güvenliği
-                    </h1>
+                    </h1> 
                 </a>
 
                 <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
