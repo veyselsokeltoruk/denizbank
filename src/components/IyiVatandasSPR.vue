@@ -4,7 +4,7 @@
         <img
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             src="/05_SPR.jpg"
-            alt="İyi Kurumsal Vatandaş"
+            alt="Geleceğin Yeteneği"
         >
 
         <!-- Gradient Overlay -->
@@ -20,13 +20,13 @@
                     <h2
                         class="handwritten text-[#A0D5FF] text-left font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 md:mb-4"
                     >
-                        İyi Kurumsal Vatandaş
+                    Geleceğin Yeteneği
                     </h2>
                     <div class="w-20 h-1 bg-[#A0D5FF] rounded-full mb-4 transition-all duration-500 group-hover:w-32"></div>
                     <p
                         class="text-white text-sm md:text-lg xl:text-xl font-light md:block max-w-md leading-relaxed"
                     >
-                        Adil, şeffaf ve etik yönetim, toplumsal refaha sürdürülebilir katkı
+                    Sürdürülebilirlik hedefleri için gereken dönüşümün temel taşlarından biri yeni nesil yeteneklerdir.
                     </p>
                 </div>
 
@@ -37,15 +37,11 @@
                     <ul class="text-white space-y-2">
                         <li class="flex items-center gap-2">
                             <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Etik yönetim anlayışı</span>
+                            <span>İnsan Sermayesi</span>
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Toplumsal gelişim projeleri</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Kurumsal sorumluluk bilinci</span>
+                            <span>Entelektüel Sermaye</span>
                         </li>
                     </ul>
 

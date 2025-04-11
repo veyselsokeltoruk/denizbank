@@ -32,28 +32,35 @@ const closeMenu = () => {
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/degeryaratma' }"
           >
-            Nasıl Değer Yaratıyoruz?
+          Değer Yaratma Anlayışımız
           </RouterLink>
           <RouterLink
             to="/guvenilir"
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
           >
-            Güvenilir Finansal Aktör
+            Yeni Nesil Bankacılık
           </RouterLink>
           <RouterLink
             to="/sorumluop"
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/sorumluop' }"
           >
-            Sorumlu Operasyonlar
+          İlerisi için Sürdürülebilir Finansman
           </RouterLink>
           <RouterLink
             to="/iyivatandas"
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
           >
-            İyi Kurumsal Vatandaş
+          Geleceğin Yeteneği
+          </RouterLink>
+          <RouterLink
+            to="/saglamktemeller"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/saglamktemeller' }"
+          >
+          Sağlam Kurumsal Temeller
           </RouterLink>
           <RouterLink
             to="/raporlar"
@@ -88,7 +95,7 @@ const closeMenu = () => {
           class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
           :class="{ 'bg-[#06BFDD] text-white': $route.path === '/degeryaratma' }"
         >
-          Nasıl Değer Yaratıyoruz?
+        Değer Yaratma Anlayışımız
         </RouterLink>
         <RouterLink
           to="/guvenilir"
@@ -96,7 +103,7 @@ const closeMenu = () => {
           class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
           :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
         >
-          Güvenilir Finansal Aktör
+          Yeni Nesil Bankacılık
         </RouterLink>
         <RouterLink
           to="/sorumluop"
@@ -104,7 +111,7 @@ const closeMenu = () => {
           class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
           :class="{ 'bg-[#06BFDD] text-white': $route.path === '/sorumluop' }"
         >
-          Sorumlu Operasyonlar
+        İlerisi için Sürdürülebilir Finansman
         </RouterLink>
         <RouterLink
           to="/iyivatandas"
@@ -112,7 +119,15 @@ const closeMenu = () => {
           class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
           :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
         >
-          İyi Kurumsal Vatandaş
+        Geleceğin Yeteneği
+        </RouterLink>
+        <RouterLink
+          to="/saglamktemeller"
+          @click="closeMenu"
+          class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
+          :class="{ 'bg-[#06BFDD] text-white': $route.path === '/saglamktemeller' }"
+        >
+        Sağlam Kurumsal Temeller
         </RouterLink>
         <RouterLink
           to="/raporlar"

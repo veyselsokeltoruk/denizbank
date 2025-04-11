@@ -222,6 +222,15 @@ const getContent = () => {
 </script>
 
 <template>
+  <section class="welcome-section py-12 bg-white">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl lg:text-5xl font-light text-[#072CAD] mb-6" data-aos="fade-up">DenizBank</h1>
+    <div class="w-32 h-1 bg-[#072CAD] mx-auto mb-8" data-aos="fade-up" data-aos-delay="100"></div>
+    <p class="text-gray-700 max-w-3xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
+      DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve faaliyetlerini Sürdürülebilir Finansman, Yeni Nesil Bankacılık ve Geleceğin Yeteneği değer alanlarıyla gerçekleştirmektedir.
+    </p>
+  </div>
+</section>
   <div class="flex justify-center mt-20 mb-16 overflow-hidden">
     <div class="m-4 md:m-8 max-w-4xl w-full">
       <fieldset class="border-2 border-[#00539B] p-4 md:p-6 rounded-xl shadow-xl bg-white">

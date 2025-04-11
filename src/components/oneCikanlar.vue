@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="text-[#06BFDD] bg-[#E0F7FB] text-2xl font-bold text-center py-6 mt-12">
-      Rakamlarla 2023
+      Rakamlarla 2024
     </p>
   </div>
 
@@ -22,137 +22,134 @@
       style="height: max-content; background-color: #E0F7FB; padding-bottom: 2rem"
       @swiper="onSwiper"
     >
-      <!-- Şube -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <StatCard
-            icon="bank"
-            value="1088"
-            label="şube"
-            simple
-          />
-        </div>
-      </swiper-slide>
+          <!-- Konsolide Aktif Büyüklüğü -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="money"
+          value="1.579"
+          suffix="milyar"
+          label="Konsolide Aktif Büyüklüğü"
+          decimal-places="3"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- Müşteri -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <StatCard
-            icon="people"
-            :value="24.3"
-            suffix="milyon"
-            label="müşteri"
-            decimal-places="1"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Konsolide Net Kâr -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="profit"
+          value="45.3"
+          suffix="milyar TL"
+          label="Konsolide Net Kâr"
+          decimal-places="1"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- Çalışan -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <StatCard
-            icon="employee"
-            value="21167"
-            label="çalışan"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Konsolide Mevduat Büyüklüğü -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="money-growth"
+          value="950"
+          suffix="milyar TL"
+          label="Konsolide Mevduat Büyüklüğü"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- Toplam aktiflerde artış -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <p class="text-black text-2xl font-light">Toplam aktiflerde</p>
-          <StatCard
-            icon="percentage"
-            :value="74.2"
-            prefix="%"
-            label="artış"
-            decimal-places="1"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Konsolide Kredi Büyüklüğü -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="credit-card"
+          value="796"
+          suffix="milyar TL"
+          label="Konsolide Kredi Büyüklüğü"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- Mevduatta artış -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <p class="text-black text-2xl font-light">Mevduatta</p>
-          <StatCard
-            icon="money-growth"
-            :value="78.5"
-            prefix="%"
-            label="artış"
-            decimal-places="1"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Konsolide Özkaynak Büyüklüğü -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="equity"
+          value="152"
+          suffix="milyar TL"
+          label="Konsolide Özkaynak Büyüklüğü"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- TL net kâr -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <StatCard
-            icon="profit"
-            :value="72.3"
-            suffix="milyar"
-            label="TL net kâr"
-            decimal-places="1"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Sermaye Yeterlilik Rasyosu -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="percentage"
+          value="18.41"
+          prefix="%"
+          label="Sermaye Yeterlilik Rasyosu"
+          decimal-places="2"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- Özkaynaklarda artış -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <p class="text-black text-2xl font-light">Özkaynaklarda</p>
-          <StatCard
-            icon="equity"
-            :value="39.9"
-            prefix="%"
-            label="artış"
-            decimal-places="1"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Toplam Çalışan Sayısı -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="employee"
+          value="15073"
+          label="Toplam Çalışan Sayısı"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- TL piyasa değeri -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <StatCard
-            icon="market-value"
-            :value="233.6"
-            suffix="milyar"
-            label="TL piyasa değeri"
-            decimal-places="1"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Toplam Şube Sayısı -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="bank"
+          value="644"
+          label="Toplam Şube Sayısı (DFHG)"
+          simple
+        />
+      </div>
+    </swiper-slide>
 
-      <!-- Bankamatik -->
-      <swiper-slide class="items-center" style="align-items: start">
-        <div class="flex flex-col justify-center text-center">
-          <div class="border-b border-[#06BFDD] mb-6"></div>
-          <StatCard
-            icon="atm"
-            value="6312"
-            label="adet Bankamatik"
-            simple
-          />
-        </div>
-      </swiper-slide>
+    <!-- Aktif MobilDeniz Kullanıcı Sayısı -->
+    <swiper-slide class="items-center" style="align-items: start">
+      <div class="flex flex-col justify-center text-center">
+        <div class="border-b border-[#06BFDD] mb-6"></div>
+        <StatCard
+          icon="mobile"
+          value="5.0"
+          suffix="milyon"
+          label="Aktif Mobil Deniz Kullanıcı Sayısı"
+          decimal-places="1"
+          simple
+        />
+      </div>
+    </swiper-slide>
+
 
       <!-- Navigation buttons -->
       <div class="swiper-button-next"></div>

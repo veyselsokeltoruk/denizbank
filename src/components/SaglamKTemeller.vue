@@ -3,8 +3,8 @@
         <!-- Background Image with Overlay -->
         <img
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            src="/03_SPR.jpg"
-            alt="Yeni Nesil Bankacılık"
+            src="/05_SPR.jpg"
+            alt="Sağlam Kurumsal Temeller"
         >
 
         <!-- Gradient Overlay -->
@@ -20,40 +20,14 @@
                     <h2
                         class="handwritten text-[#A0D5FF] text-left font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 md:mb-4"
                     >
-                        Yeni Nesil Bankacılık
+                    Sağlam Kurumsal Temeller
                     </h2>
                     <div class="w-20 h-1 bg-[#A0D5FF] rounded-full mb-4 transition-all duration-500 group-hover:w-32"></div>
                     <p
                         class="text-white text-sm md:text-lg xl:text-xl font-light md:block max-w-md leading-relaxed"
                     >
-                    Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır
+                    Veri Gizliliği ve Güvenliği, Sistematik Risk Yönetimi ile Yönetişim, Uyum ve Etik yönetsel temellerimizdir.
                     </p>
-                </div>
-
-                <!-- Additional Info (Visible on Hover) -->
-                <div
-                    class="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-lg mt-4 transform transition-all duration-500 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 hidden md:block"
-                >
-                    <ul class="text-white space-y-2">
-                        <span>İlgili Sermaye Öğeleri</span>
-                        <br><br>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Fikri Sermaye</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Üretilmiş Sermaye</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Sosyal-ilişkisel Sermaye</span>
-                        </li>
-                    </ul>
-
-                    <button class="mt-4 px-4 py-2 border border-[#A0D5FF] text-[#A0D5FF] rounded hover:bg-[#A0D5FF]/20 transition-colors text-sm">
-                        Daha fazla bilgi
-                    </button>
                 </div>
             </div>
         </div>

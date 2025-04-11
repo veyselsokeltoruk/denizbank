@@ -58,31 +58,31 @@
         </div>
       </swiper-slide>
 
-      <!-- Second Slide - Güvenilir Finansal Aktör -->
+      <!-- Second Slide - Yeni Nesil Bankacılık -->
       <swiper-slide class="relative">
-        <img src="/03_SPR.jpg" alt="Güvenilir Finansal Aktör" class="w-full h-full object-cover">
+        <img src="/03_SPR.jpg" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
           <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                Güvenilir Finansal Aktör
+                Yeni Nesil Bankacılık
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
-                Kapsayıcı, dayanıklı, çevreye duyarlı bir ekonomi için yeni nesil bankacılık
+                 Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır
               </p>
             </div>
           </div>
         </div>
       </swiper-slide>
 
-      <!-- Third Slide - Sorumlu Operasyonlar -->
+      <!-- Third Slide - İlerisi için Sürdürülebilir Finansman -->
       <swiper-slide class="relative">
-        <img src="/04_SPR.jpg" alt="Sorumlu Operasyonlar" class="w-full h-full object-cover">
+        <img src="/04_SPR.jpg" alt="İlerisi için Sürdürülebilir Finansman" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
           <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                Sorumlu Operasyonlar
+                İlerisi için Sürdürülebilir Finansman
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                 Tercih edilen bir işveren ve iş ortağı
@@ -92,17 +92,34 @@
         </div>
       </swiper-slide>
 
-      <!-- Fourth Slide - İyi Kurumsal Vatandaş -->
+      <!-- Fourth Slide - Geleceğin Yeteneği -->
       <swiper-slide class="relative">
-        <img src="/05_SPR.jpg" alt="İyi Kurumsal Vatandaş" class="w-full h-full object-cover">
+        <img src="/05_SPR.jpg" alt="Geleceğin Yeteneği" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
           <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                İyi Kurumsal Vatandaş
+                Geleceğin Yeteneği
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
-                Adil, şeffaf ve etik yönetim, toplumsal refaha sürdürülebilir katkı
+                Sürdürülebilirlik hedefleri için gereken dönüşümün temel taşlarından biri yeni nesil yeteneklerdir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+
+      <!-- Fifth Slide - Sağlam Kurumsal Temeller -->
+      <swiper-slide class="relative">
+        <img src="/05_SPR.jpg" alt="Sağlam Kurumsal Temeller" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
+          <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
+            <div class="backdrop-blur-sm p-6 rounded-lg">
+              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                Sağlam Kurumsal Temeller
+              </h2>
+              <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
+                Veri Gizliliği ve Güvenliği, Sistematik Risk Yönetimi ile Yönetişim, Uyum ve Etik yönetsel temellerimizdir.
               </p>
             </div>
           </div>

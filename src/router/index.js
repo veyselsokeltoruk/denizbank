@@ -3,6 +3,7 @@ import DegerYaratmaView from '../views/DegerYaratmaView.vue'
 import GuvenilirView from '../views/GuvenilirView.vue'
 import HomeView from '../views/HomeView.vue'
 import IyiVatandasView from '../views/IyiVatandasView.vue'
+import SaglamKTemellerView from '../views/SaglamKTemellerView.vue'
 import RaporlarView from '../views/RaporlarView.vue'
 import SorumluOpView from '../views/SorumluOpView.vue'
 
@@ -25,6 +26,12 @@ const router = createRouter({
       path: '/iyivatandas',
       name: 'iyivatandas',
       component: IyiVatandasView,
+      meta: { scrollToTop: true }
+    },
+    {
+      path: '/saglamktemeller',
+      name: 'saglamktemeller',
+      component: SaglamKTemellerView,
       meta: { scrollToTop: true }
     },
     {

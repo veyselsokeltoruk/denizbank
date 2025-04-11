@@ -25,7 +25,7 @@ export default {
         return {
             items: [
                 {
-                    title: "Nasıl Değer Yaratıyoruz?",
+                    title: "Değer Yaratma Anlayışımız",
                     subItems: [
                         "Değer yaratma modeli",
                         "Sürdürülebilirlik yönetimi",
@@ -34,7 +34,7 @@ export default {
                     ]
                 },
                 {
-                    title: "Güvenilir Finansal Aktör",
+                    title: "Yeni Nesil Bankacılık",
                     subItems: [
                         "Kapsayıcı ve dayanıklı ekonomi",
                         "Finansal performans ve kârlılık",
@@ -44,7 +44,7 @@ export default {
                     ]
                 },
                 {
-                    title: "Sorumlu Operasyonlar",
+                    title: "İlerisi için Sürdürülebilir Finansman",
                     subItems: [
                         "Çevresel etki yönetimi",
                         "Sorumlu tedarik zinciri yönetimi",
@@ -53,10 +53,18 @@ export default {
                     ]
                 },
                 {
-                    title: "İyi Kurumsal Vatandaş",
+                    title: "Geleceğin Yeteneği",
                     subItems: [
                         "Kurumsal yönetim anlayışı",
-                        "Şeffaf ve etik yönetim",
+                        "Yetenek Çekme ve Elde Tutma",
+                        "Toplumsal refaha katkı"
+                    ]
+                },
+                {
+                    title: "Sağlam Kurumsal Temeller",
+                    subItems: [
+                        "Kurumsal yönetim anlayışı",
+                        "Yetenek Çekme ve Elde Tutma",
                         "Toplumsal refaha katkı"
                     ]
                 }

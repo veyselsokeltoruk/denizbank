@@ -43,11 +43,14 @@ onMounted(() => {
     <!-- Welcome Section with subtle separator -->
     <section class="welcome-section py-12 bg-white">
       <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl lg:text-5xl font-light text-[#072CAD] mb-6" data-aos="fade-up">DenizBank</h1>
+        <h1 class="text-4xl lg:text-5xl font-light text-[#072CAD] mb-6" data-aos="fade-up">İlerisi Deniz..</h1>
         <div class="w-32 h-1 bg-[#072CAD] mx-auto mb-8" data-aos="fade-up" data-aos-delay="100"></div>
         <p class="text-gray-700 max-w-3xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
-          Denizbank olarak 100. yılımıza girerken sürdürülebilir büyüme, dijital dönüşüm ve müşteri odaklı hizmet
-          anlayışıyla geleceğe güvenle ilerliyoruz.
+          DenizBank 2024 Entegre Faaliyet Raporu, “İlerisi İçin…Yenilikçi Finans ile Sürdürülebilirlik Dönüşümünün Kolaylaştırıcısı Olmak” vizyonuna uyumlu olarak “İlerisi için” mottosu ile hazırlandı.
+        </p>
+        <br>
+        <p class="text-gray-700 max-w-3xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
+         DenizBank 2024 yılı Entegre Faaliyet Raporunu indiriniz
         </p>
       </div>
     </section>

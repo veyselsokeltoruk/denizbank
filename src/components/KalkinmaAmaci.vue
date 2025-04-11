@@ -11,12 +11,12 @@
 
       <!-- Ana Kategoriler -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-        <!-- Güvenilir Finansal Aktör -->
+        <!-- Yeni Nesil Bankacılık -->
         <div class="group relative transition-all duration-300 hover:-translate-y-2">
           <div class="absolute inset-0 bg-[#072CAD] rounded-2xl transform rotate-1 opacity-20 group-hover:rotate-2 group-hover:scale-105 transition-all duration-500"></div>
           <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden">
             <div class="bg-gradient-to-r from-[#072CAD] to-[#052488] p-4 flex items-center justify-between">
-              <h2 class="text-white text-xl font-bold">Güvenilir Finansal Aktör</h2>
+              <h2 class="text-white text-xl font-bold">Yeni Nesil Bankacılık</h2>
               <div class="bg-white rounded-full w-10 h-10 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -46,13 +46,11 @@
           </div>
         </div>
 
-        <!-- Sorumlu Operasyonlar -->
+        <!-- İlerisi için Sürdürülebilir Finansmanorumlu Operasyonlar -->
         <div class="group relative transition-all duration-300 hover:-translate-y-2">
           <div class="absolute inset-0 bg-[#52C4FE] rounded-2xl transform rotate-1 opacity-20 group-hover:rotate-2 group-hover:scale-105 transition-all duration-500"></div>
           <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div class="bg-gradient-to-r from-[#52C4FE] to-[#3694c8] p-4 flex items-center justify-between">
-              <h2 class="text-white text-xl font-bold">Sorumlu Operasyonlar</h2>
-              <div class="bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <div class="bg-gradient-to-r from-[#52C4FE] to-[#3694c8] p-4 flex items-center justify-between">İlerisi için Sürdürülebilir Finansman<div class="bg-white rounded-full w-10 h-10 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#52C4FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
@@ -81,12 +79,46 @@
           </div>
         </div>
 
-        <!-- İyi Kurumsal Vatandaş -->
+        <!-- Geleceğin Yeteneği -->
         <div class="group relative transition-all duration-300 hover:-translate-y-2">
           <div class="absolute inset-0 bg-[#D20058] rounded-2xl transform rotate-1 opacity-20 group-hover:rotate-2 group-hover:scale-105 transition-all duration-500"></div>
           <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden">
             <div class="bg-gradient-to-r from-[#D20058] to-[#9e0043] p-4 flex items-center justify-between">
-              <h2 class="text-white text-xl font-bold">İyi Kurumsal Vatandaş</h2>
+              <h2 class="text-white text-xl font-bold">Geleceğin Yeteneği</h2>
+              <div class="bg-white rounded-full w-10 h-10 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#D20058]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5">
+              <ul class="space-y-4">
+                <li v-for="(item, index) in corporateCitizen" :key="index" class="bg-gray-50 rounded-xl p-4 transform transition-all hover:scale-105 hover:shadow-md">
+                  <div class="flex flex-col">
+                    <span class="font-medium text-[#D20058] mb-3">{{ item.title }}</span>
+                    <div class="flex flex-wrap gap-2">
+                      <div v-for="goal in item.goals" :key="goal"
+                          class="sdg-badge relative w-12 h-12 flex items-center justify-center rounded-md overflow-hidden"
+                          @mouseenter="showTooltip(goal)"
+                          @mouseleave="hideTooltip">
+                        <img :src="getSdgImagePath(goal)" :alt="`SDG ${goal}`" class="w-full h-full object-contain" />
+                        <div v-if="activeTooltip === goal" class="absolute z-10 -top-14 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs rounded py-1 px-2 min-w-[180px] text-center">
+                          {{ getSdgTitle(goal) }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Sağlam Kurumsal Temeller-->
+        <div class="group relative transition-all duration-300 hover:-translate-y-2">
+          <div class="absolute inset-0 bg-[#D20058] rounded-2xl transform rotate-1 opacity-20 group-hover:rotate-2 group-hover:scale-105 transition-all duration-500"></div>
+          <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div class="bg-gradient-to-r from-[#D20058] to-[#9e0043] p-4 flex items-center justify-between">
+              <h2 class="text-white text-xl font-bold">Sağlam Kurumsal Temeller</h2>
               <div class="bg-white rounded-full w-10 h-10 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#D20058]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />

@@ -13,7 +13,7 @@
           name="Hesham Abdulla Al Qassim"
           title="Yönetim Kurulu Başkanı"
           ek="'nın"
-          message="İş Bankası'nın, köklerinden gelen değerleri modern gereklilikler ile birleştirmeyi başardığını ve alanında öncü kurumlar arasında kendine güçlü bir yer edindiğini görmekten büyük mutluluk duyuyoruz."
+          message="Ülke ekonomisinin büyümesine katkı sunma hedefiyle çalışan DenizBank, 2024 yılında son derece başarılı bir finansal performans sergiledi."
           link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=9"
         />
 
@@ -21,7 +21,7 @@
           name="Recep Baştuğ"
           title="Genel Müdür"
           ek="'ün"
-          message="Taşıdığımız mirasın büyüklüğünün bilinciyle ikinci yüzyılımıza hazırlanıyoruz."
+          message="DenizBank’ı Türkiye’nin en büyük ve en güçlü bankaları arasında yükseltme hedefimizden sapmadan, özveriyle ve hep ileri bakarak çalışıp üretmeye devam edeceğiz."
           link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=10"
         />
 
