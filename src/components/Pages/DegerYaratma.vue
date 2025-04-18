@@ -25,7 +25,7 @@ const getImagePath = (name) => {
 
 // Kategori bilgileri - public klasöründeki görsellere doğrudan erişim
 const categories = [
-{ id: 'birinci', title: 'İnsan Sermayesi', icon: Users, color: '#1CABE2', gradient: 'from-[#d4f1fd]', image: getImagePath('insan-sermayesi.webp') },
+  { id: 'birinci', title: 'İnsan Sermayesi', icon: Users, color: '#1CABE2', gradient: 'from-[#d4f1fd]', image: getImagePath('insan-sermayesi.webp') },
   { id: 'ikinci', title: 'Finansal Sermaye', icon: DollarSign, color: '#00539B', gradient: 'from-[#E5F0F9]', image: getImagePath('finansal-sermaye.webp') },
   { id: 'ucuncu', title: 'Sosyal Sermaye', icon: Briefcase, color: '#1CABE2', gradient: 'from-[#e6f4fa]', image: getImagePath('sosyal-sermaye.webp') },
   { id: 'dorduncu', title: 'Entelektüel Sermaye', icon: Brain, color: '#00539B', gradient: 'from-[#F4F9FD]', image: getImagePath('entelektuel-sermaye.webp') },
@@ -43,7 +43,7 @@ const sdgImages = [4, 5, 7, 8, 9, 13].map(num => ({
 }));
 
 // İçerik verileri
-const contentData = {  
+const contentData = {
   'birinci': {
     color: '#1CABE2',
     inputs: [
@@ -134,7 +134,7 @@ const contentData = {
       'Mobil bankacılık aktif kullanıcı artışı <b>%35</b>',
       'Self servis bankacılık noktaları <b>420</b>',
       'LEED sertifikalı genel merkez binası'
-  ]
+    ]
   }
 };
 
@@ -178,40 +178,39 @@ const getContent = () => {
 
 <template>
   <section class="welcome-section py-12 bg-white">
-  <div class="container mx-auto px-4 text-center">
-    <h1 class="text-4xl lg:text-5xl font-light text-[#072CAD] mb-6" data-aos="fade-up">DenizBank</h1>
-    <div class="w-32 h-1 bg-[#072CAD] mx-auto mb-8" data-aos="fade-up" data-aos-delay="100"></div>
-    <p class="text-gray-700 max-w-3xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
-      DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve faaliyetlerini Sürdürülebilir Finansman, Yeni Nesil Bankacılık ve Geleceğin Yeteneği değer alanlarıyla gerçekleştirmektedir.
-    </p>
-  </div>
-</section>
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl lg:text-5xl font-light text-[#072CAD] mb-6" data-aos="fade-up">DenizBank</h1>
+      <div class="w-32 h-1 bg-[#072CAD] mx-auto mb-8" data-aos="fade-up" data-aos-delay="100"></div>
+      <p class="text-gray-700 max-w-3xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
+        DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri
+        ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve
+        faaliyetlerini Sürdürülebilir Finansman, Yeni Nesil Bankacılık ve Geleceğin Yeteneği değer alanlarıyla
+        gerçekleştirmektedir.
+      </p>
+    </div>
+  </section>
   <div class="flex justify-center mt-20 mb-16 overflow-hidden">
     <div class="m-4 md:m-8 max-w-4xl w-full">
       <fieldset class="border-2 border-[#00539B] p-4 md:p-6 rounded-xl shadow-xl bg-white">
-        <legend class="text-[#00539B] text-md sm:text-3xl font-bold text-left px-4 py-1 bg-white rounded-full shadow-md">
+        <legend
+          class="text-[#00539B] text-md sm:text-3xl font-bold text-left px-4 py-1 bg-white rounded-full shadow-md">
           Değer Yaratma Modeli
         </legend>
 
         <!-- Sermaye Türleri Seçim Butonları -->
         <div class="grid grid-cols-3 md:grid-cols-6 gap-2 mb-6">
-          <button
-            v-for="category in categories"
-            :key="category.id"
-            @click="seciliPencere = category.id"
-            :class="[
-              'relative overflow-hidden rounded-lg transform transition-all duration-300 h-24',
-              seciliPencere === category.id ?
-                'scale-105 ring-2 shadow-lg' :
-                'opacity-100 hover:opacity-60 hover:scale-105',
-              category.id === 'birinci' || category.id === 'dorduncu' ? 'ring-[#00539B]' :
+          <button v-for="category in categories" :key="category.id" @click="seciliPencere = category.id" :class="[
+            'relative overflow-hidden rounded-lg transform transition-all duration-300 h-24',
+            seciliPencere === category.id ?
+              'scale-105 ring-2 shadow-lg' :
+              'opacity-100 hover:opacity-60 hover:scale-105',
+            category.id === 'birinci' || category.id === 'dorduncu' ? 'ring-[#00539B]' :
               category.id === 'ikinci' || category.id === 'ucuncu' ? 'ring-[#1CABE2]' :
-              category.id === 'besinci' ? 'ring-[#80C49F]' : 'ring-[#ED6C94]'
-            ]"
-          >
+                category.id === 'besinci' ? 'ring-[#80C49F]' : 'ring-[#ED6C94]'
+          ]">
             <!-- İmport edilen görseller için direkt kullanım -->
             <div class="w-full h-full bg-cover bg-center rounded-lg"
-                 :style="{ backgroundImage: `url(${category.image})` }">
+              :style="{ backgroundImage: `url(${category.image})` }">
             </div>
 
             <div class="absolute inset-0"></div>
@@ -223,16 +222,11 @@ const getContent = () => {
         <!-- İçerik Panelleri -->
         <div class="relative">
           <transition name="fade" mode="out-in">
-            <div
-              v-if="activeCategory()"
-              :key="seciliPencere"
+            <div v-if="activeCategory()" :key="seciliPencere"
               class="flex flex-col bg-gradient-to-br to-white p-4 md:p-6 items-center rounded-xl shadow-md"
-              :class="activeCategory().gradient"
-            >
-              <h3
-                class="w-full text-xl md:text-2xl font-bold mb-6 text-center"
-                :style="{ color: activeCategory().color }"
-              >{{ activeCategory().title }}</h3>
+              :class="activeCategory().gradient">
+              <h3 class="w-full text-xl md:text-2xl font-bold mb-6 text-center"
+                :style="{ color: activeCategory().color }">{{ activeCategory().title }}</h3>
 
               <div class="flex flex-col md:flex-row w-full mb-8 gap-4">
                 <div class="w-full md:w-1/2 mb-4 md:mb-0" data-aos="fade-right" data-aos-delay="200">
@@ -243,7 +237,8 @@ const getContent = () => {
                     <p class="text-white text-lg font-semibold">Girdiler</p>
                   </div>
                   <div class="p-4 bg-white rounded-b-lg shadow-md h-full">
-                    <p class="text-base mb-2" :style="{ color: activeCategory().color }" v-for="(item, index) in getContent().inputs" :key="index" v-html="item"></p>
+                    <p class="text-base mb-2" :style="{ color: activeCategory().color }"
+                      v-for="(item, index) in getContent().inputs" :key="index" v-html="item"></p>
                   </div>
                 </div>
 
@@ -255,7 +250,8 @@ const getContent = () => {
                     <p class="text-white text-lg font-semibold">Çıktılar</p>
                   </div>
                   <div class="p-4 bg-white rounded-b-lg shadow-md h-full">
-                    <p class="text-base mb-2" :style="{ color: activeCategory().color }" v-for="(item, index) in getContent().outputs" :key="index" v-html="item"></p>
+                    <p class="text-base mb-2" :style="{ color: activeCategory().color }"
+                      v-for="(item, index) in getContent().outputs" :key="index" v-html="item"></p>
                   </div>
                 </div>
               </div>
@@ -263,17 +259,70 @@ const getContent = () => {
               <div class="w-full rounded-full flex justify-center items-center">
                 <div class="relative max-w-md w-full" data-aos="zoom-in" data-aos-delay="100">
                   <!-- CSS background-image kullanarak görsel gösterme -->
-                  <img
-  :src="denizCarkImage"
-  alt="DenizBank Değer Modeli"
-  class="w-full my-12 object-contain h-auto"
-  style="mix-blend-mode: multiply;"
-/>
+                  <img :src="denizCarkImage" alt="DenizBank Değer Modeli" class="w-full my-12 object-contain h-auto"
+                    style="mix-blend-mode: multiply;" />
                 </div>
               </div>
 
+              <!-- Kurumsal Temeller -->
+              <div class="mt-8 mb-8" data-aos="fade-up" data-aos-delay="300">
+                <div class="flex flex-col gap-4">
+                  <div class="flex items-center justify-center">
+                    <h3 class="text-[#00539B] text-xl md:text-2xl font-bold">KURUMSAL TEMELLER</h3>
+                  </div>
+
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <!-- Veri Gizliliği ve Güvenliği -->
+                    <div
+                      class="bg-[#F4F9FD] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+                      <div class="flex items-center mb-3">
+                        <div class="bg-[#00539B] p-2 rounded-full mr-3">
+                          <AlertTriangle class="h-5 w-5 text-white" />
+                        </div>
+                        <p class="text-[#00539B] font-semibold">Veri Gizliliği ve Güvenliği</p>
+                      </div>
+                    </div>
+
+                    <!-- Yönetişim, Uyum ve Etik -->
+                    <div
+                      class="bg-[#e6f4fa] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+                      <div class="flex items-center mb-3">
+                        <div class="bg-[#1CABE2] p-2 rounded-full mr-3">
+                          <ThumbsUp class="h-5 w-5 text-white" />
+                        </div>
+                        <p class="text-[#1CABE2] font-semibold">Yönetişim, Uyum ve Etik</p>
+                      </div>
+                    </div>
+
+                    <!-- Sistematik Risk Yönetimi -->
+                    <div
+                      class="bg-[#EAF6EF] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+                      <div class="flex items-center mb-3">
+                        <div class="bg-[#80C49F] p-2 rounded-full mr-3">
+                          <AlertTriangle class="h-5 w-5 text-white" />
+                        </div>
+                        <p class="text-[#80C49F] font-semibold">Sistematik Risk Yönetimi</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Sürdürülebilirlik Mesajı -->
+                <div class="mt-6 p-4 bg-gradient-to-r from-[#80C49F] to-[#1CABE2] rounded-lg text-white shadow-md"
+                  data-aos="fade-up" data-aos-delay="400">
+                  <p class="text-sm md:text-base text-center">
+                    <span class="font-bold">"İlerisi İçin"</span> anlayışıyla, her adımda yeşil, kapsayıcı ve iyi bir
+                    gelecek için çalışıyoruz. Geleceğin liderlerini yetiştiriyor, finansal hizmetleri müşterilerimiz
+                    için erişilebilir kılıyor ve teknolojiyi kullanarak bankacılığı dönüştürüyoruz. Sürdürülebilirlik
+                    odaklı büyüme anlayışımızla, toplum ve çevreye değer katarken, bireylerden kurumlara
+                    sürdürülebilirlik dönüşümünün kolaylaştırıcısı olmayı hedefliyoruz. Çünkü biliyoruz ki
+                    sürdürülebilir bir toplum için de, <span class="font-bold">"İlerisi Deniz!"</span>
+                  </p>
+                </div>
+              </div>
               <div class="flex flex-col md:flex-row w-full gap-4 h-full mb-12">
-                <div class="bg-gradient-to-r from-[#00539B] to-[#1CABE2] p-4 w-full flex items-center justify-center rounded-lg mb-6 text-white shadow-md">
+                <div
+                  class="bg-gradient-to-r from-[#00539B] to-[#1CABE2] p-4 w-full flex items-center justify-center rounded-lg mb-6 text-white shadow-md">
                   <div class="flex flex-col items-center justify-center text-center gap-4">
                     <h3 class="font-bold text-xl">YARATILAN DEĞER</h3>
                     <div class="flex flex-col gap-3">
@@ -309,14 +358,10 @@ const getContent = () => {
             <div class="w-full flex gap-3 p-4 rounded-lg bg-white shadow-sm justify-center">
               <div class="flex flex-wrap gap-3 justify-center">
                 <!-- SDG görsellerini gösterme - CSS background ile -->
-                <div
-                  v-for="sdg in sdgImages"
-                  :key="sdg.number"
+                <div v-for="sdg in sdgImages" :key="sdg.number"
                   class="w-16 h-16 transform transition-all duration-300 hover:scale-110 shadow-sm rounded-md overflow-hidden bg-contain bg-center bg-no-repeat"
-                  :style="{ backgroundImage: `url(${sdg.path})` }"
-                  data-aos="flip-left"
-                  :data-aos-delay="sdg.number * 50"
-                >
+                  :style="{ backgroundImage: `url(${sdg.path})` }" data-aos="flip-left"
+                  :data-aos-delay="sdg.number * 50">
                 </div>
               </div>
             </div>
