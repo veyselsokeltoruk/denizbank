@@ -159,18 +159,6 @@
       <div class="swiper-pagination"></div>
     </swiper>
   </div>
-
-  <!-- Read More Button -->
-  <div class="text-center py-6 bg-[#E0F7FB]">
-    <a
-      href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf"
-      target="_blank"
-      class="inline-flex items-center bg-white px-6 py-3 rounded-lg border border-[#06BFDD] hover:bg-[#06BFDD] transition duration-300 group"
-    >
-      <span class="text-[#06BFDD] font-semibold group-hover:text-white">Faaliyet Raporunu İnceleyin</span>
-      <ArrowRight class="h-5 w-5 ml-3 text-[#06BFDD] group-hover:text-white transition-all transform group-hover:translate-x-1" />
-    </a>
-  </div>
 </template>
 
 <script setup>

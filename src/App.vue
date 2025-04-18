@@ -25,52 +25,50 @@ const closeMenu = () => {
           <img class="h-8 md:h-10" src="/denizbank.svg" alt="İş Bankası Logo">
         </RouterLink>
 
-        <!-- Desktop Navigation - Minimalist Design -->
-        <nav class="hidden lg:flex items-center justify-between">
-          <div class="flex space-x-1">
-            <RouterLink
-              to="/degeryaratma"
-              class="text-gray-600 hover:text-[#06BFDD] px-3 py-2 text-sm rounded-md transition-colors duration-200"
-              :class="{ 'text-[#06BFDD] font-medium': $route.path === '/degeryaratma' }"
-            >
-              Değer Yaratma
-            </RouterLink>
-            <RouterLink
-              to="/guvenilir"
-              class="text-gray-600 hover:text-[#06BFDD] px-3 py-2 text-sm rounded-md transition-colors duration-200"
-              :class="{ 'text-[#06BFDD] font-medium': $route.path === '/guvenilir' }"
-            >
-              Yeni Nesil Bankacılık
-            </RouterLink>
-            <RouterLink
-              to="/sorumluop"
-              class="text-gray-600 hover:text-[#06BFDD] px-3 py-2 text-sm rounded-md transition-colors duration-200"
-              :class="{ 'text-[#06BFDD] font-medium': $route.path === '/sorumluop' }"
-            >
-              Sürdürülebilir Finansman
-            </RouterLink>
-            <RouterLink
-              to="/iyivatandas"
-              class="text-gray-600 hover:text-[#06BFDD] px-3 py-2 text-sm rounded-md transition-colors duration-200"
-              :class="{ 'text-[#06BFDD] font-medium': $route.path === '/iyivatandas' }"
-            >
-              Geleceğin Yeteneği
-            </RouterLink>
-            <RouterLink
-              to="/saglamktemeller"
-              class="text-gray-600 hover:text-[#06BFDD] px-3 py-2 text-sm rounded-md transition-colors duration-200"
-              :class="{ 'text-[#06BFDD] font-medium': $route.path === '/saglamktemeller' }"
-            >
-              Kurumsal Temeller
-            </RouterLink>
-            <RouterLink
-              to="/raporlar"
-              class="text-gray-600 hover:text-[#06BFDD] px-3 py-2 text-sm rounded-md transition-colors duration-200"
-              :class="{ 'text-[#06BFDD] font-medium': $route.path === '/raporlar' }"
-            >
-              Raporlar
-            </RouterLink>
-          </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center space-x-4">
+          <RouterLink
+            to="/degeryaratma"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/degeryaratma' }"
+          >
+          Değer Yaratma Anlayışımız
+          </RouterLink>
+          <RouterLink
+            to="/guvenilir"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
+          >
+            Yeni Nesil Bankacılık
+          </RouterLink>
+          <RouterLink
+            to="/sorumluop"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/sorumluop' }"
+          >
+          İlerisi için Sürdürülebilir Finansman
+          </RouterLink>
+          <RouterLink
+            to="/iyivatandas"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
+          >
+          Geleceğin Yeteneği
+          </RouterLink>
+          <RouterLink
+            to="/saglamktemeller"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/saglamktemeller' }"
+          >
+          Sağlam Kurumsal Temeller
+          </RouterLink>
+          <RouterLink
+            to="/raporlar"
+            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            :class="{ 'bg-[#06BFDD] text-white': $route.path === '/raporlar' }"
+          >
+            Finansal Raporlar
+          </RouterLink>
         </nav>
 
         <!-- Minimal Hamburger Button -->
@@ -138,7 +136,7 @@ const closeMenu = () => {
           class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/raporlar' }"
         >
-          Finansal Raporlar ve Ekler
+          Finansal Raporlar
         </RouterLink>
       </div>
     </div>

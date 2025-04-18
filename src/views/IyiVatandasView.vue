@@ -9,7 +9,6 @@ import FloatingButton from '../components/FloatingButton.vue';
 <template>
     <IyiVatandasSPR />
     <SeffafYonetim />
-    <RefahaKatki />
     <FloatingButton />
     <FooterComponent />
 </template>

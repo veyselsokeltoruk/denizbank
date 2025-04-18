@@ -26,7 +26,7 @@
                     <p
                         class="text-white text-xs md:text-sm lg:text-base font-light text-right leading-tight md:leading-relaxed"
                     >
-                    Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır
+                    Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır.
                     </p>
                 </div>
 

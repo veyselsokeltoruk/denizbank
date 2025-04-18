@@ -39,7 +39,6 @@ export default {
                         "Kapsayıcı ve dayanıklı ekonomi",
                         "Finansal performans ve kârlılık",
                         "Müşteri odaklılık",
-                        "İklim eylemi",
                         "Dijital bankacılık"
                     ]
                 },

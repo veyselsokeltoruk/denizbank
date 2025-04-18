@@ -39,7 +39,6 @@ export default {
                 'Finansal performans ve karlılık',
                 'Müşteri odaklılık',
                 'İş etiği, şeffaflık, kurumsal yönetim ve sürdürülebilir raporlama',
-                'İklim eylemi',
                 'İşin geleceği ve yeni çalışma modelleri',
                 'Siber güvenlik, müşteri ve veri gizliliği',
                 'Çalışan hakları, bağlılığı ve memnuniyeti',

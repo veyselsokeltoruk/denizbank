@@ -9,8 +9,6 @@ import FloatingButton from '../components/FloatingButton.vue'
 
 <template>
     <DegerYaratma />
-    <Surdurulebilir />
-    <NetSifir />
     <KalkinmaAmaci />
     <FloatingButton />
     <FooterComponent />

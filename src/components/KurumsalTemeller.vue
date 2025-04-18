@@ -19,21 +19,26 @@
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında DFHG kadın çalışan oranı %52
+                            	Finansal uygulamaların güvenliğinin sağlanması amacıyla 300 farklı geliştirme, sızma testine tabi tutularak bulgular canlı ortama alınması öncesinde giderilmiştir.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	DenizBank çalışan sayısı 12.207
+                            	Yüksek riskli kullanıcılar üzerinde çalışmalar yapılarak kimlik kaynaklı risklerin %30 azaltılması sağlanmıştır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	DFHG Kadın Yönetici Oranı %38                        </p>
+                            	Siber Vaka Yönetimi çalışmaları kapsamında incelenen kural kalitesi iyileştirilmiş, gelen alarmların etkinliği bir önceki yıla kıyasla %75 artırılmıştır.                      </p>
+                    </div>
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                            	Yıl içerisindeki 200+ risk değerlendirme ile süreç olgunluk seviyesi bağımsız denetim kurumu tarafından 5 üzerinden 3.72 olarak değerlendirilmiştir.</p>
                     </div>
             </div>
 
@@ -44,237 +49,106 @@
                 <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
                    class="group transition-all duration-300">
                    <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
-                    Çeşitlilik ve Kapsayıcılık
+                    Sistematik Risk Yönetimi
                     </h1>
                 </a>
-
-                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
-                    DenizBank, ayrım gözetmeksizin çalışanlarına adil, güvenli ve kapsayıcı çalışma koşulları perspektifinden eşit fırsatlar sunar. Toplumsal cinsiyet eşitliğini ve kadın istihdamını destekleyen uygulamaları hayata geçirir.
+                <div class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                <p>
+                    Faaliyetler; Denetim ve Risk Komitesi’nin de üyesi olan bir Yönetim Kurulu Üyesi’ne bağlı olarak yürütülmektedir:
                 </p>
-
-                <!-- Features with hover effects -->
-                <div class="w-full flex flex-col gap-5 mb-12">
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında DFHG kadın çalışan oranı %52
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	DenizBank çalışan sayısı 12.207
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	DFHG Kadın Yönetici Oranı %38                        </p>
-                    </div>
-            </div>
-
-            </div>
-
-
-
-                <!-- Header Section -->
-                <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
-                   class="group transition-all duration-300">
-                   <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
-                    Çalışan Deneyimi
-                    </h1>
-                </a>
-
-                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
-                    DenizBank, çalışanlarının potansiyelini en üst düzeye çıkararak, kurumsal başarıyı sürekli kılmayı amaçlamaktadır.
+                <ul class="list-disc list-inside mt-4">
+                    <li>Teftiş Kurulu Başkanlığı</li>
+                    <li>İç Kontrol Merkezi Başkanlığı</li>
+                    <li>Uyum Başkanlığı</li>
+                    <li>Risk Yönetimi Başkanlığı</li>
+                    <li>Bilgi Güvenliği ve BT Risk Yönetimi Grubu </li>
+                </ul> <br>
+                <p>
+                    tarafından uluslararası genel kabul görmüş denetim standartları ile ülke ici mevzuat esas alınmak ve Banka’nın ve Grubun gereksinimleri göz önünde bulundurulmak suretiyle yerine getirilmektedir.
                 </p>
-
-                <!-- Features with hover effects -->
-                <div class="w-full flex flex-col gap-5 mb-12">
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	DenizBank, 2024 yılında, sunduğu sağlık hizmetlerini daha kapsamlı ve erişilebilir hale getirmek için Deniz Klinik’i yenilemiştir.
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024’te çalışanlara toplam 81.056 saat iş sağlığı ve güvenliği eğitimi verilmiştir.
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	Kurumsal gönüllülük programı Deniz’in Gönüllüleri çalışmalarına 2024’te de devam etmiştir.</p>
-                    </div>
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında 1.191 çalışan Yatırım Okulu eğitimlerine katılmıştır.
-                        </p>
-                    </div> 
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında 103 programda 2.129 çalışan Deniz Akademi tarafından yetiştirilmiştir.
-                        </p>
-                    </div> 
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            	2024 yılında 179 Şube Müdürü ve Bölge Satış Müdürü/Bölge Operasyon Bölüm Müdürü “Yeni Kaptanlar Kulübü” programına katılmıştır.
-                        </p>
-                    </div> 
-            </div>
-
-            </div>
-
-            <!-- Stats Header -->
-            <div class="bg-gradient-to-r from-[#DAF2FF] to-[#E6F7FF] w-full py-8">
-                <p class="text-[#072CAD] text-2xl sm:text-3xl font-bold text-center pb-8">
-                    2023'te öne çıkanlar
-                </p>
-
-                <!-- Stats Cards Carousel -->
-                <div class="stats-carousel max-w-[1200px] mx-auto px-4">
-                    <div class="flex flex-wrap justify-center gap-8">
-                        <!-- Card 1 -->
-                        <div
-                            class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
-                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
-                            <div class="flex justify-center items-end mb-3">
-                                <span class="text-3xl text-[#072CAD] font-semibold">{{ insanHaklariEgitimi }}</span>
-                            </div>
-                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center">
-                                çalışana insan hakları eğitimi
-                            </p>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div
-                            class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
-                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
-                            <div class="flex justify-center items-end mb-3">
-                                <span class="text-3xl text-[#072CAD] font-semibold">{{ rusvetYolsuzlukEgitimi }}</span>
-                            </div>
-                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center">
-                                çalışana rüşvet ve yolsuzluk eğitimi
-                            </p>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div
-                            class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-64 h-64 justify-center transform hover:scale-105 transition-all">
-                            <div class="border-b-2 border-[#072CAD] w-1/2 mb-4"></div>
-                            <div class="flex justify-center items-end mb-3">
-                                <span class="text-3xl text-[#072CAD] font-semibold">{{ yonetisimKomitesi }}</span>
-                            </div>
-                            <p class="text-gray-700 text-sm sm:text-lg font-medium text-center">
-                                adet Yönetişim Komitesi
-                            </p>
-                        </div>
-                    </div>
                 </div>
-            </div>
+                </div>
 
-            <!-- Additional Info Boxes -->
+
+
+                <!-- Header Section -->
+                <div class="w-full max-w-[1200px] px-4 lg:px-0">
+                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
+                   class="group transition-all duration-300">
+                   <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
+                    Yönetişim, Uyum ve Etik
+                    </h1>
+                </a>
+
+                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                    Kurumsal itibarına ve etik ilkelere önem veren DenizBank, her zaman ve her koşulda üstlendiği sorumlulukları yerine getirmeye özen göstermektedir.
+                </p>
+            </div>
+            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <div class="flex md:flex-row flex-col items-stretch gap-10 my-12">
-                    <!-- First Box - SKA'lar -->
-                    <fieldset class="flex flex-col md:w-1/2 border-2 border-[#072CAD] p-6 rounded-lg hover:shadow-lg transition-all">
-                        <legend class="text-[#072CAD] text-center px-4 font-semibold text-lg">Katkı Sağlanan SKA'lar</legend>
-                        <div class="w-full flex flex-col gap-4 mb-2 items-center justify-center h-full">
-                            <div class="flex justify-evenly w-full gap-3">
-                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
-                                    <img src="/8.png" alt="" class="rounded-md shadow-sm">
-                                </div>
-                                <div class="w-1/3 max-w-[100px] transition-transform hover:scale-110">
-                                    <img src="/10.png" alt="" class="rounded-md shadow-sm">
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
+                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
+                   class="group transition-all duration-300">
+                   <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
+                    Operasyonel Etki Yönetimi
+                    </h1> 
+                </a>
 
-                    <!-- Second Box - Sermaye Ögeleri -->
-                    <fieldset
-                        class="flex flex-col md:w-1/2 border-2 border-[#072CAD] p-6 rounded-lg hover:shadow-lg transition-all">
-                        <legend class="text-[#072CAD] text-center px-4 font-semibold text-lg">İlgili Sermaye Ögeleri
-                        </legend>
-                        <div class="flex flex-col gap-6 h-full justify-center py-4">
-                            <!-- First Row -->
-                            <div class="flex items-center justify-center gap-5 w-full">
-                                <div
-                                    class="flex items-center text-left sm:text-base text-sm font-semibold text-[#DC0D66] w-1/2 gap-3 p-3 hover:bg-red-50 rounded-lg transition-all">
-                                    <img class="w-1/3 object-contain" src="/finansal-sermaye-yatay.webp" alt="">
-                                    <span>Finansal Sermaye</span>
-                                </div>
-                                <div
-                                    class="flex items-center text-left sm:text-base text-sm font-semibold text-[#EB8A24] w-1/2 gap-3 p-3 hover:bg-orange-50 rounded-lg transition-all">
-                                    <img class="w-1/3 object-contain" src="/entelektuel-sermaye-yatay.webp" alt="">
-                                    <span>Entelektüel Sermaye</span>
-                                </div>
-                            </div>
+                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                    DenizBank, operasyonlarından oluşan etkilerini sürekli gözetmekte, olumsuz etkilerini en aza indirirken tüm paydaşlarının kendisi ile eş değer sürdürülebilirlik normlarına sahip olması için çalışmaktadır.
+                </p>
 
-                            <!-- Second Row -->
-                            <div class="flex items-center justify-center gap-5 w-full">
-                                <div
-                                    class="flex items-center text-left sm:text-base text-sm font-semibold text-[#4ABFDF] w-1/2 gap-3 p-3 hover:bg-blue-50 rounded-lg transition-all">
-                                    <img class="w-1/3 object-contain" src="/sosyal-sermaye-yatay.webp" alt="">
-                                    <span>Sosyal-İlişkisel Sermaye</span>
-                                </div>
-                                <div class="w-1/2"></div> <!-- Empty for alignment -->
-                            </div>
-                        </div>
-                    </fieldset>
-                </div>
+                <!-- Features with hover effects -->
+                <div class="w-full flex flex-col gap-5 mb-12">
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                            	2024 yılında ilk defa DFHG seviyesinde hesaplanmış (GHG Protokolu, Kapsam 1, 2 & Kapsam 3 Kategori 1-14) ve bağımsız sınırlı güvence denetimi alınmıştır.
+                        </p>
+                    </div>
+
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                            	Tüm hizmet birimlerine Atık Yönetim Sistemi kurulmasıyla birlikte Genel Müdürlük Binası başta olmak üzere 609 lokasyon icin sıfır atık belge başvurusu tamamlanmış, 2024 yılı içerisinde 546 lokasyon icin Sıfır Atık Temel Seviye belgesi alınmıştır.
+                        </p>
+                    </div>
             </div>
-        </div>
 
-        <!-- Links Section -->
-        <div class="my-12 max-w-[1200px] w-full px-4 lg:px-0">
-            <h1 class="text-[#072CAD] font-bold text-center text-2xl mb-8">
-                Bu bölümde ulaşabileceğiniz içerikler
-            </h1>
-
-            <div class="flex w-full md:flex-row flex-col md:gap-8 gap-4">
-                <!-- Left Column -->
-                <div class="flex flex-col md:w-1/2 w-full gap-4">
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=68" target="_blank"
-                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
-                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
-                            Yönetim Yapısı
-                        </span>
-                        <img class="h-5" src="/arrow.svg" alt="">
-                    </a>
-
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=83" target="_blank"
-                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
-                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
-                            İş Etiği
-                        </span>
-                        <img class="h-5" src="/arrow.svg" alt="">
-                    </a>
-                </div>
-
-                <!-- Right Column -->
-                <div class="flex flex-col md:w-1/2 w-full gap-4">
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=83" target="_blank"
-                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
-                        <span class="text-[#072CAD] text-base md:text-lg font-medium">
-                            Yolsuzluk ve Rüşvet Karşıtlığı
-                        </span>
-                        <img class="h-5" src="/arrow.svg" alt="">
-                    </a>
-                </div>
             </div>
+            <!-- Header Section -->
+            <div class="w-full max-w-[1200px] px-4 lg:px-0">
+                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
+                   class="group transition-all duration-300">
+                   <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
+                    Kurumsal Sosyal Sorumluluk
+                    </h1> 
+                </a>
+
+                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                    DenizBank sosyal sorumluluk çalışmalarının odağına eğitim, sanat, çevre, spor gibi gelişimi destekleyen alanları yerleştirmiştir. 
+
+                <br><br>Banka, 2024 yılında nitelikli eğitim ve ekonomik büyüme SKA’ları doğrultusunda topluma katkılarını sürdürmüştür.
+                </p>
+            </div>
+
+            <!-- Header Section -->
+            <div class="w-full max-w-[1200px] px-4 lg:px-0">
+                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
+                   class="group transition-all duration-300">
+                   <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
+                    Kurumsal Yönetim
+                    </h1> 
+                </a>
+
+                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                    DenizBank’ın kurumsal yönetim anlayışı; şeffaflık, eşitlik, sorumluluk ve hesap verebilirlik ilkelerini esas almaktadır. Banka, paydaşlarıyla ilişkilerinin düzenlenmesi, Yönetim Kurulu ve ona bağlı olarak çalışan yönetim basamaklarının görev, yetki ve sorumluluklarının belirlenmesi konularında söz konusu ilkeleri titizlikle gözetmektedir.
+
+
+                <br><br>DenizBank tüm organizasyonunda, en üst seviyeden başlayarak; cevreyi, insanı ve toplumu önceliklendiren sorumlu bankacılık anlayışını içselleştirmiş ve yaygınlaştırmıştır.
+            </p>
+            </div>
+
+
         </div>
 
         <div class="border-b-2 border-[#072CAD] w-full opacity-50"></div>
