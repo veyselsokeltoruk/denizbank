@@ -65,7 +65,6 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/denizefr24/bg-pattern.png');
   background-size: 200px;
   opacity: 0.05;
   z-index: 0;
