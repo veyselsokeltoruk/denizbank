@@ -23,13 +23,13 @@ const getImagePath = (name) => {
   return `/denizefr24/${name}`;
 };
 
-// Kategori bilgileri - public klasöründeki görsellere doğrudan erişim
+// Kategori bilgileri - Kurumsal renklere uyarlandı
 const categories = [
   { id: 'birinci', title: 'İnsan Sermayesi', icon: Users, color: '#1CABE2', gradient: 'from-[#d4f1fd]', image: getImagePath('insan-sermayesi.webp') },
-  { id: 'ikinci', title: 'Finansal Sermaye', icon: DollarSign, color: '#00539B', gradient: 'from-[#E5F0F9]', image: getImagePath('finansal-sermaye.webp') },
+  { id: 'ikinci', title: 'Finansal Sermaye', icon: DollarSign, color: '#00539B', gradient: 'from-[#E7E9F6]', image: getImagePath('finansal-sermaye.webp') },
   { id: 'ucuncu', title: 'Sosyal Sermaye', icon: Briefcase, color: '#1CABE2', gradient: 'from-[#e6f4fa]', image: getImagePath('sosyal-sermaye.webp') },
-  { id: 'dorduncu', title: 'Entelektüel Sermaye', icon: Brain, color: '#00539B', gradient: 'from-[#F4F9FD]', image: getImagePath('entelektuel-sermaye.webp') },
-  { id: 'besinci', title: 'Doğal Sermaye', icon: Leaf, color: '#80C49F', gradient: 'from-[#EAF6EF]', image: getImagePath('dogal-sermaye.webp') },
+  { id: 'dorduncu', title: 'Entelektüel Sermaye', icon: Brain, color: '#EB8D2D', gradient: 'from-[#FDF3E8]', image: getImagePath('entelektuel-sermaye.webp') },
+  { id: 'besinci', title: 'Doğal Sermaye', icon: Leaf, color: '#A6C680', gradient: 'from-[#EAF6EF]', image: getImagePath('dogal-sermaye.webp') },
   { id: 'altinci', title: 'Üretilmiş Sermaye', icon: Factory, color: '#ED6C94', gradient: 'from-[#F9F0F4]', image: getImagePath('uretilmis-sermaye.webp') },
 ];
 
@@ -42,10 +42,10 @@ const sdgImages = [4, 5, 7, 8, 9, 13].map(num => ({
   path: getImagePath(`${num}.png`)
 }));
 
-// İçerik verileri
+// İçerik verileri - Renkleri kurumsal renklere göre güncellendi
 const contentData = {
   'birinci': {
-    color: '#1CABE2',
+    color: '#05C3DE',
     inputs: [
       'Yetenekli insan kaynağı',
       'Yüksek çalışan bağlılığı',
@@ -62,7 +62,7 @@ const contentData = {
     ]
   },
   'ikinci': {
-    color: '#00539B',
+    color: '#0033A0',
     inputs: [
       'Geniş müşteri tabanı <b>15.6 milyon</b>',
       'Güçlü sermaye yapısı',
@@ -77,7 +77,7 @@ const contentData = {
   },
 
   'ucuncu': {
-    color: '#1CABE2',
+    color: '#05C3DE',
     inputs: [
       'Müşteri odaklı dijital dönüşüm',
       'Etkin paydaş iletişimi',
@@ -92,7 +92,7 @@ const contentData = {
     ]
   },
   'dorduncu': {
-    color: '#00539B',
+    color: '#0033A0',
     inputs: [
       'Yenilikçi finans çözümleri ve süreçleri',
       'İnovasyon laboratuvarları',
@@ -107,7 +107,7 @@ const contentData = {
     ]
   },
   'besinci': {
-    color: '#80C49F',
+    color: '#A6C680',
     inputs: [
       'Sürdürülebilir finansman çözümleri',
       '<b>1.850 MW kurulu</b> güce sahip yenilenebilir enerji projeleri',
@@ -122,7 +122,7 @@ const contentData = {
     ]
   },
   'altinci': {
-    color: '#ED6C94',
+    color: '#CE0538',
     inputs: [
       'Ulusal şube ağı - <b>690 şube</b>',
       'ATM ağı - <b>3.250 ATM</b>',
@@ -179,8 +179,8 @@ const getContent = () => {
 <template>
   <section class="welcome-section py-12 bg-white">
     <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl lg:text-5xl font-light text-[#072CAD] mb-6" data-aos="fade-up">DenizBank</h1>
-      <div class="w-32 h-1 bg-[#072CAD] mx-auto mb-8" data-aos="fade-up" data-aos-delay="100"></div>
+      <h1 class="text-4xl lg:text-5xl font-light text-[#0033A0] mb-6" data-aos="fade-up">DenizBank</h1>
+      <div class="w-32 h-1 bg-[#0033A0] mx-auto mb-8" data-aos="fade-up" data-aos-delay="100"></div>
       <p class="text-gray-700 max-w-3xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
         DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri
         ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve
@@ -191,9 +191,9 @@ const getContent = () => {
   </section>
   <div class="flex justify-center mt-20 mb-16 overflow-hidden">
     <div class="m-4 md:m-8 max-w-4xl w-full">
-      <fieldset class="border-2 border-[#00539B] p-4 md:p-6 rounded-xl shadow-xl bg-white">
+      <fieldset class="border-2 border-[#0033A0] p-4 md:p-6 rounded-xl shadow-xl bg-white">
         <legend
-          class="text-[#00539B] text-md sm:text-3xl font-bold text-left px-4 py-1 bg-white rounded-full shadow-md">
+          class="text-[#0033A0] text-md sm:text-3xl font-bold text-left px-4 py-1 bg-white rounded-full shadow-md">
           Değer Yaratma Modeli
         </legend>
 
@@ -204,9 +204,12 @@ const getContent = () => {
             seciliPencere === category.id ?
               'scale-105 ring-2 shadow-lg' :
               'opacity-100 hover:opacity-60 hover:scale-105',
-            category.id === 'birinci' || category.id === 'dorduncu' ? 'ring-[#00539B]' :
-              category.id === 'ikinci' || category.id === 'ucuncu' ? 'ring-[#1CABE2]' :
-                category.id === 'besinci' ? 'ring-[#80C49F]' : 'ring-[#ED6C94]'
+            category.id === 'birinci' ? 'ring-[#05C3DE]' :
+              category.id === 'ikinci'  ? 'ring-[#0033A0]' :
+                category.id === 'ucuncu' ? 'ring-[#1CABE2]' :
+              category.id === 'altinci' ? 'ring-[#ED6C94]' :
+              category.id === 'dorduncu' ? 'ring-[#EB8D2D]' :
+                category.id === 'besinci' ? 'ring-[#A6C680]' : 'ring-[#A6C680]'
           ]">
             <!-- İmport edilen görseller için direkt kullanım -->
             <div class="w-full h-full bg-cover bg-center rounded-lg"
@@ -268,47 +271,47 @@ const getContent = () => {
               <div class="mt-8 mb-8" data-aos="fade-up" data-aos-delay="300">
                 <div class="flex flex-col gap-4">
                   <div class="flex items-center justify-center">
-                    <h3 class="text-[#00539B] text-xl md:text-2xl font-bold">KURUMSAL TEMELLER</h3>
+                    <h3 class="text-[#0033A0] text-xl md:text-2xl font-bold">KURUMSAL TEMELLER</h3>
                   </div>
 
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <!-- Veri Gizliliği ve Güvenliği -->
                     <div
-                      class="bg-[#F4F9FD] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+                      class="bg-[#e6eeff] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
                       <div class="flex items-center mb-3">
-                        <div class="bg-[#00539B] p-2 rounded-full mr-3">
+                        <div class="bg-[#0033A0] p-2 rounded-full mr-3">
                           <AlertTriangle class="h-5 w-5 text-white" />
                         </div>
-                        <p class="text-[#00539B] font-semibold">Veri Gizliliği ve Güvenliği</p>
+                        <p class="text-[#0033A0] font-semibold">Veri Gizliliği ve Güvenliği</p>
                       </div>
                     </div>
 
                     <!-- Yönetişim, Uyum ve Etik -->
                     <div
-                      class="bg-[#e6f4fa] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+                      class="bg-[#e6f9fc] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
                       <div class="flex items-center mb-3">
-                        <div class="bg-[#1CABE2] p-2 rounded-full mr-3">
+                        <div class="bg-[#05C3DE] p-2 rounded-full mr-3">
                           <ThumbsUp class="h-5 w-5 text-white" />
                         </div>
-                        <p class="text-[#1CABE2] font-semibold">Yönetişim, Uyum ve Etik</p>
+                        <p class="text-[#05C3DE] font-semibold">Yönetişim, Uyum ve Etik</p>
                       </div>
                     </div>
 
                     <!-- Sistematik Risk Yönetimi -->
                     <div
-                      class="bg-[#EAF6EF] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+                      class="bg-[#fce6eb] p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
                       <div class="flex items-center mb-3">
-                        <div class="bg-[#80C49F] p-2 rounded-full mr-3">
+                        <div class="bg-[#CE0538] p-2 rounded-full mr-3">
                           <AlertTriangle class="h-5 w-5 text-white" />
                         </div>
-                        <p class="text-[#80C49F] font-semibold">Sistematik Risk Yönetimi</p>
+                        <p class="text-[#CE0538] font-semibold">Sistematik Risk Yönetimi</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <!-- Sürdürülebilirlik Mesajı -->
-                <div class="mt-6 p-4 bg-gradient-to-r from-[#80C49F] to-[#1CABE2] rounded-lg text-white shadow-md"
+                <div class="mt-6 p-4 bg-gradient-to-r from-[#0033A0] to-[#05C3DE] rounded-lg text-white shadow-md"
                   data-aos="fade-up" data-aos-delay="400">
                   <p class="text-sm md:text-base text-center">
                     <span class="font-bold">"İlerisi İçin"</span> anlayışıyla, her adımda yeşil, kapsayıcı ve iyi bir
@@ -322,7 +325,7 @@ const getContent = () => {
               </div>
               <div class="flex flex-col md:flex-row w-full gap-4 h-full mb-12">
                 <div
-                  class="bg-gradient-to-r from-[#00539B] to-[#1CABE2] p-4 w-full flex items-center justify-center rounded-lg mb-6 text-white shadow-md">
+                  class="bg-gradient-to-r from-[#0033A0] to-[#05C3DE] p-4 w-full flex items-center justify-center rounded-lg mb-6 text-white shadow-md">
                   <div class="flex flex-col items-center justify-center text-center gap-4">
                     <h3 class="font-bold text-xl">YARATILAN DEĞER</h3>
                     <div class="flex flex-col gap-3">
@@ -348,10 +351,8 @@ const getContent = () => {
 
         <!-- Footer Alanı -->
         <div class="mt-8">
-
-
           <div class="flex flex-col gap-3">
-            <div class="flex items-center justify-center text-[#00539B] text-lg font-semibold mb-2">
+            <div class="flex items-center justify-center text-[#0033A0] text-lg font-semibold mb-2">
               <Activity class="h-5 w-5 mr-2" />
               Sürdürülebilir Katkı
             </div>
