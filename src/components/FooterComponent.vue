@@ -52,27 +52,27 @@
                 </li>
                 <li>
                   <router-link to="/guvenilir" class="text-gray-400 hover:text-white transition-colors">
-                    Sorumlu Bankacılık
+                    Yeni Nesil Bankacılık
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/sorumluop" class="text-gray-400 hover:text-white transition-colors">
-                    Çevresel Sürdürülebilirlik
+                    İlerisi için Sürdürülebilir Finansman
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/iyivatandas" class="text-gray-400 hover:text-white transition-colors">
-                    Toplumsal Katkı
+                    Geleceğin Yeteneği
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/saglamktemeller" class="text-gray-400 hover:text-white transition-colors">
-                    xxxx
+                    Sağlam Kurumsal Temeller
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/raporlar" class="text-gray-400 hover:text-white transition-colors">
-                    Raporlar ve Göstergeler
+                    Finansal Raporlar
                   </router-link>
                 </li>
               </ul>
@@ -101,11 +101,6 @@
                 <li>
                   <a href="https://www.denizbank.com/yatirimci-iliskileri/duyurular/" target="_blank" class="text-gray-400 hover:text-white transition-colors">
                     Duyurular
-                  </a>
-                </li>
-                <li>
-                  <a href="/denizefr24/denizbank_faaliyet_raporu_web.pdf" target="_blank" class="text-gray-400 hover:text-white transition-colors">
-                    2023 Faaliyet Raporu
                   </a>
                 </li>
               </ul>

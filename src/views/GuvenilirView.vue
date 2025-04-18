@@ -10,8 +10,6 @@ import YenilikciBanka from '../components/YenilikciBanka.vue';
 <template>
     <GuvenilirSPR />
     <KapsayiciEkonomi />
-    <IklimEylemi />
-    <YenilikciBanka />
     <FloatingButton />
     <FooterComponent />
 </template>

@@ -25,8 +25,8 @@ const getImagePath = (name) => {
 
 // Kategori bilgileri - public klasöründeki görsellere doğrudan erişim
 const categories = [
-  { id: 'birinci', title: 'Finansal Sermaye', icon: DollarSign, color: '#00539B', gradient: 'from-[#E5F0F9]', image: getImagePath('finansal-sermaye.webp') },
-  { id: 'ikinci', title: 'İnsan Sermayesi', icon: Users, color: '#1CABE2', gradient: 'from-[#d4f1fd]', image: getImagePath('insan-sermayesi.webp') },
+{ id: 'birinci', title: 'İnsan Sermayesi', icon: Users, color: '#1CABE2', gradient: 'from-[#d4f1fd]', image: getImagePath('insan-sermayesi.webp') },
+  { id: 'ikinci', title: 'Finansal Sermaye', icon: DollarSign, color: '#00539B', gradient: 'from-[#E5F0F9]', image: getImagePath('finansal-sermaye.webp') },
   { id: 'ucuncu', title: 'Sosyal Sermaye', icon: Briefcase, color: '#1CABE2', gradient: 'from-[#e6f4fa]', image: getImagePath('sosyal-sermaye.webp') },
   { id: 'dorduncu', title: 'Entelektüel Sermaye', icon: Brain, color: '#00539B', gradient: 'from-[#F4F9FD]', image: getImagePath('entelektuel-sermaye.webp') },
   { id: 'besinci', title: 'Doğal Sermaye', icon: Leaf, color: '#80C49F', gradient: 'from-[#EAF6EF]', image: getImagePath('dogal-sermaye.webp') },
@@ -43,8 +43,25 @@ const sdgImages = [4, 5, 7, 8, 9, 13].map(num => ({
 }));
 
 // İçerik verileri
-const contentData = {
+const contentData = {  
   'birinci': {
+    color: '#1CABE2',
+    inputs: [
+      'Yetenekli insan kaynağı',
+      'Yüksek çalışan bağlılığı',
+      'Çeşitlilik, fırsat eşitliği ve kapsayıcılık ilkelerini benimseyen işveren profili',
+      'Deniz Akademi ile kişisel ve mesleki gelişimi destekleyen eğitim programları'
+    ],
+    outputs: [
+      '<b>14.922</b> kişilik DFHG ailesi',
+      '<b>%35</b> Kadın yönetici oranı',
+      '<b>%52</b> Kadın çalışan oranı',
+      '<b>36</b> Çalışanların yaş ortalaması',
+      '<b>3.016</b> 2024 yılında işe alınan kişi',
+      '<b>59</b> Çalışan başına eğitim saati'
+    ]
+  },
+  'ikinci': {
     color: '#00539B',
     inputs: [
       'Geniş müşteri tabanı <b>15.6 milyon</b>',
@@ -56,38 +73,9 @@ const contentData = {
       'Toplam mevduat <b>1.216,5 milyar TL</b>',
       'Net kâr <b>48,7 milyar TL</b>',
       'Ortalama özkaynak kârlılığı <b>%29,5</b>'
-    ],
-    positives: [
-      'Sürdürülebilir kârlılık',
-      'Sektörde lider pazar payı büyümesi'
-    ],
-    risks: [
-      'Ekonomik dalgalanmaların finansal sermayeye etkisi',
-      'Rekabet ortamındaki değişimlerin pazar payına etkisi'
     ]
   },
-  'ikinci': {
-    color: '#1CABE2',
-    inputs: [
-      '<b>12.850</b> çalışan',
-      'Yenilikçi çalışan deneyimi programları',
-      'Kapsayıcı işe alım ve kariyer gelişim imkanları'
-    ],
-    outputs: [
-      'Kadın çalışan oranı <b>%55</b>',
-      'Yönetimde kadın çalışan oranı <b>%42</b>',
-      'Çalışan bağlılık skoru <b>%82</b>',
-      'Kişi başı eğitim saati <b>42 saat</b>'
-    ],
-    positives: [
-      'Yüksek çalışan motivasyonu',
-      'Gelişmiş dijital ve sürdürülebilirlik yetkinlikleri'
-    ],
-    risks: [
-      'Finansal sektördeki yetenek rekabeti',
-      'Teknolojik dönüşümün gerektirdiği yeni beceriler'
-    ]
-  },
+
   'ucuncu': {
     color: '#1CABE2',
     inputs: [
@@ -101,14 +89,6 @@ const contentData = {
       'DenizBank Mobil kullanıcı sayısı <b>9.2 milyon</b>',
       'Deniz\'de Sanat Akademisi mezun sayısı <b>250+</b>',
       'Fastpay kullanıcı sayısı <b>6.5 milyon</b>'
-    ],
-    positives: [
-      'Artan müşteri sadakati',
-      'Toplumda olumlu marka algısı'
-    ],
-    risks: [
-      'Müşteri beklentilerindeki hızlı değişim',
-      'Finansal hizmetlerde artan rekabet'
     ]
   },
   'dorduncu': {
@@ -124,14 +104,6 @@ const contentData = {
       '<b>20+</b> aktif fintech işbirliği',
       '<b>15</b> yeni patent başvurusu',
       'Finansal okuryazarlık eğitimi alan kişi sayısı <b>25.000+</b>'
-    ],
-    positives: [
-      'Sektörde öncü konumlanma',
-      'Yenilikçi ürünlerle rekabet avantajı'
-    ],
-    risks: [
-      'Teknolojik dönüşümün hızı',
-      'Bilgi güvenliği riskleri'
     ]
   },
   'besinci': {
@@ -147,14 +119,6 @@ const contentData = {
       'Kağıt tasarrufu <b>185 ton</b>',
       'Karbon ayak izi azaltımı <b>%12</b>',
       'Yenilenebilir enerji kullanım oranı <b>%75</b>'
-    ],
-    positives: [
-      'Düşük karbon ekonomisine katkı',
-      'Sürdürülebilir finansman alanında liderlik'
-    ],
-    risks: [
-      'İklim değişikliği riskleri',
-      'Artan düzenleyici baskılar'
     ]
   },
   'altinci': {
@@ -170,16 +134,7 @@ const contentData = {
       'Mobil bankacılık aktif kullanıcı artışı <b>%35</b>',
       'Self servis bankacılık noktaları <b>420</b>',
       'LEED sertifikalı genel merkez binası'
-    ],
-    positives: [
-      'Operasyonel verimlilik artışı',
-      'Müşteri deneyiminde iyileşme',
-      'Dijital dönüşümle maliyet avantajı'
-    ],
-    risks: [
-      'Siber güvenlik tehditleri',
-      'Teknolojik altyapı yatırım maliyetleri'
-    ]
+  ]
   }
 };
 
@@ -321,29 +276,23 @@ const getContent = () => {
               </div>
 
               <div class="flex flex-col md:flex-row w-full gap-4 h-full mb-12">
-                <div class="w-full md:w-1/2 mb-4 md:mb-0" data-aos="fade-up" data-aos-delay="300">
-                  <div class="rounded-t-lg flex items-center p-2 bg-gradient-to-r"
-                       :style="{ backgroundImage: `linear-gradient(to right, ${activeCategory().color}, ${activeCategory().color}99)` }">
-                    <div class="bg-white p-1 rounded-full mr-2">
-                      <ThumbsUp class="h-5 w-5" :style="{ color: activeCategory().color }" />
+                <div class="bg-gradient-to-r from-[#00539B] to-[#1CABE2] p-4 w-full flex items-center justify-center rounded-lg mb-6 text-white shadow-md">
+                  <div class="flex flex-col items-center justify-center text-center gap-4">
+                    <h3 class="font-bold text-xl">YARATILAN DEĞER</h3>
+                    <div class="flex flex-col gap-3">
+                      <div class="flex items-center">
+                        <Users class="h-6 w-6 mr-2" />
+                        <p class="text-sm">Çalışan memnuniyeti ve, kariyer gelişimi odaklı, mutlu iş ortam</p>
+                      </div>
+                      <div class="flex items-center">
+                        <Users class="h-6 w-6 mr-2" />
+                        <p class="text-sm">Doğru yeteneklerin kazanılması ve kurum içinde tutulması</p>
+                      </div>
+                      <div class="flex items-center">
+                        <Users class="h-6 w-6 mr-2" />
+                        <p class="text-sm">DenizBank'ın tercih edilen işveren profilinin güçlendirilmesi</p>
+                      </div>
                     </div>
-                    <p class="text-white text-lg font-semibold">Pozitif Sonuçlar</p>
-                  </div>
-                  <div class="p-4 bg-white rounded-b-lg shadow-md h-full">
-                    <p class="text-base mb-2" :style="{ color: activeCategory().color }" v-for="(item, index) in getContent().positives" :key="index" v-html="item"></p>
-                  </div>
-                </div>
-
-                <div class="w-full md:w-1/2" data-aos="fade-up" data-aos-delay="400">
-                  <div class="rounded-t-lg flex items-center p-2 bg-gradient-to-r"
-                       :style="{ backgroundImage: `linear-gradient(to right, ${activeCategory().color}, ${activeCategory().color}99)` }">
-                    <div class="bg-white p-1 rounded-full mr-2">
-                      <AlertTriangle class="h-5 w-5" :style="{ color: activeCategory().color }" />
-                    </div>
-                    <p class="text-white text-lg font-semibold">Riskler / Zorluklar</p>
-                  </div>
-                  <div class="p-4 bg-white rounded-b-lg shadow-md h-full">
-                    <p class="text-base mb-2" :style="{ color: activeCategory().color }" v-for="(item, index) in getContent().risks" :key="index" v-html="item"></p>
                   </div>
                 </div>
               </div>
@@ -353,28 +302,12 @@ const getContent = () => {
 
         <!-- Footer Alanı -->
         <div class="mt-8">
-          <div class="bg-gradient-to-r from-[#00539B] to-[#1CABE2] p-4 w-full flex flex-col items-center justify-center rounded-lg mb-6 text-white shadow-md">
-            <h3 class="font-bold text-xl mb-3">Paydaşlarımız İçin Yarattığımız Değer</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
-              <div class="flex items-center">
-                <Users class="h-6 w-6 mr-2" />
-                <p class="text-sm">Müşterilerimiz için yenilikçi finansal çözümler</p>
-              </div>
-              <div class="flex items-center">
-                <Briefcase class="h-6 w-6 mr-2" />
-                <p class="text-sm">Çalışanlarımız için gelişim fırsatları</p>
-              </div>
-              <div class="flex items-center">
-                <DollarSign class="h-6 w-6 mr-2" />
-                <p class="text-sm">Hissedarlarımız için sürdürülebilir getiri</p>
-              </div>
-            </div>
-          </div>
+
 
           <div class="flex flex-col gap-3">
             <div class="flex items-center justify-center text-[#00539B] text-lg font-semibold mb-2">
               <Activity class="h-5 w-5 mr-2" />
-              Sürdürülebilir Kalkınma Amaçları
+              Sürdürülebilir Katkı
             </div>
             <div class="w-full flex gap-3 p-4 rounded-lg bg-white shadow-sm justify-center">
               <div class="flex flex-wrap gap-3 justify-center">

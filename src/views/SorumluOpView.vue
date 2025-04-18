@@ -9,7 +9,6 @@ import YakisirIs from '../components/YakisirIs.vue';
 <template>
     <SorumluOpSPR />
     <OlumsuzEtkiler />
-    <YakisirIs />
     <FloatingButton />
     <FooterComponent />
 </template>

@@ -1,58 +1,6 @@
 <template>
     <div class="flex flex-col items-center my-12">
         <div class="w-full flex flex-col items-center">
-            <!-- Header Section -->
-            <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=41" target="_blank"
-                   class="group transition-all duration-300">
-                    <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
-                        İklim Eylemi
-                    </h1>
-                </a>
-
-                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
-                    İş Bankası, sahip olduğumuz kaynakları korumak için risk ve fırsat analizleri yapmakta, iklim
-                    eyleminde çözümün bir parçası olmak için çalışmaktadır.
-                </p>
-
-                <!-- Features with hover effects -->
-                <div class="w-full flex flex-col gap-5 mb-12">
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            <span class="font-semibold">Net Sıfır Bankacılık Birliği</span> üyesi İş Bankası, 2023 yılında
-                            <span class="font-semibold">karbonsuzlaşma hedeflerini</span> açıkladı.
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            Yurt içinde <span class="font-semibold">TL cinsinden yeşil borçlanma aracı</span> ihraç eden
-                            <span class="font-semibold">ilk banka</span> oldu.
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            İş Bankası 2030 yılına kadar emisyon yoğunluğunu 2021 baz yılına göre enerji üretimi
-                            sektöründe <span class="font-semibold">%61</span>, çimentoda <span class="font-semibold">%21</span>
-                            ve demir-çelikte <span class="font-semibold">%10</span> azaltmayı hedefledi.
-                        </p>
-                    </div>
-
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            İş Bankası, 2023 yılında Net-Sıfır Bankacılık Birliği taahhütlerine paralel olarak
-                            <span class="font-semibold">2040 yılına kadar kömürle ilgili faaliyetlerin finansmanını sonlandıracağını</span>
-                            açıkladı.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             <!-- Stats Header -->
             <div class="bg-gradient-to-r from-[#DAF2FF] to-[#E6F7FF] w-full py-8">
                 <p class="text-[#072CAD] text-2xl sm:text-3xl font-bold text-center pb-8">

@@ -24,14 +24,6 @@
           message="DenizBank’ı Türkiye’nin en büyük ve en güçlü bankaları arasında yükseltme hedefimizden sapmadan, özveriyle ve hep ileri bakarak çalışıp üretmeye devam edeceğiz."
           link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=10"
         />
-
-        <MessageCard
-          name="İzlem Erdem"
-          title="Sürdürülebilirlik Lideri"
-          ek="'nin"
-          message="İş Bankası olarak 100. yılımıza girerken, karbonsuzlaşma yolunda belirlediğimiz hedefler, Bankamızın sürdürülebilirlik stratejisinin temel unsurlarını temsil ediyor ve müşterilerimizin yeşil dönüşümünde yol gösterici bir iş ortağı olma amacımızı yansıtıyor."
-          link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=15"
-        />
       </div>
     </div>
   </section>
