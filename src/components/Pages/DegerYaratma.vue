@@ -34,7 +34,7 @@ const categories = [
 ];
 
 // Çark görseli
-const denizCarkImage = getImagePath('deniz-cark.svg');
+const denizCarkImage = getImagePath('model-circle.png');
 
 // SDG görselleri
 const sdgImages = [4, 5, 7, 8, 9, 13].map(num => ({
@@ -263,15 +263,12 @@ const getContent = () => {
               <div class="w-full rounded-full flex justify-center items-center">
                 <div class="relative max-w-md w-full" data-aos="zoom-in" data-aos-delay="100">
                   <!-- CSS background-image kullanarak görsel gösterme -->
-                  <div class="w-full h-130 bg-contain bg-center bg-no-repeat"
-                       :style="{ backgroundImage: `url(${denizCarkImage})` }"></div>
-
-                  <div class="absolute inset-0 flex items-center justify-center">
-                    <div class="p-3 rounded-full h-20 w-20 flex items-center justify-center shadow-lg"
-                         :style="{ backgroundColor: activeCategory().color }">
-                      <span class="font-bold text-sm text-white">DenizBank</span>
-                    </div>
-                  </div>
+                  <img
+  :src="denizCarkImage"
+  alt="DenizBank Değer Modeli"
+  class="w-full my-12 object-contain h-auto"
+  style="mix-blend-mode: multiply;"
+/>
                 </div>
               </div>
 

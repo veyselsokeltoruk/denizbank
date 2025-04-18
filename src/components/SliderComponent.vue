@@ -1,12 +1,12 @@
 <template>
   <div class="slider-container relative overflow-hidden">
-    <!-- Main Swiper with Modern Navigation -->
+    <!-- Main Swiper -->
     <swiper
       :spaceBetween="0"
       :centeredSlides="true"
       :autoplay="{
         delay: 5000,
-        disableOnInteraction: false,
+        disableOnInteraction: false
       }"
       :pagination="{
         clickable: true,
@@ -15,14 +15,14 @@
       }"
       :navigation="{
         nextEl: '.swiper-button-next-custom',
-        prevEl: '.swiper-button-prev-custom',
+        prevEl: '.swiper-button-prev-custom'
       }"
       :modules="modules"
-      class="main-swiper rounded-lg shadow-xl"
       :effect="'fade'"
       :fadeEffect="{ crossFade: true }"
+      class="main-swiper rounded-lg shadow-xl"
     >
-      <!-- First Slide - Main Info -->
+      <!-- Slide 1 - Main Info -->
       <swiper-slide class="relative">
         <img src="/03_SPR.jpg" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
@@ -39,28 +39,29 @@
         </div>
       </swiper-slide>
 
-      <!-- Second Slide - Yeni Nesil Bankacılık -->
+      <!-- Slide 2 - Yeni Nesil Bankacılık -->
       <swiper-slide class="relative">
-        <img src="/03_SPR.jpg" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
-          <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
+        <img src="/slide-2.png" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+          <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
                 Yeni Nesil Bankacılık
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                  Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır.
+
               </p>
             </div>
           </div>
         </div>
       </swiper-slide>
 
-      <!-- Third Slide - İlerisi için Sürdürülebilir Finansman -->
+      <!-- Slide 3 - İlerisi için Sürdürülebilir Finansman -->
       <swiper-slide class="relative">
-        <img src="/04_SPR.jpg" alt="İlerisi için Sürdürülebilir Finansman" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
-          <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
+        <img src="/slide-3.png" alt="İlerisi için Sürdürülebilir Finansman" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+          <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
                 İlerisi için Sürdürülebilir Finansman
@@ -73,34 +74,34 @@
         </div>
       </swiper-slide>
 
-      <!-- Fourth Slide - Geleceğin Yeteneği -->
+      <!-- Slide 4 - Geleceğin Yeteneği -->
       <swiper-slide class="relative">
-        <img src="/05_SPR.jpg" alt="Geleceğin Yeteneği" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
-          <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
+        <img src="/slide-4.png" alt="Geleceğin Yeteneği" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+          <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
                 Geleceğin Yeteneği
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
-                Sürdürülebilirlik hedefleri için gereken dönüşümün temel taşlarından biri yeni nesil yeteneklerdir.
+                Sürdürülebilirlik hedefleri için gereken dönüşümün temel taşlarından biri yeni nesil yeteneklerdir.
               </p>
             </div>
           </div>
         </div>
       </swiper-slide>
 
-      <!-- Fifth Slide - Sağlam Kurumsal Temeller -->
+      <!-- Slide 5 - Sağlam Kurumsal Temeller -->
       <swiper-slide class="relative">
-        <img src="/05_SPR.jpg" alt="Sağlam Kurumsal Temeller" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
-          <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
+        <img src="/slide-5.png" alt="Sağlam Kurumsal Temeller" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+          <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
                 Sağlam Kurumsal Temeller
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
-                Veri Gizliliği ve Güvenliği, Sistematik Risk Yönetimi ile Yönetişim, Uyum ve Etik yönetsel temellerimizdir.
+                Veri Gizliliği ve Güvenliği, Sistematik Risk Yönetimi ile Yönetişim, Uyum ve Etik yönetsel temellerimizdir.
               </p>
             </div>
           </div>
@@ -108,7 +109,7 @@
       </swiper-slide>
     </swiper>
 
-    <!-- Custom Navigation Controls -->
+    <!-- Navigation Controls -->
     <div class="absolute top-1/2 left-4 transform -translate-y-1/2 z-10">
       <button class="swiper-button-prev-custom bg-white/20 hover:bg-white/40 backdrop-blur-sm p-3 rounded-full transition-all">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -124,24 +125,17 @@
         </svg>
       </button>
     </div>
-
-    <!-- Slide Indicator -->
-    <div class="absolute bottom-4 left-0 right-0 z-10 flex justify-center gap-2">
-      <div class="slide-indicators flex gap-2">
-        <!-- Indicators will be rendered by Swiper pagination -->
-      </div>
-    </div>
   </div>
 </template>
 
 <script setup>
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules';
 
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
 
 const modules = [Autoplay, Navigation, Pagination, EffectFade];
 </script>
@@ -189,7 +183,7 @@ const modules = [Autoplay, Navigation, Pagination, EffectFade];
   border-radius: 10px;
 }
 
-/* Pagination Bullets Styling */
+/* Pagination Styling */
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
