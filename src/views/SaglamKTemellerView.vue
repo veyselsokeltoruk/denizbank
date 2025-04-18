@@ -9,7 +9,6 @@ import FloatingButton from '../components/FloatingButton.vue';
 <template>
     <SaglamKTemeller />
     <KurumsalTemeller />
-    <RefahaKatki />
     <FloatingButton />
     <FooterComponent />
 </template>

@@ -1,51 +1,6 @@
 <template>
     <div class="flex flex-col items-center my-12">
         <div class="w-full flex flex-col items-center">
-            <!-- Header Section with Improved Styling -->
-            <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=46" target="_blank">
-                    <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 hover:underline transition-all">
-                        100 Yıldır Yenilikçi Banka
-                    </h1>
-                </a>
-                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
-                    İş Bankası teknolojiyi verimli ve güncel haliyle kullanarak müşterilerine her temas noktasında
-                    kusursuz ve güvenli bir deneyim sunmaktadır.
-                </p>
-
-                <!-- Feature List with Improved Visual Design -->
-                <div class="w-full flex flex-col gap-5 mb-12">
-                    <div class="flex gap-6 items-start pt-3 hover:bg-blue-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            Türkiye'nin ilk mobil bankacılık uygulaması İşCep, Global Finance tarafından
-                            <span class="font-semibold">"Dünyanın En İyi Mobil Bankacılık Uygulaması"</span> seçildi.
-                        </p>
-                    </div>
-                    <div class="flex gap-6 items-start pt-3 hover:bg-blue-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            2023 yılında hayata geçirilen Proemtia, ülkemizde alanındaki
-                            <span class="font-semibold">ilk dijital pazaryeridir</span>.
-                        </p>
-                    </div>
-                    <div class="flex gap-6 items-start pt-3 hover:bg-blue-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            İş Bankası 2023 yılında kendi büyük dil modelini
-                            <span class="font-semibold">(İşGPT)</span> geliştirme çalışmalarına başladı.
-                        </p>
-                    </div>
-                    <div class="flex gap-6 items-start pt-3 hover:bg-blue-50 p-4 rounded-lg transition-all">
-                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                            Türkiye'de bankacılık sektöründe bir ilk olan
-                            <span class="font-semibold">Dijital Kart</span> hayata geçirildi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             <!-- Stats Section with Improved Visual Design -->
             <div class="bg-gradient-to-r from-[#DAF2FF] to-[#E6F7FF] w-full py-8">
                 <p class="text-[#072CAD] text-2xl sm:text-3xl font-bold text-center pb-8">

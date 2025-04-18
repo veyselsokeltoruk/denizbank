@@ -24,35 +24,16 @@
     >
       <!-- Slide 1 - Main Info -->
       <swiper-slide class="relative">
-        <img src="/slide-1.png" alt="İş Bankası 100. Yıl" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
-          <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-6 max-h-5/6 overflow-auto custom-scrollbar">
-            <div class="bg-black/40 p-6 rounded-lg backdrop-blur-sm">
-              <h2 class="text-white font-bold text-lg sm:text-2xl md:text-3xl lg:text-4xl mb-4">
-                Türkiye'nin ve Geleceğin Bankası:
+        <img src="/03_SPR.jpg" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
+          <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
+            <div class="backdrop-blur-sm p-6 rounded-lg">
+              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                Değer Yaratma Anlayışımız
               </h2>
-              <p class="text-white font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">
-                Tam 100 Yıldır!
+              <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
+                DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve faaliyetlerini Sürdürülebilir Finansman, Yeni Nesil Bankacılık ve Geleceğin Yeteneği değer alanlarıyla gerçekleştirmektedir.
               </p>
-              <p class="text-white font-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-4">
-                Asırlık kurumsal mirasını, yenilikçilik
-                ve gelecek vizyonuyla harmanlayan İş
-                Bankası, 100. yılında yayınladığı Entegre
-                Faaliyet Raporu'nu gururla sunar.
-              </p>
-              <p class="text-white/90 text-sm md:text-base lg:text-lg mb-6">
-                2023 yılı Entegre Faaliyet Raporu, Banka'nın ikinci
-                yüzyılına nasıl hazırlandığını paydaşlarına sunmayı
-                amaçlamaktadır.
-              </p>
-              <a
-                href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf"
-                class="inline-flex items-center bg-white/10 hover:bg-white/20 text-white px-4 py-3 rounded-lg backdrop-blur-sm transition-all"
-              >
-                <img class="h-6 w-auto mr-3" src="/pdf.svg" alt="PDF">
-                <span class="mr-3">Entegre Faaliyet Raporu 2023</span>
-                <img class="h-5 w-auto" src="/download.svg" alt="Download">
-              </a>
             </div>
           </div>
         </div>
@@ -68,7 +49,8 @@
                 Yeni Nesil Bankacılık
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
-                Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır
+                 Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır.
+
               </p>
             </div>
           </div>
@@ -85,7 +67,7 @@
                 İlerisi için Sürdürülebilir Finansman
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
-                Tercih edilen bir işveren ve iş ortağı
+                Sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla; finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendiriyoruz.
               </p>
             </div>
           </div>

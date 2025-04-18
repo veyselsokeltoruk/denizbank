@@ -20,7 +20,7 @@
                     <h2
                         class="handwritten text-[#A0D5FF] text-left font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 md:mb-4"
                     >
-                    İlerisi için Sürdürülebilir Finansmanlar
+                    İlerisi için Sürdürülebilir Finansman
                     </h2>
                     <div class="w-20 h-1 bg-[#A0D5FF] rounded-full mb-4 transition-all duration-500 group-hover:w-32"></div>
                     <p
