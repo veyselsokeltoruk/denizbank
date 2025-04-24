@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  /* Font ailenizi tanımlayın */
+
   --font-sans: 'Galano Grotesque', system-ui, sans-serif;
 
-  /* Ana renklerinizi tanımlayın */
+
   --color-primary: #06BFDD;
   --color-primary-light: #E0F7FB;
   --color-primary-dark: #05a5c0;

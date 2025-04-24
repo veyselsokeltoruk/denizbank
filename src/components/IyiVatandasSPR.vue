@@ -63,10 +63,6 @@
 </template>
 
 <style>
-@font-face {
-    font-family: "handwritten";
-    src: url("/fonts/Amsterdam-Signature.ttf");
-}
 
 .handwritten {
     font-family: "handwritten", cursive;
