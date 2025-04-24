@@ -16,7 +16,7 @@ const closeMenu = () => {
 
 <template>
   <!-- Minimal Fixed Header -->
-  <header class="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-100 shadow-sm">
+  <header class="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-50 shadow-sm">
     <!-- Main Navigation Bar -->
     <div class="container mx-auto px-4 py-2">
       <div class="flex items-center justify-between">
@@ -26,45 +26,45 @@ const closeMenu = () => {
         </RouterLink>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden lg:flex items-center space-x-4">
+        <nav class="hidden lg:flex items-center space-x-3">
           <RouterLink
             to="/degeryaratma"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/degeryaratma' }"
           >
           Değer Yaratma Anlayışımız
           </RouterLink>
           <RouterLink
             to="/guvenilir"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
           >
             Yeni Nesil Bankacılık
           </RouterLink>
           <RouterLink
             to="/sorumluop"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/sorumluop' }"
           >
           İlerisi için Sürdürülebilir Finansman
           </RouterLink>
           <RouterLink
             to="/iyivatandas"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
           >
           Geleceğin Yeteneği
           </RouterLink>
           <RouterLink
             to="/saglamktemeller"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/saglamktemeller' }"
           >
           Sağlam Kurumsal Temeller
           </RouterLink>
           <RouterLink
             to="/raporlar"
-            class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
+            class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/raporlar' }"
           >
             Finansal Raporlar
@@ -73,7 +73,7 @@ const closeMenu = () => {
 
         <!-- Minimal Hamburger Button -->
         <button @click="toggleMenu" type="button"
-          class="lg:hidden text-[#06BFDD] p-1 rounded-md focus:outline-none transition-colors duration-200 hover:bg-gray-100">
+          class="lg:hidden text-[#06BFDD] p-1 rounded-full focus:outline-none transition-colors duration-200 hover:bg-gray-100">
           <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
             <path v-if="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -86,14 +86,14 @@ const closeMenu = () => {
     <!-- Minimal Mobile Menu Dropdown -->
     <div
       v-if="open"
-      class="lg:hidden bg-white border-t border-gray-100 w-full absolute left-0 top-full overflow-hidden transition-all duration-200 shadow-sm"
-      :class="open ? 'max-h-96' : 'max-h-0'"
+      class="lg:hidden bg-white w-full absolute left-0 top-full overflow-hidden transition-all duration-200 shadow-sm"
+      :class="open ? 'max-h-screen' : 'max-h-0'"
     >
-      <div class="container mx-auto px-4 py-2 flex flex-col divide-y divide-gray-100">
+      <div class="container mx-auto px-4 py-2 flex flex-col">
         <RouterLink
           to="/degeryaratma"
           @click="closeMenu"
-          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
+          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200 rounded-lg px-3 hover:bg-gray-50"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/degeryaratma' }"
         >
           Değer Yaratma Anlayışımız
@@ -101,7 +101,7 @@ const closeMenu = () => {
         <RouterLink
           to="/guvenilir"
           @click="closeMenu"
-          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
+          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200 rounded-lg px-3 hover:bg-gray-50"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/guvenilir' }"
         >
           Yeni Nesil Bankacılık
@@ -109,7 +109,7 @@ const closeMenu = () => {
         <RouterLink
           to="/sorumluop"
           @click="closeMenu"
-          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
+          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200 rounded-lg px-3 hover:bg-gray-50"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/sorumluop' }"
         >
           İlerisi için Sürdürülebilir Finansman
@@ -117,7 +117,7 @@ const closeMenu = () => {
         <RouterLink
           to="/iyivatandas"
           @click="closeMenu"
-          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
+          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200 rounded-lg px-3 hover:bg-gray-50"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/iyivatandas' }"
         >
           Geleceğin Yeteneği
@@ -125,7 +125,7 @@ const closeMenu = () => {
         <RouterLink
           to="/saglamktemeller"
           @click="closeMenu"
-          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
+          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200 rounded-lg px-3 hover:bg-gray-50"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/saglamktemeller' }"
         >
           Sağlam Kurumsal Temeller
@@ -133,7 +133,7 @@ const closeMenu = () => {
         <RouterLink
           to="/raporlar"
           @click="closeMenu"
-          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200"
+          class="text-gray-600 hover:text-[#06BFDD] py-3 transition-colors duration-200 rounded-lg px-3 hover:bg-gray-50"
           :class="{ 'text-[#06BFDD] font-medium': $route.path === '/raporlar' }"
         >
           Finansal Raporlar
@@ -159,21 +159,19 @@ html, body, button, input, select, textarea {
 </style>
 
 <style scoped>
-/* Subtle active link indication */
-.router-link-active {
-  position: relative;
+/* Modern navbar stilini aktif olmayan linkler için kaldır */
+.router-link-active::after {
+  display: none;
 }
 
-.router-link-active::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 16px;
-  height: 2px;
-  background-color: #06BFDD;
-  border-radius: 2px;
+/* Navbar stili için özel efektler */
+nav a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  transform: translateY(-1px);
 }
 
 main {
