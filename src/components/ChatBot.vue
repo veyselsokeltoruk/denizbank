@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="fixed z-50 right-24 bottom-7">
+        <div class="fixed z-50 right-[10px] bottom-3">
             <button @click="openPopup"
                 class="w-12 h-12 bg-[#06BFDD] rounded-full flex items-center justify-center shadow-lg hover:bg-[#05a5c0] transition duration-300 transform hover:scale-105">
                 <img class="p-3" src="/message.png" alt="Mesaj">

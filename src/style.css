@@ -1,11 +1,110 @@
 @import "tailwindcss";
 
+@theme {
+  /* Font ailenizi tanımlayın */
+  --font-sans: 'Galano Grotesque', system-ui, sans-serif;
+
+  /* Ana renklerinizi tanımlayın */
+  --color-primary: #06BFDD;
+  --color-primary-light: #E0F7FB;
+  --color-primary-dark: #05a5c0;
+}
+
 * {
   box-sizing: border-box !important;
 }
 
+/* Font-face tanımlamaları */
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueLightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueMediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueSemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueSemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/GalanoGrotesqueExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Galano Grotesque', system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -26,6 +125,15 @@
   --primary-dark: #05a5c0;
   --text-on-primary: #ffffff;
   --text-primary: #06BFDD;
+}
+
+body {
+  font-family: 'Galano Grotesque', system-ui, sans-serif;
+}
+
+/* Başlıklar için font ayarları */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Galano Grotesque', system-ui, sans-serif;
 }
 
 /* ===== Scrollbar CSS ===== */

@@ -5,7 +5,7 @@
       <div class="mb-16 text-center space-y-4">
         <h2 class="text-sm font-bold text-blue-800 tracking-widest uppercase">İLERİSİ İÇİN</h2>
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-blue-500 to-pink-600">
-          Yenilikçi Finansman ile Sürdürülebilirlik Dönüşümünde Kolaylaştırıcı Olmak
+          Katkı Kağladığımız SKA'lar
         </h1>
         <div class="w-24 h-1 bg-gradient-to-r from-blue-800 via-blue-500 to-pink-600 mx-auto mt-6"></div>
       </div>
@@ -160,7 +160,7 @@
       </div>
 
       <!-- Değer Alanlarımız -->
-      <div class="group transition-all duration-500 hover:-translate-y-2 mt-10">
+      <!-- <div class="group transition-all duration-500 hover:-translate-y-2 mt-10">
         <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-blue-100">
           <div class="bg-gradient-to-r from-blue-800 to-blue-500 p-6">
             <h3 class="text-2xl font-bold text-white text-center">
@@ -169,7 +169,7 @@
             <div class="w-20 h-1 mt-3 bg-white mx-auto"></div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Katkı Sağladığımız Sürdürülebilir Kalkınma Amaçları -->
       <div class="group transition-all duration-500 hover:-translate-y-2 mt-10">

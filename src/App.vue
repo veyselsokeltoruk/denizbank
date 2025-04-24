@@ -151,6 +151,13 @@ const closeMenu = () => {
   <MoreContent />
 </template>
 
+<style>
+/* Galano Grotesque fontunu global olarak kullan */
+html, body, button, input, select, textarea {
+  font-family: 'Galano Grotesque', sans-serif;
+}
+</style>
+
 <style scoped>
 /* Subtle active link indication */
 .router-link-active {
