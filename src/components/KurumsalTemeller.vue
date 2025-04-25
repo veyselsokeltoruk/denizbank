@@ -58,6 +58,20 @@
 
             </div>
 
+            <!-- Header Section -->
+            <div class="w-full max-w-[1200px] px-4 lg:px-0">
+                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=55" target="_blank"
+                   class="group transition-all duration-300">
+                   <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline">
+                    DenizBank’ın Bilgi Güvenliği Stratejisi ve Yönetimi
+                    </h1> 
+                </a>
+                <p class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                    DenizBank, bilginin doğruluğunu, erişilebilirliğini ve yalnızca yetkilendirilmiş kişilerce kullanılmasını sağlayacak güvenlik önlemlerini en yüksek öncelik olarak belirlemiştir. Bilgi, değerli bir varlık olarak kabul edilmekte ve buna dayalı riskler titizlikle yönetilmektedir. Kurumsal güvenlik kültürü, çalışanların güvenlik sorumluluklarını bilerek yerine getirmelerini sağlar. Siber güvenlik olaylarına hızlı tepki verebilmek için otomatikleştirilmiş süreçler geliştirilmiştir. Güvenlik uygulamaları, etkili kimlik doğrulama ve çok katmanlı koruma stratejileriyle desteklenmektedir.
+                 </p>
+            </div>
+                        
+
                 <!-- Header Section -->
                 <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=72" target="_blank"
@@ -101,7 +115,29 @@
                    data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     Kurumsal itibarına ve etik ilkelere önem veren DenizBank, her zaman ve her koşulda üstlendiği sorumlulukları yerine getirmeye özen göstermektedir.
                 </p>
+                <h3 class="text-[#072CAD] text-s sm:text-2xl font-bold mb-8 group-hover:underline">
+                    İş Etiği
+                </h3>
+                <div class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                <p>
+                    DenizBank, rüşvet ve yolsuzluğu önlemek adına ulusal ve uluslararası yasal düzenlemelere, etik ve mesleki ilkelere tam uyum göstermek konusunda kararlıdır. DenizBank’ın belirlediği ve kamuyla paylaştığı Etik İlkeler Politikası; kanunlar, iç politikalar, misyon ve değerlere ilişkin davranış standartlarını içermektedir. DenizBank, çalışanların zimmet, suistimal, rüşvet, yolsuzluk gibi Banka itibarının zedelenmesine neden olabilecek işlemleri güvenli ve gizli bir şekilde bildirebilmesine yönelik “Etik Bildirim Hattı”nı devreye almıştır.
+                </p><br>
+
+                <h3 class="text-[#072CAD] text-s sm:text-2xl font-bold mb-8 group-hover:underline">
+                    Yolsuzlukla Mücadele
+                </h3>
+                <p>
+                    Banka, hizmet ve faaliyetlerinde dürüstlük, saydamlık, hesap verebilirlik, tarafsızlık ilkeleri doğrultusunda en yüksek standartları sağlamaktadır. DenizBank; ilgili kanunlar, güncel mevzuat, iş ilkeleri ve en iyi uygulamalar çerçevesinde “DenizBank Yolsuzlukla Mücadele Politikası”nı oluşturmuştur. Bu politika kapsamında Banka; 
+                </p>
+                <ul class="list-disc list-inside mt-4">
+                    <li>Yasa ve düzenlemelere, evrensel hukuk kurallarına, etik ilkelere uyum sağlamayı,</li>
+                    <li>Bilgilendirmeler ve eğitimler aracılığı ile çalışanları ve müşterisi olan/olmayan gerçek/tüzel kişiler arasında yolsuzlukla mücadele kültürünü geliştirmeyi,</li>
+                    <li>Politika ve prosedürlerin uygulanmasıyla ilgili kontrolleri yapmayı,</li>
+                    <li>Yolsuzluk faaliyetlerini belirlemek ve sınırlamak için aksiyonlar geliştirerek gerekli tedbirleri almayı taahhüt etmektedir.</li>
+                </ul> 
+                </div>
             </div>
+
             <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=80" target="_blank"
@@ -137,7 +173,32 @@
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             	Tüm hizmet birimlerine Atık Yönetim Sistemi kurulmasıyla birlikte Genel Müdürlük Binası başta olmak üzere 609 lokasyon icin sıfır atık belge başvurusu tamamlanmış, 2024 yılı içerisinde 546 lokasyon icin Sıfır Atık Temel Seviye belgesi alınmıştır.
                         </p>
-                    </div>
+                </div>
+
+                <h3 class="text-[#072CAD] text-s sm:text-2xl font-bold mb-8 group-hover:underline">
+                    Sorumlu Tedarik Zinciri Yönetimi
+                </h3>
+                <div class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                <p>
+                    DenizBank, çevresel ve sosyal sorumluluklarının ve etik ilkelerinin tedarikçi nezdinde de uygulanmasını benimser. DenizBank, uluslararası ticaret kanunlarına tam uyum göstermekte ve tedarikçilerinin de bu kanunlar ve yönetmeliklere gerekli özeni göstermelerini beklemektedir. Uluslararası İnsan Hakları Sözleşmesi ile OECD ve ILO tarafından belirlenen "Tedarikçi İş Etiği Kuralları" Banka’ya ürün ve hizmet sağlayan tedarikçiler tarafından kabul edilmektedir.
+                </p>
+                </div>
+                <h3 class="text-[#072CAD] text-s sm:text-2xl font-bold mb-8 group-hover:underline">
+                    Tedarikçi İş Etiği Kuralları
+                </h3>
+                <div class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                <p>
+                    DenizBank Tedarikçi İş Etiği Kuralları, DFHG bünyesindeki tüm tüzel kişileri kapsamaktadır. DFHG, tedarik zincirini etik, sosyal ve çevresel faktörlerle uyumlu bir şekilde yürütmeyi temel sorumluluklarından biri olarak kabul etmektedir. Tüm tedarikçilerin İş Etiği Kuralları’nı okuyup anlamaları, bu kurallarda belirtilen ilke ve değerlere uyum sağlamaları ve bunu yazılı olarak teyit etmeleri beklenmektedir.
+                </p>
+                </div>
+                <h3 class="text-[#072CAD] text-s sm:text-2xl font-bold mb-8 group-hover:underline">
+                    Çevre Yönetimi ve İklim Değişikliği ile Mücadele
+                </h3>
+                <div class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                <p>
+                    DenizBank, operasyonel çevresel etkileri azaltmak için hedeflerle bağlantılı olarak önlemler almakta olup, sürdürülebilirlik stratejilerini 2024 yılında da proje ve uygulamalarla desteklemeye devam etmiştir. Sürdürülebilir Yönetim Sistemi (SYS) kapsamında 3 politika ve 7 prosedür yürürlükte olup sürekli iyileştirme ve gözden geçirme çalışmaları da yapılmaktadır. 2024 yılında CDP kapsamında yapılan ikinci raporlama ile hem İklim Değişikliği hem de Su Güvenliği programlarından 2023 yılı performansı için B skoru alınmıştır.
+                </p>
+                </div>
             </div>
 
             </div>
@@ -157,6 +218,15 @@
 
                 <br><br>Banka, 2024 yılında nitelikli eğitim ve ekonomik büyüme SKA'ları doğrultusunda topluma katkılarını sürdürmüştür.
                 </p>
+
+                <h3 class="text-[#072CAD] text-s sm:text-2xl font-bold mb-8 group-hover:underline">
+                    2024 Kurumsal Sosyal Sorumluluk Faaliyetleri
+                </h3>
+                <div class="text-gray-800 text-sm sm:text-xl font-normal mb-12 max-w-3xl">
+                <p>
+                    DenizBank kurumsal sosyal sorumluluk çalışmaları kapsamında; 2024 itibarıyla Cumhurbaşkanlığı Senfoni Orkestrası (CSO) ve Devlet Çoksesli Korosu’nun (DÇK) ana destekçiliğini üstlenmiştir. DenizBank İlk Senaryo İlk Film Yarışması’na sunulan destek 2024 yılında sürdürülmüştür. Sinemaya Gitmeyen Çocuk Kalmasın Projesi’nin destekçisi olan DenizBank; Nisan-Mayıs 2024 arasında 221 ilçede 100 bin çocuğun beyazperde ile buluşmasına destek olmuştur. Galeri Deniz’de, Baharı Beklerken ve Bazaart karma sergileri dahil 12 farklı etkinlikte, farklı disiplinlerden 300’e yakın sanatçının eserleri sanatseverlerle buluşmuştur. Afet Bursu Programı ile ilköğretim ve lise çağındaki 100 çocuğun eğitim hayatlarının tamamını kapsayan burs desteği sürdürülmüştür.
+                </p>
+                </div>
             </div>
 
             <!-- Header Section -->
