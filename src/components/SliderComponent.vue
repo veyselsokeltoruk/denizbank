@@ -24,7 +24,7 @@
     >
       <!-- Slide 1 - Main Info -->
       <swiper-slide class="relative">
-        <img src="/03_SPR.jpg" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
+        <img src="/acilis-banner-2.png" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
           <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">

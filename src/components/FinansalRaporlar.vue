@@ -9,7 +9,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
         <!-- Card 1 -->
         <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 duration-300">
-          <a class="block p-6 h-full" href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=229" target="_blank">
+          <a class="block p-6 h-full" href="/denizefr24/DenizBank_EFR_2024.pdf#page=98" target="_blank">
             <div class="flex items-start gap-4">
               <div class="bg-[#072CAD]/10 p-3 rounded-full flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -34,7 +34,7 @@
 
         <!-- Card 2 -->
         <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 duration-300">
-          <a class="block p-6 h-full" href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=100" target="_blank">
+          <a class="block p-6 h-full" href="/denizefr24/DenizBank_EFR_2024.pdf#page=111" target="_blank">
             <div class="flex items-start gap-4">
               <div class="bg-[#072CAD]/10 p-3 rounded-full flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,7 +59,7 @@
 
         <!-- Card 3 -->
         <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 duration-300">
-          <a class="block p-6 h-full" href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=87" target="_blank">
+          <a class="block p-6 h-full" href="/denizefr24/DenizBank_EFR_2024.pdf#page=90" target="_blank">
             <div class="flex items-start gap-4">
               <div class="bg-[#072CAD]/10 p-3 rounded-full flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -84,7 +84,7 @@
 
         <!-- Card 4 -->
         <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 duration-300">
-          <a class="block p-6 h-full" href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=232" target="_blank">
+          <a class="block p-6 h-full" href="/denizefr24/DenizBank_EFR_2024.pdf#page=232" target="_blank">
             <div class="flex items-start gap-4">
               <div class="bg-[#072CAD]/10 p-3 rounded-full flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,7 +109,7 @@
 
         <!-- Card 5 -->
         <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 duration-300">
-          <a class="block p-6 h-full" href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=234" target="_blank">
+          <a class="block p-6 h-full" href="/denizefr24/DenizBank_EFR_2024.pdf#page=240" target="_blank">
             <div class="flex items-start gap-4">
               <div class="bg-[#072CAD]/10 p-3 rounded-full flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -131,36 +131,11 @@
             </div>
           </a>
         </div>
-
-        <!-- Card 6 -->
-        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1 duration-300">
-          <a class="block p-6 h-full" href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=229" target="_blank">
-            <div class="flex items-start gap-4">
-              <div class="bg-[#072CAD]/10 p-3 rounded-full flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#072CAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <div>
-                <h2 class="text-[#072CAD] font-semibold text-lg mb-2">BM Kadının Güçlenmesi Prensipleri İlerleme Bildirimi</h2>
-                <p class="text-gray-600 text-sm">Birleşmiş Milletler Kadının Güçlenmesi Prensipleri kapsamında yıllık ilerleme raporu</p>
-              </div>
-            </div>
-            <div class="flex justify-end mt-4">
-              <span class="text-[#072CAD] text-sm font-medium flex items-center gap-1">
-                Görüntüle
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </span>
-            </div>
-          </a>
-        </div>
       </div>
 
       <!-- Download All Button -->
       <div class="mt-10 flex justify-center">
-        <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf" target="_blank"
+        <a href="/denizefr24/DenizBank_EFR_2024.pdf" target="_blank"
            class="flex items-center gap-2 bg-[#072CAD] text-white px-6 py-3 rounded-full hover:bg-[#0A3BCE] transition-all shadow-md hover:shadow-lg">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

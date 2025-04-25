@@ -3,7 +3,7 @@
         <div class="w-full flex flex-col items-center">
             <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=30" target="_blank"
+                <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank"
                    class="group transition-all duration-300">
                     <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline header-title"
                         data-aos="fade-down" data-aos-duration="800">
@@ -60,7 +60,7 @@
             </div>
 
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=30" target="_blank"
+                <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=44" target="_blank"
                    class="group transition-all duration-300">
                     <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline header-title"
                         data-aos="fade-down" data-aos-duration="800">
@@ -111,7 +111,7 @@
             </div>
 
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
-                <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=30" target="_blank"
+                <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=48" target="_blank"
                    class="group transition-all duration-300">
                     <h1 class="text-[#072CAD] text-xl sm:text-4xl font-bold mb-8 group-hover:underline header-title"
                         data-aos="fade-down" data-aos-duration="800">
