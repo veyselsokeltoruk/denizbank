@@ -1,7 +1,6 @@
 <template>
     <div class="flex flex-col items-center my-12">
         <div class="w-full flex flex-col items-center">
-            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank"
                     class="group transition-all duration-300">
@@ -17,12 +16,11 @@
                     izlemektedir.
                 </p>
 
-                <!-- Features with hover effects -->
                 <div class="w-full flex flex-col gap-5 mb-12">
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             %22,9 DFHG Çalışan Devir Oranı
@@ -31,8 +29,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024 yılında yapılan yönetici atamalarının %79'u mevcut çalışanlar arasından yapılmıştır.
@@ -41,19 +39,17 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            2024'te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.DenizBank, toplamda 3 GW kurulu
-                            gücün devreye girmesine katkıda bulunarak, bugüne kadar yenilenebilir enerji projelerine
-                            toplam 1,5 milyar ABD doları finansman desteği sağlamıştır.
+                            2024'te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.
                         </p>
                     </div>
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="200">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024 yılında, 69 etkinlikle 10 bin üniversite öğrencisine ulaşılmıştır.
@@ -63,7 +59,6 @@
 
             </div>
 
-            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=63" target="_blank"
                     class="group transition-all duration-300">
@@ -80,12 +75,11 @@
                     uygulamaları hayata geçirir.
                 </p>
 
-                <!-- Features with hover effects -->
                 <div class="w-full flex flex-col gap-5 mb-12">
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024 yılında DFHG kadın çalışan oranı %52
@@ -94,8 +88,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             DenizBank çalışan sayısı 12.207
@@ -104,8 +98,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             DFHG Kadın Yönetici Oranı %38</p>
@@ -116,7 +110,6 @@
 
 
 
-            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" target="_blank"
                     class="group transition-all duration-300">
@@ -132,12 +125,11 @@
                     amaçlamaktadır.
                 </p>
 
-                <!-- Features with hover effects -->
                 <div class="w-full flex flex-col gap-5 mb-12">
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             DenizBank, 2024 yılında, sunduğu sağlık hizmetlerini daha kapsamlı ve erişilebilir hale
@@ -147,8 +139,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024'te çalışanlara toplam 81.056 saat iş sağlığı ve güvenliği eğitimi verilmiştir.
@@ -157,8 +149,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             Kurumsal gönüllülük programı Deniz'in Gönüllüleri çalışmalarına 2024'te de devam etmiştir.
@@ -166,8 +158,8 @@
                     </div>
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="200">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024 yılında 1.191 çalışan Yatırım Okulu eğitimlerine katılmıştır.
@@ -176,8 +168,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="250">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024 yılında 103 programda 2.129 çalışan Deniz Akademi tarafından yetiştirilmiştir.
@@ -186,8 +178,8 @@
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                         data-aos="fade-right" data-aos-duration="400" data-aos-delay="300">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
                             2024 yılında 179 Şube Müdürü ve Bölge Satış Müdürü/Bölge Operasyon Bölüm Müdürü "Yeni
@@ -207,17 +199,15 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { onMounted, ref } from 'vue';
+import tickIconPath from '/tik-ikon.png';
 
-// Animation counters
 const insanHaklariEgitimi = ref(0);
 const rusvetYolsuzlukEgitimi = ref(0);
 const yonetisimKomitesi = ref(0);
 
-// Animasyon durumunu takip için
 const isAnimating = ref(false);
 
 onMounted(() => {
-    // Initialize AOS animation library with interactivity settings
     AOS.init({
         duration: 800,
         once: false,
@@ -243,12 +233,10 @@ onMounted(() => {
         }, interval);
     };
 
-    // Start animations with slight delays
     setTimeout(() => animateCount(insanHaklariEgitimi, 2524, 2000), 500);
     setTimeout(() => animateCount(rusvetYolsuzlukEgitimi, 19889, 2500), 700);
     setTimeout(() => animateCount(yonetisimKomitesi, 11, 1500), 900);
 
-    // Scroll eventi dinle ve AOS animasyonlarını yeniden başlat
     window.addEventListener('scroll', function () {
         if (!isAnimating.value) {
             isAnimating.value = true;
@@ -291,7 +279,6 @@ onMounted(() => {
     }
 }
 
-/* Enhanced animations */
 .feature-item {
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
@@ -323,17 +310,22 @@ onMounted(() => {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
 }
 
 .tick-icon {
     transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .feature-item:hover .tick-icon {
     transform: scale(1.2) rotate(10deg);
 }
 
-/* Fade-in text animation */
 .fade-in-text {
     opacity: 0.9;
     transition: opacity 0.3s ease;
@@ -343,7 +335,6 @@ onMounted(() => {
     opacity: 1;
 }
 
-/* Subtle header animation */
 .header-title {
     position: relative;
     display: inline-block;
@@ -369,7 +360,6 @@ onMounted(() => {
     width: 100%;
 }
 
-/* Bottom border animation */
 .highlight-line {
     position: relative;
     overflow: hidden;
@@ -397,7 +387,6 @@ onMounted(() => {
     }
 }
 
-/* Stats section styles */
 .stats-section {
     position: relative;
     overflow: hidden;
@@ -416,20 +405,11 @@ onMounted(() => {
 }
 
 @keyframes shimmer {
-    0% {
-        left: -100%;
-    }
-
-    20% {
-        left: 100%;
-    }
-
-    100% {
-        left: 100%;
-    }
+    0% { left: -100%; }
+    20% { left: 100%; }
+    100% { left: 100%; }
 }
 
-/* Card animations */
 .animate-card {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform-origin: center bottom;
@@ -440,7 +420,6 @@ onMounted(() => {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* Counter animations */
 .counter {
     display: inline-block;
     position: relative;
@@ -448,20 +427,11 @@ onMounted(() => {
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.05);
-    }
-
-    100% {
-        transform: scale(1);
-    }
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
-/* Fade transitions for navigation between sections */
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.3s, transform 0.3s;

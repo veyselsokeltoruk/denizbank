@@ -31,7 +31,7 @@
                 </div>
 
                 <!-- Additional Info Box -->
-                <div
+                <!-- <div
                     class="bg-white/10 backdrop-blur-sm p-3 rounded-lg mt-1 transform transition-all duration-500 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 hidden md:block"
                 >
                     <div class="text-white text-xs lg:text-sm">
@@ -52,7 +52,7 @@
                             Daha fazla bilgi
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 

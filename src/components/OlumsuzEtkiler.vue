@@ -1,7 +1,6 @@
 <template>
     <div class="flex flex-col items-center my-12">
         <div class="w-full flex flex-col items-center">
-            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=51" target="_blank"
                    class="group transition-all duration-300">
@@ -16,41 +15,39 @@
                     DenizBank, iklim değişikliği ile ortaya çıkan riskleri ve fırsatları göz önünde bulundurarak uluslararası finans kuruluşlarının, yatırımcıların ve güncel piyasa beklentilerine paralel olarak finansman çözümleri geliştirmektedir.
                 </p>
 
-                <!-- Features with hover effects -->
                 <div class="w-full flex flex-col gap-5 mb-12">
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	2024 yılında DenizBank'ın sürdürülebilirilikle ilintili fonlaması 3,2 milyar ABD dolarına ulaşmıştır.
+                              2024 yılında DenizBank'ın sürdürülebilirilikle ilintili fonlaması 3,2 milyar ABD dolarına ulaşmıştır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	DenizBank 2024 yılında Türkiye ekonomisine 2.2 milyar ABD Doları uluslararası taze kaynak aktarmıştır.
+                              DenizBank 2024 yılında Türkiye ekonomisine 2.2 milyar ABD Doları uluslararası taze kaynak aktarmıştır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	DenizBank, toplamda 3 GW kurulu gücün devreye girmesine katkıda bulunarak, bugüne kadar yenilenebilir enerji projelerine toplam 1,5 milyar ABD doları finansman desteği sağlamıştır.
+                              DenizBank, toplamda 3 GW kurulu gücün devreye girmesine katkıda bulunarak, bugüne kadar yenilenebilir enerji projelerine toplam 1,5 milyar ABD doları finansman desteği sağlamıştır.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=53" target="_blank"
                    class="group transition-all duration-300">
@@ -65,62 +62,60 @@
                     DenizBank, müşteri odaklı hizmet anlayışı ile müşterilerinin tüm finansal ihtiyaçlarını karşılamaya yönelik faaliyetlerini segmente etmiştir.
                 </p>
 
-                <!-- Features with hover effects -->
                 <div class="w-full flex flex-col gap-5 mb-12">
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	DenizBank, Tarım Bankacılığı'nı ayrı bir iş kolu olarak yapılandırarak yöneten ilk özel bankadır.
+                              DenizBank, Tarım Bankacılığı'nı ayrı bir iş kolu olarak yapılandırarak yöneten ilk özel bankadır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	DenizBank'ın 230 bine yakın tarım müşterisine sağladığı toplam kredi büyüklüğü 101 milyar TL'ye ulaşmıştır.
+                              DenizBank'ın 230 bine yakın tarım müşterisine sağladığı toplam kredi büyüklüğü 101 milyar TL'ye ulaşmıştır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	2024 yılında DenizBank, KOBİ'lere 145 milyar TL tutarında nakdi kredi sağlamıştır.
+                              2024 yılında DenizBank, KOBİ'lere 145 milyar TL tutarında nakdi kredi sağlamıştır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="200">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	DenizBank,  Kadın İşletmelerine Finansman ve Danışmanlık Desteği Programı kapsamında Avrupa İmar ve Kalkınma Bankası'ndan (EBRD) kaynak sağlamaktadır.
+                              DenizBank,  Kadın İşletmelerine Finansman ve Danışmanlık Desteği Programı kapsamında Avrupa İmar ve Kalkınma Bankası'ndan (EBRD) kaynak sağlamaktadır.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="250">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	Kredi Garanti Fonu (KGF) ile  TurWIB protokolünü imzalayan sektördeki "İlk Banka" olan DenizBank, 2021 yılında bu yana Program kapsamında 717 farklı müşteriye 1,4 milyar TL'lik KGF TurWIB kredisi kullanılmıştır.
+                              Kredi Garanti Fonu (KGF) ile  TurWIB protokolünü imzalayan sektördeki "İlk Banka" olan DenizBank, 2021 yılında bu yana Program kapsamında 717 farklı müşteriye 1,4 milyar TL'lik KGF TurWIB kredisi kullanılmıştır.
                         </p>
                     </div>
                 </div>
             </div>
 
 
-            <!-- Header Section -->
             <div class="w-full max-w-[1200px] px-4 lg:px-0">
                 <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" target="_blank"
                    class="group transition-all duration-300">
@@ -135,25 +130,24 @@
                     DenizBank, ürün ve hizmetlerini daha çok kişiye ulaştırmak amacıyla tüm kanallarda iyileştirme ve geliştirmeye yönelik önemli proje ve çalışmalar hayata geçirmektedir.
                 </p>
 
-                <!-- Features with hover effects -->
                 <div class="w-full flex flex-col gap-5 mb-12">
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	2023 yılında %32 olan engelsiz bankacılığa uygun şube oranı 2024 yılında %96'ya yükselmiştir.
+                              2023 yılında %32 olan engelsiz bankacılığa uygun şube oranı 2024 yılında %96'ya yükselmiştir.
                         </p>
                     </div>
 
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
                          data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
-                        <div class="icon-container">
-                            <img class="h-8 mt-1 tick-icon" src="/tik-ikon.png" alt="">
+                        <div class="icon-container flex-shrink-0 w-8 h-8">
+                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
                         </div>
                         <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            	2024 yıl sonu itibarıyla, 630 DenizBank şubesinden 604'ü (%96) engelli erişimine uygun olarak dönüştürülmüştür.
+                              2024 yıl sonu itibarıyla, 630 DenizBank şubesinden 604'ü (%96) engelli erişimine uygun olarak dönüştürülmüştür.
                         </p>
                     </div>
                 </div>
@@ -168,18 +162,16 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { onMounted, ref } from 'vue';
+import tickIconPath from '/tik-ikon.png';
 
-// Animation counters
 const emisyonAzaltimi = ref(0);
 const kagitDususu = ref(0);
 const yerelTedarik = ref(0);
 const kagitTasarrufu = ref(0);
 
-// Animasyon durumunu takip için
 const isAnimating = ref(false);
 
 onMounted(() => {
-  // Initialize AOS animation library with interactivity settings
   AOS.init({
     duration: 800,
     once: false,
@@ -205,13 +197,11 @@ onMounted(() => {
     }, interval);
   };
 
-  // Start animations with slight delays
   setTimeout(() => animateCount(emisyonAzaltimi, 8.4, 2000), 500);
   setTimeout(() => animateCount(kagitDususu, 5, 2300), 700);
   setTimeout(() => animateCount(yerelTedarik, 97, 2600), 900);
   setTimeout(() => animateCount(kagitTasarrufu, 238, 2900), 1100);
 
-  // Scroll eventi dinle ve AOS animasyonlarını yeniden başlat
   window.addEventListener('scroll', function() {
     if (!isAnimating.value) {
       isAnimating.value = true;
@@ -254,7 +244,6 @@ onMounted(() => {
   }
 }
 
-/* Enhanced animations */
 .feature-item {
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
@@ -286,17 +275,22 @@ onMounted(() => {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
 }
 
 .tick-icon {
   transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .feature-item:hover .tick-icon {
   transform: scale(1.2) rotate(10deg);
 }
 
-/* Fade-in text animation */
 .fade-in-text {
   opacity: 0.9;
   transition: opacity 0.3s ease;
@@ -306,7 +300,6 @@ onMounted(() => {
   opacity: 1;
 }
 
-/* Subtle header animation */
 .header-title {
   position: relative;
   display: inline-block;
@@ -332,7 +325,6 @@ onMounted(() => {
   width: 100%;
 }
 
-/* Bottom border animation */
 .highlight-line {
   position: relative;
   overflow: hidden;
@@ -359,7 +351,6 @@ onMounted(() => {
   }
 }
 
-/* Stats section styles */
 .stats-section {
   position: relative;
   overflow: hidden;
@@ -389,7 +380,6 @@ onMounted(() => {
   }
 }
 
-/* Card animations */
 .animate-card {
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform-origin: center bottom;
@@ -400,7 +390,6 @@ onMounted(() => {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* Counter animations */
 .counter {
   display: inline-block;
   position: relative;
@@ -419,7 +408,6 @@ onMounted(() => {
   }
 }
 
-/* Fade transitions for navigation between sections */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s, transform 0.3s;

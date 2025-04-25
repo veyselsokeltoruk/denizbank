@@ -2,13 +2,13 @@
   <div class="bg-gradient-to-br from-blue-50 to-gray-100 py-12">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Başlık Alanı -->
-      <div class="mb-16 text-center space-y-4">
+      <!-- <div class="mb-16 text-center space-y-4">
         <h2 class="text-sm font-bold text-blue-800 tracking-widest uppercase">İLERİSİ İÇİN</h2>
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-blue-500 to-pink-600">
           Katkı Kağladığımız SKA'lar
         </h1>
         <div class="w-24 h-1 bg-gradient-to-r from-blue-800 via-blue-500 to-pink-600 mx-auto mt-6"></div>
-      </div>
+      </div> -->
 
       <!-- Değer Alanları Başlığı -->
       <div class="text-center mb-12">
@@ -172,7 +172,7 @@
       </div> -->
 
       <!-- Katkı Sağladığımız Sürdürülebilir Kalkınma Amaçları -->
-      <div class="group transition-all duration-500 hover:-translate-y-2 mt-10">
+      <!-- <div class="group transition-all duration-500 hover:-translate-y-2 mt-10">
         <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-blue-100">
           <div class="bg-gradient-to-r from-blue-800 to-blue-500 p-6">
             <h3 class="text-2xl font-bold text-white text-center">
@@ -181,7 +181,7 @@
             <div class="w-20 h-1 mt-3 bg-white mx-auto"></div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Sürdürülebilirlik Hedeflerimiz -->
       <div class="text-center mt-20 mb-12">
@@ -343,7 +343,7 @@
       </div>
 
       <!-- SDG Açıklaması ve Tanımlar -->
-      <div class="bg-white rounded-3xl shadow-2xl p-8 mt-12 border border-blue-100">
+      <!-- <div class="bg-white rounded-3xl shadow-2xl p-8 mt-12 border border-blue-100">
         <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center">Sürdürülebilir Kalkınma Amaçları Tanımları</h2>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <div v-for="(goal, index) in sdgDefinitions" :key="index"
@@ -354,7 +354,7 @@
             <div class="text-sm text-gray-700 flex-1 font-medium">{{ goal.title }}</div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
