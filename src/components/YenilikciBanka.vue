@@ -92,14 +92,14 @@
             </h1>
             <div class="flex w-full md:flex-row flex-col md:gap-12 gap-4 items-center">
                 <div class="flex flex-col md:w-1/2 w-full gap-4">
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=47" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=47" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Dijital Bankacılık
                         </span>
                         <img class="h-5" src="/arrow.svg" alt="">
                     </a>
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=49" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=49" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             İnovasyon ve Girişimcilik
@@ -108,7 +108,7 @@
                     </a>
                 </div>
                 <div class="flex flex-col md:w-1/2 w-full gap-4">
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=52" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=52" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Bilgi Güvenliği
@@ -124,7 +124,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 
 // Animation for count-up effect can be implemented with a simple function
 // instead of using an external library

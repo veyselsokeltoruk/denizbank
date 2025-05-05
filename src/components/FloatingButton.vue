@@ -11,8 +11,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
 import { ChevronUp } from 'lucide-vue-next';
+import { onMounted, onUnmounted, ref } from 'vue';
 
 const showButton = ref(false);
 
@@ -46,8 +46,8 @@ onUnmounted(() => {
 <style scoped>
 .floating-button-container {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 70px;
+  right: 10px;
   z-index: 99;
 }
 

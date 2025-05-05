@@ -1,74 +1,71 @@
 <template>
-    <div class="relative overflow-hidden h-full rounded-lg shadow-lg group">
-        <!-- Background Image with Overlay -->
+    <div class="relative overflow-hidden h-[500px] rounded-lg shadow-lg group">
+        <!-- Background Image with Controlled Height -->
         <img
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            src="/04_SPR.jpg"
+            src="/slide-2.png"
             alt="İlerisi için Sürdürülebilir Finansman"
         >
 
-        <!-- Gradient Overlay -->
-        <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
+        <!-- Gradient Overlay - Sağdan sola -->
+        <div class="absolute inset-0 bg-gradient-to-l from-black/60 via-black/40 to-transparent"></div>
 
-        <!-- Content Section -->
-        <div class="absolute inset-0 flex items-center">
-            <div class="w-full md:w-1/2 p-4 md:p-10 lg:p-12 flex flex-col md:gap-6 justify-center">
-                <!-- Title with Animation -->
+        <!-- Content Section - Sağa Yaslı -->
+        <div class="absolute inset-0 flex items-center justify-end">
+            <div class="w-full md:w-1/2 p-3 md:p-6 flex flex-col gap-3 justify-center">
+                <!-- Main Content Box -->
                 <div
-                    class="overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm p-4 md:p-6 transform transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 -translate-y-4 opacity-90"
+                    class="overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm p-3 md:p-4 transform transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 -translate-y-2 opacity-90"
                 >
                     <h2
-                        class="handwritten text-[#A0D5FF] text-left font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 md:mb-4"
+                        class="handwritten text-[#A0D5FF] text-right font-bold text-lg md:text-2xl lg:text-3xl mb-1"
                     >
                     İlerisi için Sürdürülebilir Finansman
                     </h2>
-                    <div class="w-20 h-1 bg-[#A0D5FF] rounded-full mb-4 transition-all duration-500 group-hover:w-32"></div>
+                    <div class="w-12 h-0.5 bg-[#A0D5FF] rounded-full mb-2 transition-all duration-500 group-hover:w-20 ml-auto"></div>
                     <p
-                        class="text-white text-sm md:text-lg xl:text-xl font-light md:block max-w-md leading-relaxed"
+                        class="text-white text-xs md:text-sm lg:text-base font-light text-right leading-tight md:leading-relaxed"
                     >
-                    Sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla; finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendiriyoruz.
+                        Sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla; finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendiriyoruz.
                     </p>
                 </div>
 
-                <!-- Additional Info (Visible on Hover) -->
-                <div
-                    class="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-lg mt-4 transform transition-all duration-500 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 hidden md:block"
-                >
-                    <ul class="text-white space-y-2">
-                        <span>İlgili Sermaye Öğeleri</span>
-                        <br><br>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Finansal Sermaye</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Üretilmiş Sermaye</span>
-                        </li>
-                        <li class="flex items-center gap-2">
-                            <span class="inline-block w-2 h-2 bg-[#A0D5FF] rounded-full"></span>
-                            <span>Doğal Sermaye</span>
-                        </li>
-                    </ul>
+                <!-- Additional Info Box -->
+                <!-- <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg mt-1 transform transition-all duration-500 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 hidden md:block">
+                    <div class="text-white text-xs lg:text-sm">
+                        <span class="block text-right font-medium mb-1">İlgili Sermaye Öğeleri</span>
+                        <ul class="space-y-0.5 mt-1">
+                            <li class="flex items-center gap-1 justify-end">
+                                <span>Finansal Sermaye</span>
+                                <span class="inline-block w-1.5 h-1.5 bg-[#A0D5FF] rounded-full"></span>
+                            </li>
+                            <li class="flex items-center gap-1 justify-end">
+                                <span>Üretilmiş Sermaye</span>
+                                <span class="inline-block w-1.5 h-1.5 bg-[#A0D5FF] rounded-full"></span>
+                            </li>
+                            <li class="flex items-center gap-1 justify-end">
+                                <span>Doğal Sermaye</span>
+                                <span class="inline-block w-1.5 h-1.5 bg-[#A0D5FF] rounded-full"></span>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <button class="mt-4 px-4 py-2 border border-[#A0D5FF] text-[#A0D5FF] rounded hover:bg-[#A0D5FF]/20 transition-colors text-sm">
-                        Daha fazla bilgi
-                    </button>
-                </div>
+                    <div class="text-right mt-2">
+                        <button class="px-2 py-1 border border-[#A0D5FF] text-[#A0D5FF] rounded hover:bg-[#A0D5FF]/20 transition-colors text-xs">
+                            Daha fazla bilgi
+                        </button>
+                    </div>
+                </div> -->
             </div>
         </div>
 
-        <!-- Decorative Elements -->
-        <div class="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-[#A0D5FF]/30 to-transparent rounded-tl-full"></div>
-        <div class="absolute top-0 left-0 w-40 h-40 bg-gradient-to-br from-[#A0D5FF]/20 to-transparent rounded-br-full"></div>
+        <!-- Minimal Decorative Elements - Yönleri Değiştirildi -->
+        <div class="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-[#A0D5FF]/30 to-transparent rounded-tr-full"></div>
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-[#A0D5FF]/20 to-transparent rounded-bl-full"></div>
     </div>
 </template>
 
 <style>
-@font-face {
-    font-family: "handwritten";
-    src: url("/fonts/Amsterdam-Signature.ttf");
-}
 
 .handwritten {
     font-family: "handwritten", cursive;
@@ -77,7 +74,7 @@
 /* Add subtle animation */
 @keyframes float {
     0% { transform: translateY(0px); }
-    50% { transform: translateY(-5px); }
+    50% { transform: translateY(-3px); }
     100% { transform: translateY(0px); }
 }
 

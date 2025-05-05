@@ -24,12 +24,12 @@
     >
       <!-- Slide 1 - Main Info -->
       <swiper-slide class="relative">
-        <img src="/03_SPR.jpg" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
+        <img src="/acilis-banner-2.png" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
           <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
               <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                Değer Yaratma Anlayışımız
+                 İlerisi Deniz
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                 DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve faaliyetlerini Sürdürülebilir Finansman, Yeni Nesil Bankacılık ve Geleceğin Yeteneği değer alanlarıyla gerçekleştirmektedir.
@@ -143,7 +143,7 @@ const modules = [Autoplay, Navigation, Pagination, EffectFade];
 <style>
 @font-face {
   font-family: "handwritten";
-  src: url("/fonts/Amsterdam-Signature.ttf");
+  src: url("/fonts/GalanoGrotesqueSemiBoldItalic.otf");
 }
 
 .handwritten {

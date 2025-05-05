@@ -138,7 +138,7 @@
             <div class="flex w-full md:flex-row flex-col md:gap-8 gap-4">
                 <!-- Left Column -->
                 <div class="flex flex-col md:w-1/2 w-full gap-4">
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=42" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Karbonsuzlaşma Hedefleri
@@ -146,7 +146,7 @@
                         <img class="h-5" src="/arrow.svg" alt="">
                     </a>
 
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=43" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=43" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Kredilerde Çevresel ve Sosyal Risk Yönetimi
@@ -157,7 +157,7 @@
 
                 <!-- Right Column -->
                 <div class="flex flex-col md:w-1/2 w-full gap-4">
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=42" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             İklim Risklerinin Yönetimi
@@ -165,7 +165,7 @@
                         <img class="h-5" src="/arrow.svg" alt="">
                     </a>
 
-                    <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=44" target="_blank"
+                    <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=44" target="_blank"
                        class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-[#072CAD] transition-all">
                         <span class="text-[#072CAD] text-base md:text-lg font-medium">
                             Yeşil Ekonomiye Katkı Sağlayan Ürün ve Hizmetler
@@ -181,7 +181,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 
 // Animation counters
 const yenilenebilirEnerjiPayi = ref(0);

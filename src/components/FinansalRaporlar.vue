@@ -74,11 +74,9 @@
             </svg>
           </a>
       </div>
-      
-      
       <!-- Download All Button -->
       <div class="mt-10 flex justify-center">
-        <a href="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf" target="_blank"
+        <a href="/denizefr24/DenizBank_EFR_2024.pdf" target="_blank"
            class="flex items-center gap-2 bg-[#072CAD] text-white px-6 py-3 rounded-full hover:bg-[#0A3BCE] transition-all shadow-md hover:shadow-lg">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

@@ -14,7 +14,7 @@
           title="Yönetim Kurulu Başkanı"
           ek="'nın"
           message="Ülke ekonomisinin büyümesine katkı sunma hedefiyle çalışan DenizBank, 2024 yılında son derece başarılı bir finansal performans sergiledi."
-          link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=9"
+          link="/denizefr24/DenizBank_EFR_2024.pdf#page=5"
         />
 
         <MessageCard
@@ -22,7 +22,7 @@
           title="Genel Müdür"
           ek="'ün"
           message="DenizBank’ı Türkiye’nin en büyük ve en güçlü bankaları arasında yükseltme hedefimizden sapmadan, özveriyle ve hep ileri bakarak çalışıp üretmeye devam edeceğiz."
-          link="/denizefr24/is_bankasi_faaliyet_raporu_web.pdf#page=10"
+          link="/denizefr24/DenizBank_EFR_2024.pdf#page=6"
         />
       </div>
     </div>
@@ -57,7 +57,6 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/denizefr24/bg-pattern.png');
   background-size: 200px;
   opacity: 0.05;
   z-index: 0;
