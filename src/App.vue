@@ -21,8 +21,11 @@ const closeMenu = () => {
     <div class="container mx-auto px-4 py-2">
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <RouterLink to="/" class="flex items-center" @click="closeMenu">
-          <img class="h-8 md:h-10" src="/denizbank.svg" alt="İş Bankası Logo">
+        <RouterLink to="/" class="text-gray-600 hover:text-white hover:bg-[#06BFDD] rounded-full px-5 py-2 transition duration-300 text-sm font-medium"
+        :class="{ 'bg-[#06BFDD] text-white': $route.path === '/' }"
+ @click="closeMenu">
+          <!-- <img class="h-8 md:h-10" src="/denizbank.svg" alt="İş Bankası Logo"> -->
+          İlerisi Deniz
         </RouterLink>
 
         <!-- Desktop Navigation -->

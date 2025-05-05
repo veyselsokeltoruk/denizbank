@@ -8,7 +8,7 @@
 
     <div class="stat-value-container mb-2 flex items-center justify-center">
       <template v-if="prefix">
-        <span class="text-3xl font-bold text-[#06BFDD]">{{ prefix }}</span>
+        <span class="text-2xl font-bold text-[#06BFDD]">{{ prefix }}</span>
       </template>
 
       <count-up
@@ -17,11 +17,11 @@
         :delay="0.5"
         :options="countUpOptions"
         :decimal-places="decimalPlaces"
-        class="text-3xl font-bold text-[#06BFDD]"
+        class="text-2xl font-bold text-[#06BFDD]"
       />
 
       <template v-if="suffix">
-        <span class="text-3xl font-bold text-[#06BFDD] ml-1">{{ suffix }}</span>
+        <span class="text-2xl font-bold text-[#06BFDD] ml-1">{{ suffix }}</span>
       </template>
     </div>
 
@@ -34,7 +34,7 @@
   <div v-else class="simple-stat flex flex-col items-center">
     <div class="flex justify-center items-baseline">
       <template v-if="prefix">
-        <span class="text-xl sm:text-3xl text-[#06BFDD] font-light">{{ prefix }}</span>
+        <span class="text-xl sm:text-2xl text-[#06BFDD] font-light">{{ prefix }}</span>
       </template>
 
       <count-up
@@ -43,15 +43,15 @@
         :delay="1"
         :options="countUpOptionsSimple"
         :decimal-places="decimalPlaces"
-        class="text-xl sm:text-3xl text-[#06BFDD] font-light"
+        class="text-xl sm:text-2xl text-[#06BFDD] font-light"
       />
 
       <template v-if="suffix">
-        <span class="text-xl sm:text-3xl text-[#06BFDD] font-light ml-1">{{ suffix }}</span>
+        <span class="text-xl sm:text-2xl text-[#06BFDD] font-light ml-1">{{ suffix }}</span>
       </template>
     </div>
 
-    <p class="text-black text-2xl font-light">{{ label }}</p>
+    <p class="text-black text-xl font-light">{{ label }}</p>
   </div>
 </template>
 
