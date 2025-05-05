@@ -39,7 +39,7 @@ const closeMenu = () => {
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/guvenilir' }"
           >
-            Yeni Nesil Bankacılık
+            İlerisi İçin Yeni Nesil Bankacılık
           </RouterLink>
           <RouterLink
             to="/sorumluop"
@@ -53,21 +53,21 @@ const closeMenu = () => {
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/iyivatandas' }"
           >
-          Geleceğin Yeteneği
+          İlerisi İçin Geleceğin Yeteneği
           </RouterLink>
           <RouterLink
             to="/saglamktemeller"
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/saglamktemeller' }"
           >
-          Sağlam Kurumsal Temeller
+          İlerisi İçin Sağlam Kurumsal Temeller
           </RouterLink>
           <RouterLink
             to="/raporlar"
             class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-2 transition duration-300"
             :class="{ 'bg-[#06BFDD] text-white': $route.path === '/raporlar' }"
           >
-            Finansal Raporlar
+          Denetim Raporları ve Ek Bilgiler
           </RouterLink>
         </nav>
 
@@ -135,7 +135,7 @@ const closeMenu = () => {
           class="text-[#06BFDD] hover:text-white hover:bg-[#06BFDD] bg-[#E0F7FB] rounded-md px-4 py-3 transition duration-300 text-center"
           :class="{ 'bg-[#06BFDD] text-white': $route.path === '/raporlar' }"
         >
-          Finansal Raporlar
+        Denetim Raporları ve Ek Bilgiler
         </RouterLink>
       </div>
     </div>

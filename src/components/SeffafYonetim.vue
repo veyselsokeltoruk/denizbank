@@ -33,7 +33,7 @@
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
                         <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
                         <p class="text-gray-800 text-sm sm:text-xl font-normal">
-                           	2024’te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.DenizBank, toplamda 3 GW kurulu gücün devreye girmesine katkıda bulunarak, bugüne kadar yenilenebilir enerji projelerine toplam 1,5 milyar ABD doları finansman desteği sağlamıştır.
+                           	2024’te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.
                         </p>
                     </div>
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
