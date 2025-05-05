@@ -19,7 +19,7 @@
           <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
             data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
             <div class="icon-container flex-shrink-0 w-8 h-8">
-              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon"> {/* Use imported path */}
+              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
             </div>
             <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
               Finansal uygulamaların güvenliğinin sağlanması amacıyla 300 farklı geliştirme, sızma testine tabi
@@ -30,7 +30,7 @@
           <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
             data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
             <div class="icon-container flex-shrink-0 w-8 h-8">
-              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon"> {/* Use imported path */}
+              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
             </div>
             <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
               Yüksek riskli kullanıcılar üzerinde çalışmalar yapılarak kimlik kaynaklı risklerin %30 azaltılması
@@ -41,7 +41,7 @@
           <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
             data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
              <div class="icon-container flex-shrink-0 w-8 h-8">
-              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon"> {/* Use imported path */}
+              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
             </div>
             <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
               Siber Vaka Yönetimi çalışmaları kapsamında incelenen kural kalitesi iyileştirilmiş, gelen alarmların
@@ -50,7 +50,7 @@
           <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
             data-aos="fade-right" data-aos-duration="400" data-aos-delay="200">
              <div class="icon-container flex-shrink-0 w-8 h-8">
-              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon"> {/* Use imported path */}
+              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
             </div>
             <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
               Yıl içerisindeki 200+ risk değerlendirme ile süreç olgunluk seviyesi bağımsız denetim kurumu tarafından 5
@@ -186,7 +186,7 @@
           <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
             data-aos="fade-right" data-aos-duration="400" data-aos-delay="50">
              <div class="icon-container flex-shrink-0 w-8 h-8">
-              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon"> {/* Use imported path */}
+              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
             </div>
             <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
               2024 yılında ilk defa DFHG seviyesinde hesaplanmış (GHG Protokolu, Kapsam 1, 2 & Kapsam 3 Kategori 1-14)
@@ -197,7 +197,7 @@
           <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
             data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
              <div class="icon-container flex-shrink-0 w-8 h-8">
-              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon"> {/* Use imported path */}
+              <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
             </div>
             <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
               Tüm hizmet birimlerine Atık Yönetim Sistemi kurulmasıyla birlikte Genel Müdürlük Binası başta olmak üzere

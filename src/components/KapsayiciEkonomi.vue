@@ -64,7 +64,6 @@
                         data-aos="fade-down" data-aos-duration="800">
                         Dijitalleşme ve İnovasyon
                     </h1>
-                     {/* Removed paragraph from here as it's not present in the reference structure */}
                 </a>
 
                 <div class="w-full flex flex-col gap-5 mb-12">
@@ -172,7 +171,6 @@
                     </div>
                 </div>
             </div>
-            {/* Removed the highlight-line div as it's not present in the reference structure */}
         </div>
     </div>
 </template>
