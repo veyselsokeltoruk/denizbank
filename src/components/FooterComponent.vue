@@ -72,7 +72,7 @@
                 </li>
                 <li>
                   <router-link to="/raporlar" class="text-gray-400 hover:text-white transition-colors">
-                    Finansal Raporlar
+                    Denetim Raporları ve Ek Bilgiler
                   </router-link>
                 </li>
               </ul>

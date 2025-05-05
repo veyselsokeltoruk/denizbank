@@ -37,13 +37,11 @@
                         </p>
                     </div>
 
-                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
-                        data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
-                        <div class="icon-container flex-shrink-0 w-8 h-8">
-                            <img class="w-full h-full object-contain tick-icon" :src="tickIconPath" alt="Tick Icon">
-                        </div>
-                        <p class="text-gray-800 text-sm sm:text-xl font-normal fade-in-text">
-                            2024'te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.
+                    <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all">
+                        <img class="h-8 mt-1" src="/tik-ikon.png" alt="">
+                        <p class="text-gray-800 text-sm sm:text-xl font-normal">
+                           	2024’te DFHG bünyesinde 3.016 kişi işe yeni başlamıştır.
+
                         </p>
                     </div>
                     <div class="flex gap-6 items-start pt-3 hover:bg-green-50 p-4 rounded-lg transition-all feature-item"
