@@ -2,7 +2,7 @@
   <div class="min-h-screen w-full bg-gradient-to-b from-blue-50/50 to-white flex justify-center py-16">
     <div class="m-4 max-w-[1024px] w-full flex flex-col justify-center">
       <h1 class="text-[#072CAD] font-bold text-2xl sm:text-3xl lg:text-4xl text-center mb-12 relative">
-        Finansal Raporlar ve Ekler
+        Denetim Raporları ve Ek Bilgiler
         <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-[#072CAD] mt-2 rounded-full"></div>
       </h1>
 
