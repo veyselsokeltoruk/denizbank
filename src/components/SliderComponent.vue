@@ -25,11 +25,11 @@
       <!-- Slide 1 - Main Info -->
       <swiper-slide class="relative">
         <img src="/acilis-banner-2.png" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent flex items-center">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/30 to-transparent flex items-center">
           <div class="w-full md:w-1/2 px-6 md:pl-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
-              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                 İlerisi Deniz
+              <h2 class="handwritten text-[#233D93] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                 İlerisi <span class="text-white">Deniz</span>
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                 DenizBank, kuruluşundan bu yana sorumlu bankacılık yaklaşımı ile hareket etmekte; sermayedar, çalışan, müşteri ve topluma değer katmayı hedeflemektedir. Tüm iş süreçlerini sürdürülebilirlik odağında ele almakta ve faaliyetlerini Sürdürülebilir Finansman, Yeni Nesil Bankacılık ve Geleceğin Yeteneği değer alanlarıyla gerçekleştirmektedir.
@@ -42,11 +42,11 @@
       <!-- Slide 2 - Yeni Nesil Bankacılık -->
       <swiper-slide class="relative">
         <img src="/slide-2.png" alt="Yeni Nesil Bankacılık" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+        <div class="absolute inset-0 bg-gradient-to-l from-white/30 to-transparent flex items-center justify-end">
           <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
-              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                Yeni Nesil Bankacılık
+              <h2 class="handwritten text-[#233D93] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                Yeni Nesil <span class="text-white">Bankacılık</span>
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                  Dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerimizin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmak ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımak öncelikli hedeflerimiz arasında yer almaktadır.
@@ -60,11 +60,11 @@
       <!-- Slide 3 - İlerisi için Sürdürülebilir Finansman -->
       <swiper-slide class="relative">
         <img src="/slide-3.png" alt="İlerisi için Sürdürülebilir Finansman" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+        <div class="absolute inset-0 bg-gradient-to-l from-white/30 to-transparent flex items-center justify-end">
           <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
-              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                İlerisi için Sürdürülebilir Finansman
+              <h2 class="handwritten text-[#233D93] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                İlerisi için Sürdürülebilir <span class="text-white">Finansman</span>
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                 Sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla; finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendiriyoruz.
@@ -77,11 +77,11 @@
       <!-- Slide 4 - Geleceğin Yeteneği -->
       <swiper-slide class="relative">
         <img src="/slide-4.png" alt="Geleceğin Yeteneği" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+        <div class="absolute inset-0 bg-gradient-to-l from-white/30 to-transparent flex items-center justify-end">
           <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
-              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                Geleceğin Yeteneği
+              <h2 class="handwritten text-[#233D93] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                Geleceğin <span class="text-white">Yeteneği</span>
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                 Sürdürülebilirlik hedefleri için gereken dönüşümün temel taşlarından biri yeni nesil yeteneklerdir.
@@ -94,11 +94,11 @@
       <!-- Slide 5 - Sağlam Kurumsal Temeller -->
       <swiper-slide class="relative">
         <img src="/slide-5.png" alt="Sağlam Kurumsal Temeller" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent flex items-center justify-end">
+        <div class="absolute inset-0 bg-gradient-to-l from-white/30 to-transparent flex items-center justify-end">
           <div class="w-full md:w-1/2 px-6 md:pr-16 my-4 flex flex-col gap-4">
             <div class="backdrop-blur-sm p-6 rounded-lg">
-              <h2 class="handwritten text-[#A0D5FF] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
-                Sağlam Kurumsal Temeller
+              <h2 class="handwritten text-[#233D93] text-shadow-lg text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4">
+                Sağlam Kurumsal <span class="text-white">Temeller</span>
               </h2>
               <p class="text-white text-sm md:text-lg lg:text-xl bg-black/30 p-4 rounded-lg backdrop-blur-sm">
                 Veri Gizliliği ve Güvenliği, Sistematik Risk Yönetimi ile Yönetişim, Uyum ve Etik yönetsel temellerimizdir.
@@ -143,7 +143,7 @@ const modules = [Autoplay, Navigation, Pagination, EffectFade];
 <style>
 @font-face {
   font-family: "handwritten";
-  src: url("/fonts/GalanoGrotesqueSemiBoldItalic.otf");
+  src: url("/fonts/GalanoGrotesqueExtraBold.otf");
 }
 
 .handwritten {

@@ -1,181 +1,1170 @@
 ! version = 2.0
-! var case = insensitive
+! global lang = tr
+
++ *merhaba*
+- Merhaba, DenizBank 2024 Entegre Faaliyet Raporu içeriklerine kolay erişebilmeniz için Dijital Rapor Asistanınız olarak görevlendirildim. Size nasıl yardımcı olabilirim ?<br /><br />
 
 + merhaba
-- Merhaba, İş Bankası 2023 Entegre Faaliyet Raporu içeriklerine kolay erişebilmeniz için Dijital Rapor Asistanınız olarak görevlendirildim. Size nasıl yardımcı olabilirim ?
+@ *merhaba*
++ [*] merhaba [*]
+@ *merhaba*
++ *selam*
+@ *merhaba*
++ selam*
+@ *merhaba*
++ [*] selam [*]
+@ *merhaba*
++ *iyi günler*
+@ *merhaba*
++ iyi günler*
+@ *merhaba*
++ [*] iyi günler [*]
+@ *merhaba*
++ *kolay gelsin*
+@ *merhaba*
++ kolay gelsin*
+@ *merhaba*
++ [*] kolay gelsin [*]
+@ *merhaba*
 
-+ benim adım *
-- <set name=<formal>>Tanıştığıma memnun oldum, <get name>.
-- <set name=<formal>><get name>, Tanıştığıma memnun oldum.
 
-+ (sürdürülebilirlik|sürdürülebilir kalkınma|kurumsal sürdürülebilirlik|esg|çsy)
-- İş Bankası, “sürdürülebilir değer yaratan, geleceği bankası” vizyonu doğrultusunda dayanıklı, kapsayıcı, çevreye duyarlı bir ekonominin inşası için çalışmaktadır. Banka, tüm süreçlerine entegre ettiği bu iş modelini “İş Bankası Bankacılığı” olarak tanımlamaktadır. İş Bankası’nda sürdürülebilirlik hakkında detaylı bilgi için lütfen <a style="color:" href="https://www.isbank.com.tr/bankamizi-taniyin/surdurulebilirlik" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, her yıl gözden geçirdiği kurumsal önceliklerini dinamik bir süreç ve çoklu paydaş katılımı anlayışıyla, “çifte önemlilik”  metodolojisine göre belirlemekte ve yönetmektedir. </br> İş Bankası’nın sürdürülebilirlik öncelikleri için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=21" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, tüm paydaşları için kısa ve uzun vadede paylaşılabilir ve sürdürülebilir değer yaratma amacıyla çalışmaktadır. </br> İş Bankası’nın değer yaratma modeli için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=17" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, sürdürülebilirlik stratejisini Yönetim Kurulundan başlayarak tüm kademelerde görev ve sorumlulukların tanımlandığı, hedeflerle desteklenen bir yapı ile yönetmektedir. </br> Sürdürülebilirlik yönetimi hakkındaki detaylar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=19" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, öğrenen bir kurum olmak, paydaş beklenti ve ihtiyaçlarını anlamak için tüm paydaş grupları ile açık iletişimin önemine inanmaktadır. </br> İş Bankası’nın paydaş ilişkileri hakkında detaylı bilgi için lütlen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=20" target="_blank">tıklayınız</a>. </br> </br> “Sürdürülebilir değer yaratan geleceğin bankası olmak” vizyonumuzla sürdürülebilirliği tüm süreçlerine entegre etmiş, bu alanda uluslararası standartlarda performans sergileyen bir banka olarak tüm faaliyet ve hizmetlerimizi bilimsel çalışmaların ışığında ve değişen paydaş beklentilerini gözeterek geliştiriyoruz.” </br> Sürdürülebilirlik Liderinin Mesajı için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=15" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, ikinci yüzyılında kapsayıcı, adil, dayanıklı ve çevreci bir ekonomi için taahhütlerini paydaşlar ile paylaşmıştır. </br> İş Bankası’nın sürdürülebilirlik taahhütleri için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=19" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, BM Sürdürülebilir Kalkınma Amaçlarını (SKA) sürdürülebilirlik stratejisinin önemli bir bileşeni olarak görmekte, hedeflere karşı geliştirdiği performansı takip edip raporlamaktadır. </br> İş Bankası’nın katkı sağladığı SKA’lar hakkında bilgi almak için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=28" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, sürdürülebilirlik performansını üst seviyelere taşıyacak, ulusal ve uluslararası inisiyatiflerle iş birliklerinin geliştirilmesine ve ESG performansının bağımsız kuruluşlarca değerlendirilmesine önem vermektedir. </br> İş Bankası’nın ESG değerlendirmeleri ve sürdürülebilirlik alanında desteklediği girişimler için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=26" target="_blank">tıklayınız</a>. </br> </br> İş Bankası’nın sürdürülebilirlikle bağlantlı politikaları için <a href="https://www.isbank.com.tr/bankamizi-taniyin/politikalarimiz" target="_blank">tıklayınız</a>. </br> İş Bankası’nın sürdürülebilirlik kilometre taşları için <a href="https://www.isbank.com.tr/bankamizi-taniyin/surdurulebilirlik-kilometre-taslari" target="_blank">tıklayınız</a>.
-
-+ (sürdürülebilir kalkınma amaçları|ska)
-- İş Bankası, BM Sürdürülebilir Kalkınma Amaçlarını (SKA) sürdürülebilirlik stratejisinin önemli bir bileşeni olarak görmekte, hedeflere karşı geliştirdiği performansı takip edip raporlamaktadır.  </br> İş Bankası’nın katkı sağladığı SKA’lar hakkında bilgi almak için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=28" target="_blank">tıklayınız</a>.
-
-+ (değer modeli|değer yaratma|finansal sermaye|sosyal-ilişkisel sermaye|insan sermayesi|üretilmiş sermaye|doğal sermaye|entelektüel sermaye|sermaye öğelerimiz|üretilen değer)
-- İş Bankası, tüm paydaşları için kısa ve uzun vadede paylaşılabilir ve sürdürülebilir değer yaratma amacıyla çalışmaktadır. Banka’nın İş Bankası Bankacılığı adını verdiği iş modeli ile finansal ve finansal olmayan sermaye öğeleri bir arada ele alınmaktadır. </br> </br> İş Bankası’nın değer modeli için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=17" target="_blank">tıklayınız</a>.
-
-+ iş bankası bankacılığı
-- İş Bankası’nın sürdürülebilirlik yaklaşımının temelinde “İş Bankası Bankacılığı” anlayışı yatmaktadır. İş Bankası Bankacılığı, Banka’nın finansal ve finansal olmayan sermaye ögelerini bir arada ele alarak “paylaşılabilir ve sürdürülebilir değer üretme”ye odaklanan iş modelidir. İş Bankası, bu güçlü iş modeli ile tüm paydaşları için hem kısa hem de uzun vadede değer üretmeyi amaçlamaktadır. </br> İş Bankası Bankacılığı hakkında detaylı bilgi için lütfen <a href="https://www.isbank.com.tr/bankamizi-taniyin/yaklasimimiz" target="_blank">tıklayınız</a>.
-
-+ öncelikli konular
-- İş Bankası, her yıl gözden geçirdiği kurumsal önceliklerini dinamik bir süreç ve çoklu paydaş katılımı anlayışıyla, “çifte önemlilik”  metodolojisine göre belirlemekte ve yönetmektedir. </br> İş Bankası’nın öncelikli konuları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=21" target="_blank">tıklayınız</a>.
-
-+ (kapsayıcı ekonomi|dayanıklı ekonomi|kapsayıcılık)
-- İş Bankası, toplumun tüm kesimlerini kapsayan, herkes için eşit fırsatlar yaratan bir ekonomi modeli yaratmak ve bunu halka en anlaşılır şekilde aktarmak için çalışmaktadır. </br> </br> İş Bankası’nın kapsayıcı ve dayanıklı bir ekonomi hakkındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=30" target="_blank">tıklayınız</a>.
-
-+ (müşteri odaklılık|nps|şikayet)
-- İş Bankası, “müşteriye en yakın banka olma” vizyonu ile tüm sistem ve süreçlerinde müşteri deneyimini kusurlaştırmaya odaklanır; 22 milyonu aşkın müşterisi için ihtiyaç anında ulaşılabilir, güvenilir, çalışılması kolay bir iş ortağı olma hedefiyle faaliyetlerini sürdürür. </br> </br> İş Bankası’nın müşteri deneyimini iyileştirme çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=36" target="_blank">tıklayınız</a>.
-
-+ sorumlu bankacılık
-- İş Bankası sorumlu bankacılık anlayışı ile, toplumun tüm kesimlerini kapsayan, tasarruf bilincini teşvik eden, finansal okuryazarlığı artırmayı hedefleyen, müşterilerin farklı yaşam evrelerini, ekonomik ihtiyaçlarını ve sektörel gerekliliklerini gözeten, kolay anlaşılır ürünler sunmaktadır. </br></br> İş Bankası’nın sorumlu bankacılık anlayışı ile sürdürdüğü çalışmaların detayları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=37" target="_blank">tıklayınız</a>. </br></br> İş Bankası’nın yatırım ve kredi faaliyetlerinde  insan hakları ve sosyal etkiler dikkate alınmakta, insan hakları ihlallerini ve olumsuz sosyal etkileri bertaraf etmek için uygulamalar talep edilmektedir.  </br></br> İş Bankası’nın yatırımlarda ve kredilerde insan hakları ve sosyal etki değerlendirme uygulamaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=38" target="_blank">tıklayınız</a>. </br></br> İş Bankası, doğal kaynakları korumak için risk ve fırsat analizleri yapmakta, iklim eyleminde çözümün bir parçası olmak için ortaklıklar kurmaktadır. Banka, operasyonlarından kaynaklanan çevresel etkilerini en aza indirmek için yatırımlar yapmakta, yatırım ve kredilendirme faaliyetlerinde çevresel etkileri gözetmekte, sosyal sorumluluk çalışmaları ile çevresel onarım faaliyetleri yürütmektedir. </br></br> İş Bankası’nın iklim eylemi yaklaşımı için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=41" target="_blank">tıklayınız</a>. </br> İş Bankası, toplumun tüm kesimleri için ürün ve hizmetler geliştirerek toplumsal refahın artırılmasını ve paylaşabilmesini amaçlamaktadır. Banka, KOBİ’ler, tarım sektörü, girişimciler, kadınlar ve engelli bireyler için çok sayıda özelleştirilmiş ürün ve hizmet geliştirmekte, dijital bankacılık uygulamaları ile 7/24 erişilebilirliğini sürdürmektedir.  </br></br> İş Bankası’nın finansal kapsayıcılık yaklaşımı ile sürdürdüğü uygulamaların detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=38" target="_blank">tıklayınız</a>.
-
-+ insan hakları
-- İş Bankası tüm faaliyetlerini İnsan Hakları Evrensel Beyannamesi’nin temel ilkelerine uygun sürdürmeyi taahhüt eder. Banka İnsan Kaynakları uygulamalarından satın alma süreçlerine, kredilendirme faaliyetlerinden sosyal sorumluluk politikalarına uzanan tüm süreçlerinde insan hakları etkilerini gözetmektedir. </br></br> İş Bankası’nın yatırım ve kredi faaliyetlerinde  insan hakları ve sosyal etkiler dikkate alınmakta, insan hakları ihlallerini ve olumsuz sosyal etkileri bertaraf etmek için uygulamalar talep edilmektedir. İnsan hakları ve sosyal etkilere yönelik kullanılan risk değerlendirme modelinde; çocuk ve zorunlu işçi çalıştırma, toplum ve iş sağlığı güvenliği, çalışma koşulları, iş koşulları, İSG yönetim sistemleri, zorunlu yeniden yerleşim, geçim kaynakları kaybı, paydaş iletişimi, cinsiyet eşitliği, cinsel taciz, ayrımcılık gibi hususlara ilişkin değişkenler bulunmaktadır. </br></br> İş Bankası’nın yatırımlarda ve kredilerde insan hakları ve sosyal etki değerlendirme uygulamaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=38" target="_blank">tıklayınız</a>.
-
-+ (insan kaynakları|çalışan|iş hayatı|çalışma ortamı|sosyal sermaye|insan sermayesi|çalışan hakları|çalışan bağlığı ve memnuniyeti|çalışma ilkeleri|eğitim)
-- İş Bankası, çalışanlarına tatmin edici, destekleyici, adil ve huzurlu bir çalışma ortamı sunmayı temel sorumluluk olarak kabul etmektedir. İş Bankası mutlu ve üretken çalışanlarla iş başarısının sağlanacağına inanmakta; nitelikli çalışanların tercih ettiği, çalışan bağlılığı ve memnuniyetinin yüksek olduğu bir işveren olmak için uygulamalar yürütmektedir. </br></br>İş Bankası ücretlendirmede eşitlikçi ve adil bir yaklaşımı benimser, yeni çalışma modellerine uyumlu şekilde daha esnek ve çevik çalışma koşulları sunar, cinsiyet ve fırsat eşitliğini sağlamaya yönelik çalışmalar yürütür. Banka, çalışanların yetkinliklerini artırmak için çeşitli eğitim programları ve öğrenme imkânları sunmaktadır. İş Bankası, çalışan haklarının eksiksiz şekilde korunduğu bir iş ortamı taahhüt etmektedir.  </br></br>İş Bankası insana yakışır iş anlayışını gösterge ve hedeflerle takip etmekte, konuya dair çalışma ve uygulamalar hayata geçirmektedir. </br></br>İş Bankası’nın insana yakışır iş anlayışına yaklaşımı ve konu hakkındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" target="_blank">tıklayınız</a>. </br></br>İş Bankası; çalışan memnuniyeti ve bağlılığının başarısının temeli olduğuna inanmakta ve bunu sağlamaya yönelik çalışmalar yürütmektedir. Banka, en değerli sermayesi olarak gördüğü çalışanlarına mutlu ve üretken bir şekilde çalışabilecekleri bir iş ortamı sunmayı temel sorumluluğu kabul etmektedir. </br></br>İş Bankası’nın çalışan memnuniyeti ve bağlılığına yönelik çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=60" target="_blank">tıklayınız</a>. </br></br>İş Bankası’nda toplu iş sözleşmesi, Banka’nın dahili düzenlemeleri ve yasal mevzuat hükümleri temelinde çalışanların tüm ekonomik ve sosyal hakları tanımlanmıştır ve İş Bankası çalışan haklarını eksiksiz şekilde korumayı taahhüt eder.  </br></br>İş Bankası’nda çalışanlara sağlanan haklar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, değişen çalışma alışkanlıklarına uyum sağlamak amacıyla  çalışanlara daha esnek ve çevik çalışma imkanı sunan yeni nesil çalışma modelini uygulamaya koymuştur.  </br></br>İş Bankası’nda işin geleceği ve yeni çalışma modelleri hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, her kademede cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. Banka, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br></br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası’nda köklü kurum kültürünün getirdiği çalışma ilkelerine tüm çalışanların uyması için denetim faaliyetleri yürütülür, çalışan iletişimi uygulamaları hayata geçirilir. </br></br>İş Bankası’nda çalışma ilkelerine uyum çalışmaları ve çalışan iletişimi uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası; Bankalar Birliği Bankacılık Etik İlkeleri doğrultusunda oluşturduğu "Etik İlkeler ve Çalışma Kuralları”, “İnsan Hakları ve İnsan Kaynakları Politikası” ve İş Bankası Toplu İş Sözleşmesi doğrultusunda; tüm paydaşlarını kapsayacak şekilde yüksek iş etiği standartları çerçevesinde faaliyetlerini sürdürmektedir. Banka’da paydaşların herhangi bir ihlal durumunu Banka yetkili birimlerine iletebilmeleri amacıyla Etik Hat uygulaması bulunmaktadır. Bu kanalla iletilen bildirimler Teftiş Kurulu Başkanlığı tarafından takip edilmekte ve gerekli aksiyonlar alınmaktadır. İş Bankasında; Banka etik ilkeleri ve çalışma kuralları, kalite, uyum ve risk politikaları, Finansal Suçlarla Mücadele ve Yaptırımların uygulanması, Rekabet Hukukuna Uyum ve Bilgi Güvenliğinin sağlanması ve insan hakları gibi konularda eğitimler sağlanmaktadır.  </br></br>İş Bankası’nın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>: </br></br>İş Bankası uluslararası standartlara uygun, sağlıklı ve güvenli bir iş ortamı sağlamayı amaçlar ve bu doğrultuda çalışmalar yürütür. </br></br>İş Bankası’nın çalışan sağlığı ve güvenliği uygulamaları ve çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=64" target="_blank">tıklayınız</a>: </br></br>İş Bankası en değerli sermayesi olarak gördüğü çalışanları için çalışan ihtiyacına göre kurgulanmış, yüksek teknolojilerle desteklenen eğitimler sağlamaktadır. İş Bankası çalışanlarına düzenli olarak performans değerlendirmesi yapmakta, terfi ve eğitim çalışmalarını bu doğrultuda şekillendirmektedir.  </br></br>İş Bankasının yetenek yönetimi ve eğitim uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" target="_blank">tıklayınız</a>:
-
-+ (toplumsal cinsiyet eşitliği|çeşitlilik|fırsat eşitliği|kadın|cinsiyet|cinsiyet eşitliği)
-- İş Bankası, her kademesinde cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. İş Bankası, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br> </br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>:
-
-+ (satın alma|sorumlu tedarik|tedarik zinciri)
-- İş Bankası, sürdürülebilir uygulamalarını tüm tedarik zinciri boyunca genişletmeyi amaçlamaktadır. Tedarikçi seçiminde Banka, sürdürülebilirlik bilinci yüksek olan tedarikçilerle çalışmayı tercih etmektedir. </br></br>Bankanın sorumlu satın alma uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=57" target="_blank">tıklayınız</a>.
-
-+ finansal kapsayıcılık
-- İş Bankası, toplumun tüm kesimleri için ürün ve hizmetler geliştirerek toplumsal refahın artırılmasını ve paylaşabilmesini amaçlamaktadır. Banka, KOBİ’ler, tarım sektörü, girişimciler, kadınlar ve engelli bireyler için çok sayıda özelleştirilmiş ürün ve hizmet geliştirmekte, dijital bankacılık uygulamaları ile 7/24 erişilebilirliğini sürdürmektedir. </br></br> İş Bankası’nın finansal kapsayıcılık yaklaşımı ile sürdürdüğü uygulamaların detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=57" target="_blank">tıklayınız</a>.
-
-+ finansal okuryazarlık
-- İş Bankası, müşterilerinin finansal durumları ile ilgili doğru kararlar verebilmelerini ve finans sektörüne olan güvenin artmasını sağlamak amacıyla toplumun finansal okuryazarlık seviyesini artırmayı amaçlamaktadır. </br></br> İş Bankası’nın finansal okuryazarlık uygulamaları ile ilgili detaylar için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=40" target="_blank">tıklayınız</a>.
-
-+ engelsiz bankacılık
-- İş Bankası, hizmet sunduğu tüm alanların engelli kullanıcıların erişimine uygun hale gelmesini sağlamak, engelli kullanıcıların deneyimlerini iyileştirmek için çok sayıda uygulamayı hayata geçirmektedir. </br></br> Engelsiz bankacılık uygulamaları hakkındaki detaylar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=40" target="_blank">tıklayınız</a>.
-
-+ (iklim eylemi|düşük karbon ekonomisi|yeşil dönüşüm|karbon|düşük earbon ekonomisi|yeşil dönüşüm|karbonsuzlaşma)
-- İş Bankası, doğal kaynakları korumak için risk ve fırsat analizleri yapmakta, iklim eyleminde çözümün bir parçası olmak için ortaklıklar kurmaktadır. Banka, operasyonlarından kaynaklanan çevresel etkilerini en aza indirmek için yatırımlar yapmakta, yatırım ve kredilendirme faaliyetlerinde çevresel etkileri gözetmekte, sosyal sorumluluk çalışmaları ile çevresel onarım faaliyetleri yürütmektedir.</br></br> İş Bankası’nın iklim eylemi yaklaşımı için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=41" target="_blank">tıklayınız</a>.</br></br> İş Bankası, finans sektörünün öncülüğünde Birleşmiş Milletler tarafından kurulan Net-Sıfır Bankacılık Birliği’nin bir üyesi olarak 2050 yılına kadar yatırım ve kredi portföylerini net sıfır emisyon hedefi ile uyumlu hale getirme taahhüdünde bulunmuştur. Banka 2023 yılında, karbon yoğun sektörlerden enerji üretimi, çimento ve demir çelik sektörlerinde emisyon azaltımına ilişkin 2030 yılı hedeflerini açıkladı.</br></br> İş Bankası’nın NZBA taahhütleri kapsamındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.</br></br> İş Bankası iklim değişikliği risklerini kurumsal risk kataloğuna eklemiş ve iklim değişikliği risklerine dair stratejisini oluşturmuştur.  İş Bankası, operasyonlarından kaynaklanan olumsuz etkileri azaltmak için çalışmalar yürütmekte ve hedefler takip etmektedir. Çalışmalarının etkinliğini sayısal performans göstergeleri ile takip eden İş Bankası, belirlediği hedeflerle de bu alandaki vizyonunu ortaya koymaktadır. İş Bankası, 2023’te CDP İklim Değişikliği Raporlamasında ulaştığı "A" skoruyla Global Liderler arasında yer almaktadır.</br> İş Bankası, 2026 yılı itibarıyla Kapsam-1 ve Kapsam-2 emisyonları toplamı bakımından faaliyetlerini karbon-nötr olarak yürütmeyi hedeflemektedir. Banka ayrıca bilim temelli olarak belirlenen emisyon azaltım hedeflerinin validasyonu için Science Based Targets Initative (SBTi) nezdinde taahhütte bulunmuştur. </br> İş Bankası’nın operasyonlarından kaynaklanan olumsuz etkilerini azaltma çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=55" target="_blank">tıklayınız</a>.</br> İş Bankası, iklim değişikliği kaynaklı fiziksel ve geçiş risklerini nitel ve nicel yöntemlerle değerlendirmekte ve önceliklendirmektedir. İklim bağlantılı risk ve fırsatlar, iş süreçlerine entegre edilmiş, Banka’nın yıllık hedeflerinin yer aldığı İş Programı ve daha uzun vadeli bir bakış açısıyla hazırlanan Stratejik Plan dokümanında ele alınmıştır.</br></br> İş Bankası’nda iklim risklerinin yönetimi hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.</br></br> İş Bankası, yatırım ve kredilendirme faaliyetlerinin çevresel etkilerini büyük bir titizlikle yönetmekte, tüm karar alma mekanizmalarına entegre etmektedir. Yatırım bedeli 10 milyon ABD doları büyüklüğün üzerindeki yeni yatırım projeleri Çevresel ve Sosyal Risk Değerlendirme Modeli’ne (ÇESMOD) tabi tutulur. Ticari kredi portföyü için çevresel ve sosyal risklerin değerlendirilmesi amacıyla tasarlanan Sürdürülebilirlik</br> Analiz Sistemi (SÜRAS) müşterilerin çevresel ve sosyal risklerinin belirlenmesini sağlamaktadır. İş Bankası Sürdürülebilir Finansman Çerçevesi, Eurotahvil ihraçlarının ve kredi işlemlerinin de yeşil, sosyal ya da sürdürülebilirlik temalı olarak yapılmasını sağlamaktadır.</br></br> İş Bankası’nın ÇSY entegrasyonu süreçlerinin detayları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=43" target="_blank">tıklayınız</a>.</br></br> İş Bankası, iklim değişikliğinin yarattığı riskler kadar fırsatları da titizlikle takip etmektedir. Banka, geliştirdiği ürün ve hizmetlerle hem müşterilerinin karbon ayak izlerini düşürmelerine yardımcı olur, hem de bünyesine yeni yetkinlikler kazandırarak finansal sürdürülebilirliğine katkı sağlar.</br></br> İş Bankası’nın yeşil ekonomiye katkı sağlayan ürün ve hizmetleri hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=44" target="_blank">tıklayınız</a>.
-
-+ (etki yönetimi|çevresel etki|etki)
-- İş Bankası iklim değişikliği risklerini kurumsal risk kataloğuna eklemiş ve iklim değişikliği risklerine dair stratejisini oluşturmuştur.  İş Bankası, operasyonlarından kaynaklanan olumsuz etkileri azaltmak için çalışmalar yürütmekte ve hedefler takip etmektedir. Çalışmalarının etkinliğini sayısal performans göstergeleri ile takip eden İş Bankası, belirlediği hedeflerle de bu alandaki vizyonunu ortaya koymaktadır. İş Bankası, 2023’te CDP İklim Değişikliği Raporlamasında ulaştığı "A" skoruyla Global Liderler arasında yer almaktadır. </br> İş Bankası, 2026 yılı itibarıyla; uluslararası GHG Protokolü'ne uygun olarak hesaplanan Kapsam-1 ve Kapsam-2 emisyonları toplamı bakımından faaliyetlerini karbon-nötr olarak yürütmeyi hedeflemektedir. Banka ayrıca bilim temelli olarak belirlenen emisyon azaltım hedeflerinin validasyonu için Science Based Targets Initative (SBTi) nezdinde taahhütte bulunmuştur. Kredilendirme faaliyetleri sonucu sebep olduğu emisyonları azaltma yolunda Net-Sıfır Bankacılık Birliği'ne de üye olan İş Bankası, bu kapsamda yürüttüğü faaliyetleri "Karbonsuzlaşma Hedefleri" başlığında açıklamaktadır. </br> İş Bankası’nın operasyonlarından kaynaklanan olumsuz etkilerini azaltma çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=55" target="_blank">tıklayınız</a>. </br> İş Bankası, doğal kaynakları korumak için risk ve fırsat analizleri yapmakta, iklim eyleminde çözümün bir parçası olmak için ortaklıklar kurmaktadır. Banka, operasyonlarından kaynaklanan çevresel etkilerini en aza indirmek için yatırımlar yapmakta, yatırım ve kredilendirme faaliyetlerinde çevresel etkileri gözetmekte, sosyal sorumluluk çalışmaları ile çevresel onarım faaliyetleri yürütmektedir. </br></br> İş Bankası’nın çevresel etki yönetimi çalışmaları, iyileştirme ve verimlilik projeleri hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=57" target="_blank">tıklayınız</a>. </br></br> İş Bankası, sürdürülebilir uygulamalarını tüm tedarik zinciri boyunca genişletmeyi amaçlamaktadır. Tedarikçi seçiminde Banka, sürdürülebilirlik bilinci yüksek olan tedarikçilerle çalışmayı tercih etmektedir.  </br> Bankanın sorumlu satın alma uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=57" target="_blank">tıklayınız</a>. </br></br> İş Bankası, olağanüstü durumlar karşısında operasyonlarının kesintiye uğramaması için aldığı önlemler ve planlamalarla değer yaratan faaliyetlerini korumayı amaçlar. Banka’nın iş sürekliliği yönetimi hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=58" target="_blank" >tıklayınız</a>.
-
-+ (net-sıfır bankacılık birliği|nzba|net-sıfır|netsıfır|net sıfır)
-- İş Bankası, finans sektörünün öncülüğünde Birleşmiş Milletler tarafından kurulan Net-Sıfır Bankacılık Birliği’nin bir üyesi olarak 2050 yılına kadar yatırım ve kredi portföylerini net sıfır emisyon hedefi ile uyumlu hale getirme taahhüdünde bulunmuştur. Banka 2023 yılında, karbon yoğun sektörlerden enerji üretimi, çimento ve demir çelik sektörlerinde emisyon azaltımına ilişkin 2030 yılı hedeflerini açıkladı. </br></br> İş Bankası’nın NZBA taahhütleri kapsamındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.
-
-+ (bilim temelli hedefler|science based targets|sbti|bilim temelli)
-- İş Bankası, 2020 yılında iklim değişikliği üzerindeki doğrudan etkisini yönetmek amacıyla önemli bir adım atarak, CDP raporlaması kapsamında verdiği Kapsam 1 ve Kapsam 2 emisyon hedeflerinin Bilim Temelli Hedefler temeline oturtulması taahhüdünde bulundu. </br></br> İş Bankası’nın SBTi kapsamındaki çalışmaları hakkındaki detaylar için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.
-
-+ (dijital bankacılık|dijitalleşme|şubesiz banka)
-- “Geleceğin Bankası” olma vizyonu ile İş Bankası yenilikçi ürün ve hizmetleri ile müşterilerine uçtan uca pürüzsüz bir deneyim sağlayarak dijital bankacılık faaliyetlerini yürütmektedir. İş Bankası, dijital ürün ve süreçlerini İşCep, Maximum ve Nays gibi çok tanınan markaları ile yürütmektedir. Banka, iş süreçlerinde verimliliği artırıcı çok sayıda dijitalleşme projesi ile kağıtsız bankacılık hedefine katkı sağlamaktadır. </br></br> İş Bankası’nın dijital bankacılık uygulamaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=47" target="_blank">tıklayınız</a>.
-
-+ (inovasyon|ar-ge|workup)
-- İş Bankası, teknolojinin hızla geliştiği dijital dünyada rekabeti değiştirebilecek stratejik hamleleri doğru öngörerek gerekli aksiyonları hızla alabilmek adına, yeni teknoloji ve iş modellerinin geliştirilmesine yönelik çalışmalarını sürdürmektedir. Açık inovasyon yaklaşımı ile, yeni ürün ve hizmet geliştirmek için girişimler başta olmak üzere teknoloji şirketleri ve üniversiteler gibi kurumlar tarafından geliştirilen fikir ve teknolojilerden yararlanılmaktadır. </br></br> İş Bankası’nın inovasyon yaklaşımı ve çalışmaları hakkındaki detaylar için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=49" target="_blank">tıklayınız</a>.
-
-+ yapay zeka
-- İş Bankası, yapay zekâ uygulamaları ile, müşteri deneyimini en üst düzeye çıkarmayı, süreç otomasyonu ile çalışanlarını daha yüksek değer yaratabilecekleri alanlara yönlendirmeyi hedeflemektedir. Yapay zeka modellerinin uygulama sürecinde etik değerlere uyumluluğu için  “Yapay Zeka Etik Manifestosu” yayınlanmıştır. </br></br> Yapay zeka alanındaki çalışmalar hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=50" target="_blank">tıklayınız</a>.
-
-+ girişimcilik
-- Girişimciliğin ve girişimlerin bankası olma vizyonu doğrultusunda İş Bankası yeni programlar, iş birlikleri ve yatırımcı bakış açısıyla girişimcilik ekosistemini desteklemektedir. İş Bankası’nın inovatif ve girişimci kültür dönüşümüne katkı sağlamak ve yeni iş fikirleri ve modelleri geliştirmek amacıyla bir “Kurum İçi Girişimcilik Programı” bulunmaktadır. </br></br> İş Bankası’nın girişimcilik alanındaki çalışmaları hakkında bilgi almak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=50" target="_blank">tıklayınız</a>.
-
-+ (bilgi güvenliği|veri güvenliği|gizlilik)
-- İş Bankası, bilgi sistemlerinin güvenliğini sağlamaya ve günümüzde büyük önem taşıyan kişisel verilerin ve gizli bilgilerin güvenli bir şekilde saklanmasını temin etmeye yönelik süreçleri titizlikle sürdürmektedir. Bu amaçla Banka’da güvenlik altyapısına düzenli yatırımlar yapılmakta, güvenlik uygulamalarında sürekli gelişim kültürünü teşvik etmeyi amaçlayan eğitim ve farkındalık programları yürütülmektedir.</br></br>İş Bankası’nda bilgi güvenliği uygulamaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=52" target="_blank">tıklayınız</a>.
-
-+ (kurumsal yönetim|yönetişim|yönetim yapısı|yönetim kurulu|icra kurulu)
--Bankacılık sektöründe güven ve itibar ile özdeşleştirilen bir banka olan İş Bankası köklü kurum kültürü, içselleştirilmiş kurumsal yönetim ilkeleri, şeffaf ve hesap verebilir iş yapış anlayışı ile paydaşları için değer üretmeye devam etmektedir.  İş Bankası, alanında yetkin profesyonellerden oluşan yönetim kurulu tarafından yönetilir. Banka doğru kurgulanmış yönetim yapısı ve politikalarıyla bankacılık sektöründeki itibarlı konumunu sürdürmektedir. </br></br>İş Bankası’nın yönetim yapısı hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=68" target="_blank">tıklayınız</a>:
-
-+ denetim
-- Faaliyetlerinin yasal düzenlemelerle, Banka stratejileri, politikaları, ilke ve hedefleriyle uyuştuğunu taahhüt eden İş Bankası, bu uyumu sağlamak amacıyla çalışmalar yürütmektedir. Bu çalışmalarda risklerin tespiti ve gerekli kontrol ve denetimlerin gerçekleştirilmesi, süreçlerinin etkililiğinin değerlendirilmesini önceliklidir. Denetimler, ulusal ve uluslararası kalite standartlarına uygun olarak Teftiş Kurulu’nun köklü denetim kültürünün sağladığı güç ve ileri bilgi teknolojilerinden yararlanarak, modern ve risk odaklı bir yaklaşımla iş ihtiyaçlarına göre, çevik çalışma metodolojisiyle yerinden veya uzaktan gerçekleştirilmektedir. </br></br>İş Bankası’nın iç denetim çalışmaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=80" target="_blank">tıklayınız</a>: </br></br> Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) tarafından yayımlanan “Bağımsız Denetim Kuruluşlarınca Gerçekleştirilecek Banka Bilgi Sistemleri ve Bankacılık Süreçlerinin Denetimi Hakkında Yönetmelik” gereğince bağımsız denetçiye sunulacak Yönetim Beyanına dayanak teşkil etmesi maksadıyla, İş Bankası’ndaki bankacılık süreçleri ile bilgi sistemleri, Teftiş Kurulu Başkanlığınca riske dayalı bir şekilde her yıl denetlenmektedir. İş Bankasının finansal faaliyetleri; ilgili yönetmelik, Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) mevzuatı, Türkiye Muhasebe Standartları, Türkiye Finansal Raporlama Standartları ile Banka kayıtlarına uygun olarak her yıl bağımsız denetçiler tarafından denetlenmektedir. </br></br> İş Bankası’nın finansal tabloları ve Bağımsız Denetçi Raporu için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=100" target="_blank">tıklayınız</a>: </br></br> İş Bankası finansal olmayan bilgilerini bağımsız denetim süreçlerinden geçirmektedir. </br> İş Bankası 2023 Entegre Faaliyet Raporu'nda yer alan finansal olmayan bilgiler, Uluslararası Güvence Standartları (ISAE 3000) kapsamında bağımsız denetçi tarafından sınırlı güvence denetimine tabi tutulmuştur. </br></br> Finansal olmayan bilgiler için Raporlama Kılavuzu ve Bağımsız Güvence Raporu’na ulaşmak için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=230" target="_blank">tıklayınız</a>:
-
-+ (uyum|uygunluk)
-- İş Bankası; uyum riskinin etkin bir biçimde yönetilmesi, Banka faaliyetlerinin yapı ve işleyiş itibarıyla mevzuat, düzenleme ve standartlara uygun ve uyumlu olarak yürütülmesi amacıyla çalışmalar yürütür.  </br></br>İş Bankası’nın uyum çalışmaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=80" target="_blank">tıklayınız</a>.
-
-+ iç kontrol
-- İş Bankası, iç kontrol faaliyetleri ile; varlıkların korunmasını, faaliyetlerin Kanuna ve ilgili diğer mevzuata, banka içi politika ve kurallara ve bankacılık teamüllerine uygun olarak yürütülmesini, muhasebe ve finansal raporlama sisteminin güvenilirliğini sağlamayı amaçlar.  Gelişmiş veri analitiği uygulamaları ile kontrollerin etkinliği merkezden sürekli olarak izlenmektedir. </br></br>İş Bankası’nın iç kontrol çalışmaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=81" target="_blank">tıklayınız</a>:
-
-+ risk yönetimi
-- İş Bankası’nda risk yönetimi süreci ortak bir risk kültürü oluşturulmasına hizmet eden, riski üstlenen icracı birimler ile dâhili denetim ve gözetim birimlerinin birbirinden bağımsızlığının tesis edildiği, riskin uluslararası düzenlemelerle uyumlu bir şekilde tanımlandığı ve bu çerçevede ölçüm, analiz, izleme, raporlama, denetleme faaliyetlerinin gerçekleştirildiği bir yapıdadır. Finansal risklerin yanında iklim değişikliği riski, çevre yönetimi riski, itibar riski, iç davranış/kültür ve etik riskleri, yetenek yönetimi riski ve siber riskler gibi finansal olmayan riskler de Banka’nın Risk Kataloğunda tanımlanmıştır ve risk yönetimi faaliyetlerinin kapsamında yönetilmektedir. Banka, etkin risk yönetimi yaklaşımının tüm çalışanlar tarafından benimsenmesi, çalışanların risk yönetimi becerilerinin geliştirilmesi ve konuya ilişkin farkındalıkların artırılması amacıyla çeşitli eğitim programları düzenlemektedir. </br></br>İş Bankası’nın risk yönetimi yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=81" target="_blank">tıklayınız</a>: </br></br>Banka’nın maruz kaldığı finansal ve finansal olmayan risklerin, bankacılığa özgü risk yönetimi ilkeleriyle birlikte grup risk yönetimi bakış açısıyla analizi, izlenmesi ve raporlanması gerekmektedir. İş Bankası’nda tüm bu süreçlere kılavuzluk eden risk yönetimi politikaları bulunmaktadır. </br></br>İş Bankası’nın risk yönetimi politikalarına ilişkin bilgilere ulaşmak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=78" target="_blank">tıklayınız</a>: </br></br>İş Bankası, iklim değişikliği kaynaklı fiziksel ve geçiş risklerini nitel ve nicel yöntemlerle değerlendirmekte ve önceliklendirmektedir. İklim bağlantılı risk ve fırsatlar, iş süreçlerine entegre edilmiş, Banka’nın yıllık hedeflerinin yer aldığı İş Programı ve daha uzun vadeli bir bakış açısıyla hazırlanan Stratejik Plan dokümanında ele alınmıştır.</br></br>İş Bankası’nda iklim risklerinin yönetimi hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.
-
-+ iş etiği
-- İş Bankası; Bankalar Birliği Bankacılık Etik İlkeleri doğrultusunda oluşturduğu "Etik İlkeler ve Çalışma Kuralları”, “İnsan Hakları ve İnsan Kaynakları Politikası” ve İş Bankası Toplu İş Sözleşmesi doğrultusunda; tüm paydaşlarını kapsayacak şekilde yüksek iş etiği standartları çerçevesinde faaliyetlerini sürdürmektedir. Banka’da paydaşların ihlal durumlarını Banka yetkili birimlerine iletebilmeleri amacıyla Etik Hat uygulaması bulunmaktadır. Bu kanalla iletilen bildirimler Teftiş Kurulu Başkanlığı tarafından takip edilmekte ve gerekli aksiyonlar alınmaktadır. İş Bankasında; Banka etik ilkeleri ve çalışma kuralları, kalite, uyum ve risk politikaları, Finansal Suçlarla Mücadele ve Yaptırımların uygulanması, Rekabet Hukukuna Uyum ve Bilgi Güvenliğinin sağlanması ve insan hakları gibi konularda eğitimler sağlanmaktadır.  </br></br>İş Bankası’nın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>:
-
-+ (rüşvet ve yolsuzluk karşıtlığı|rüşvet|yolsuzluk)
-- İş Bankası; çalışanın görevini kötüye kullanması, rüşvet ve yolsuzlukla mücadele yasalarına ve iç düzenlemelere uygun hareket etmemesi durumlarında doğabilecek riskleri; ölçüm, önceliklendirme, risk değerlendirmesi, etki-olasılık analizi, kayıp olay veri analizi, senaryo analizi ve denetim çalışmaları aracılığıyla önleme çalışmaları yürütür. Rüşvet ve yolsuzluk karşıtlığı, İş Bankası’nın tavizsiz yönettiği öncelikli konular arasındadır. </br></br>İş Bankası’nın rüşvet ve yolsuzluk karşıtlığı yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>:
-
-+ sosyal sorumluluk
-- İş Bankası, ürettiği katma değerle toplumsal refaha katkı sunmayı amaçlar. Bu amaç doğrultusunda; eğitim, çevre ve kültür-sanat alanlarında uzun soluklu ve kalıcı etki sağlayan pek çok proje hayata geçirmektedir. </br></br>İş Bankası’nın toplumsal refaha katkı yaklaşımı ve yürüttüğü projeler hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=84" target="_blank">tıklayınız</a>:
-
-+ paydaşlarımız
-- İş Bankası, çift yönlü iletişimi temel alan, şeffaf, karşılıklı öğrenme esasına dayanan bir paydaş iletişimi yapısına sahiptir. Çalışan, hissedar, yatırımcı ve müşterilerini kilit paydaşları olarak belirleyen Banka, tüm paydaş grupları için ihtiyaç ve beklentilerine özel iletişim metotları geliştirmiştir. Paydaş geri bildirimleri ürün ve hizmet iyileştirilmelerinin önemli girdileridir. İş Bankası çok sayıda ulusal ve uluslararası girişimin de üyesi ve destekleyicisidir. Banka sosyal medya hesapları ile de 2,8 milyon paydaşına ulaşmaktadır. </br></br>İş Bankası’nın paydaş iletişim metotları ve yıl içinde Banka’ya ulaşan paydaş geri bildirimlerine karşı Banka’nın geliştirdiği yanıtlara ulaşmak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=20" target="_blank">tıklayınız</a>.
-
-+ finansal performans
-- İş Bankası’nın sağlam finansal yapısı, dinamik ve proaktif iş stratejisi ile oluşan fırsatları hızlı değerlendirme kabiliyeti Banka’nın sürdürülebilir karlılığının esas bileşenleridir. İş Bankası’nın yaygın müşteri ve hissedar yapısı, iştirakleri ile yarattığı sinerji , yeniliklere adapte olma yetkinliği ve uzun vadeli değer yaratma yaklaşımı, Banka’nın rekabet avantajı yaratmasına yardımcı olmaktadır. </br></br>İş Bankası’nın finansal performansının detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=31" target="_blank">tıklayınız</a>.
-
-+ google *
-- Google'da arama yapmak için <a href="http://www.google.com/search?q=<star>" target="_blank">buraya tıklayın</a>.
-
-+ *
-- Üzgünüm anlamadım
++ *sürdürülebilirlik*
+- DenizBank sürdürülebilirlik çalışmalarını "İlerisi İçin… Yenilikçi Finans ile Sürdürülebilirlik Dönüşümünün Kolaylaştırıcısı Olmak" vizyonu doğrultusunda yürütmektedir.<br /><br />
+^ Banka, stratejik hedeflerine paralel olarak, iç ve dış paydaşlarının beklentileri çerçevesinde belirlediği üç temel değer alanıyla faaliyetlerini gerçekleştirmektedir.<br /><br />
+^ DenizBank'ta sürdürülebilirlik hakkında detaylı bilgi için <a href="https://www.denizbank.com/yatirimci-iliskileri/surdurulebilirlik" title="Sürdürülebilirlik Detayları" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank sürdürülebilirlik stratejisi, öncelikli konular ışığında şekillenen değer alanları üzerine inşa edilmiştir.<br /><br />
+^ Strateji belirleme süreci kapsamında, detaylı bir önceliklendirme analizi gerçekleştirilmiştir.<br /><br />
+^ DenizBank'ın sürdürülebilirlik öncelikleri için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=34" title="Sayfa 66" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla; finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendirmek üzere Sürdürülebilir Finansman, dijitalleşme ve inovasyon yardımıyla müşteri deneyimi ve operasyonel verimliliği yukarı taşımak üzere Yeni Nesil Bankacılık;<br /><br />
+^ fırsat eşitliği, çeşitlilik ve gelişimi destekleyen çalışma ortamı için Geleceğin Yeteneği stratejik odak alanlarıyla değer yaratma modelini şekillendirmektedir.<br /><br />
+^ DenizBank'ın değer yaratma modeli için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=33" title="Sayfa 64" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank sürdürülebilirlik yönetim yapısı, sürdürülebilirlik yaklaşımının Grup genelinde işlerliğinin sağlanması için mevcut ve potansiyel ihtiyaçlar gözetilerek oluşturulmuştur.<br /><br />
+^ Sürdürülebilirlik yönetimi hakkındaki detaylar için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=37" title="Sayfa 72" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, tüm paydaşlarıyla şeffaflık, etik ilkelere bağlılık ve dijital kanallar üzerinden sürdürülebilir iletişim kurarak güvene dayalı, etkili ilişkiler geliştirmektedir.<br /><br />
+^ DenizBank'ın paydaş ilişkileri hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=39" title="Sayfa 75" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ın sürdürülebilirlik stratejisi altında yer alan sürdürülebilirlik faaliyetleri, performans odaklı olarak yürütülmektedir.<br /><br />
+^ DenizBank'ın sürdürülebilirlik hedefleri hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=36" title="Sayfa 70" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, toplum için sürdürülebilir bir gelecek inşa etmek adına Sürdürülebilir Kalkınma Amaçları'na (SKA) uyum göstermek gerektiğine inanmaktadır.<br /><br />
+^ DenizBank'ın katkı sağladığı SKA'lar hakkında bilgi almak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=39" title="Sayfa 76" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ın sürdürülebilirlikle bağlantlı politikaları için <a href="#" title="Sürdürülebilirlik Politikaları" target="_blank">tıklayınız</a>.<br /><br />
 
 + sürdürülebilirlik*
-- İş Bankası, “sürdürülebilir değer yaratan, geleceği bankası” vizyonu doğrultusunda dayanıklı, kapsayıcı, çevreye duyarlı bir ekonominin inşası için çalışmaktadır. Banka, tüm süreçlerine entegre ettiği bu iş modelini “İş Bankası Bankacılığı” olarak tanımlamaktadır. İş Bankası’nda sürdürülebilirlik hakkında detaylı bilgi için lütfen <a style="color:" href="https://www.isbank.com.tr/bankamizi-taniyin/surdurulebilirlik" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, her yıl gözden geçirdiği kurumsal önceliklerini dinamik bir süreç ve çoklu paydaş katılımı anlayışıyla, “çifte önemlilik”  metodolojisine göre belirlemekte ve yönetmektedir. </br> İş Bankası’nın sürdürülebilirlik öncelikleri için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=21" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, tüm paydaşları için kısa ve uzun vadede paylaşılabilir ve sürdürülebilir değer yaratma amacıyla çalışmaktadır. </br> İş Bankası’nın değer yaratma modeli için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=17" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, sürdürülebilirlik stratejisini Yönetim Kurulundan başlayarak tüm kademelerde görev ve sorumlulukların tanımlandığı, hedeflerle desteklenen bir yapı ile yönetmektedir. </br> Sürdürülebilirlik yönetimi hakkındaki detaylar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=19" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, öğrenen bir kurum olmak, paydaş beklenti ve ihtiyaçlarını anlamak için tüm paydaş grupları ile açık iletişimin önemine inanmaktadır. </br> İş Bankası’nın paydaş ilişkileri hakkında detaylı bilgi için lütlen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=20" target="_blank">tıklayınız</a>. </br> </br> “Sürdürülebilir değer yaratan geleceğin bankası olmak” vizyonumuzla sürdürülebilirliği tüm süreçlerine entegre etmiş, bu alanda uluslararası standartlarda performans sergileyen bir banka olarak tüm faaliyet ve hizmetlerimizi bilimsel çalışmaların ışığında ve değişen paydaş beklentilerini gözeterek geliştiriyoruz.” </br> Sürdürülebilirlik Liderinin Mesajı için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=15" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, ikinci yüzyılında kapsayıcı, adil, dayanıklı ve çevreci bir ekonomi için taahhütlerini paydaşlar ile paylaşmıştır. </br> İş Bankası’nın sürdürülebilirlik taahhütleri için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=19" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, BM Sürdürülebilir Kalkınma Amaçlarını (SKA) sürdürülebilirlik stratejisinin önemli bir bileşeni olarak görmekte, hedeflere karşı geliştirdiği performansı takip edip raporlamaktadır. </br> İş Bankası’nın katkı sağladığı SKA’lar hakkında bilgi almak için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=28" target="_blank">tıklayınız</a>. </br> </br> İş Bankası, sürdürülebilirlik performansını üst seviyelere taşıyacak, ulusal ve uluslararası inisiyatiflerle iş birliklerinin geliştirilmesine ve ESG performansının bağımsız kuruluşlarca değerlendirilmesine önem vermektedir. </br> İş Bankası’nın ESG değerlendirmeleri ve sürdürülebilirlik alanında desteklediği girişimler için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=26" target="_blank">tıklayınız</a>. </br> </br> İş Bankası’nın sürdürülebilirlikle bağlantlı politikaları için <a href="https://www.isbank.com.tr/bankamizi-taniyin/politikalarimiz" target="_blank">tıklayınız</a>. </br> İş Bankası’nın sürdürülebilirlik kilometre taşları için <a href="https://www.isbank.com.tr/bankamizi-taniyin/surdurulebilirlik-kilometre-taslari" target="_blank">tıklayınız</a>.
+@ *sürdürülebilirlik*
++ [*] sürdürülebilirlik [*]
+@ *sürdürülebilirlik*
++ *sürdürülebilir kalkınma*
+@ *sürdürülebilirlik*
++ sürdürülebilir kalkınma*
+@ *sürdürülebilirlik*
++ [*] sürdürülebilir kalkınma [*]
+@ *sürdürülebilirlik*
++ *kurumsal sürdürülebilirlik*
+@ *sürdürülebilirlik*
++ kurumsal sürdürülebilirlik*
+@ *sürdürülebilirlik*
++ [*] kurumsal sürdürülebilirlik [*]
+@ *sürdürülebilirlik*
++ *esg*
+@ *sürdürülebilirlik*
++ esg*
+@ *sürdürülebilirlik*
++ [*] esg [*]
+@ *sürdürülebilirlik*
++ *çsy*
+@ *sürdürülebilirlik*
++ çsy*
+@ *sürdürülebilirlik*
++ [*] çsy [*]
+@ *sürdürülebilirlik*
++ *denizbank sürdürülebilirlik*
+@ *sürdürülebilirlik*
++ denizbank sürdürülebilirlik*
+@ *sürdürülebilirlik*
++ [*] denizbank sürdürülebilirlik [*]
+@ *sürdürülebilirlik*
++ *bankanın sürdürülebilirlik*
+@ *sürdürülebilirlik*
++ bankanın sürdürülebilirlik*
+@ *sürdürülebilirlik*
++ [*] bankanın sürdürülebilirlik [*]
+@ *sürdürülebilirlik*
 
-+ sürdürülebilir*
-- İş Bankası, BM Sürdürülebilir Kalkınma Amaçlarını (SKA) sürdürülebilirlik stratejisinin önemli bir bileşeni olarak görmekte, hedeflere karşı geliştirdiği performansı takip edip raporlamaktadır.  </br> İş Bankası’nın katkı sağladığı SKA’lar hakkında bilgi almak için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=28" target="_blank">tıklayınız</a>.
 
-+ değer*
-- İş Bankası, tüm paydaşları için kısa ve uzun vadede paylaşılabilir ve sürdürülebilir değer yaratma amacıyla çalışmaktadır. Banka’nın İş Bankası Bankacılığı adını verdiği iş modeli ile finansal ve finansal olmayan sermaye öğeleri bir arada ele alınmaktadır. </br> </br> İş Bankası’nın değer modeli için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=17" target="_blank">tıklayınız</a>.
++ *sürdürülebilir kalkınma amaçları*
+- DenizBank, toplum için sürdürülebilir bir gelecek inşa etmek adına Sürdürülebilir Kalkınma Amaçları'na (SKA) uyum göstermek gerektiğine inanmaktadır.<br /><br />
+^ DenizBank'ın katkı sağladığı SKA'lar hakkında bilgi almak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=39" title="Sayfa 76" target="_blank">tıklayınız</a>.<br /><br />
 
-+ iş bankası*
-- İş Bankası’nın sürdürülebilirlik yaklaşımının temelinde “İş Bankası Bankacılığı” anlayışı yatmaktadır. İş Bankası Bankacılığı, Banka’nın finansal ve finansal olmayan sermaye ögelerini bir arada ele alarak “paylaşılabilir ve sürdürülebilir değer üretme”ye odaklanan iş modelidir. İş Bankası, bu güçlü iş modeli ile tüm paydaşları için hem kısa hem de uzun vadede değer üretmeyi amaçlamaktadır. </br> İş Bankası Bankacılığı hakkında detaylı bilgi için lütfen <a href="https://www.isbank.com.tr/bankamizi-taniyin/yaklasimimiz" target="_blank">tıklayınız</a>.
++ sürdürülebilir kalkınma amaçları*
+@ *sürdürülebilir kalkınma amaçları*
++ [*] sürdürülebilir kalkınma amaçları [*]
+@ *sürdürülebilir kalkınma amaçları*
++ *sürdürülebilir kalkınma araçları*
+@ *sürdürülebilir kalkınma amaçları*
++ sürdürülebilir kalkınma araçları*
+@ *sürdürülebilir kalkınma amaçları*
++ [*] sürdürülebilir kalkınma araçları [*]
+@ *sürdürülebilir kalkınma amaçları*
++ *ska*
+@ *sürdürülebilir kalkınma amaçları*
++ ska*
+@ *sürdürülebilir kalkınma amaçları*
++ [*] ska [*]
+@ *sürdürülebilir kalkınma amaçları*
++ *denizbank ska*
+@ *sürdürülebilir kalkınma amaçları*
++ denizbank ska*
+@ *sürdürülebilir kalkınma amaçları*
++ [*] denizbank ska [*]
+@ *sürdürülebilir kalkınma amaçları*
++ *bankanın ska*
+@ *sürdürülebilir kalkınma amaçları*
++ bankanın ska*
+@ *sürdürülebilir kalkınma amaçları*
++ [*] bankanın ska [*]
+@ *sürdürülebilir kalkınma amaçları*
 
-+ kapsayıcı*
-- İş Bankası, toplumun tüm kesimlerini kapsayan, herkes için eşit fırsatlar yaratan bir ekonomi modeli yaratmak ve bunu halka en anlaşılır şekilde aktarmak için çalışmaktadır. </br> </br> İş Bankası’nın kapsayıcı ve dayanıklı bir ekonomi hakkındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=30" target="_blank">tıklayınız</a>.
 
-+ *insan*
-- İş Bankası, çalışanlarına tatmin edici, destekleyici, adil ve huzurlu bir çalışma ortamı sunmayı temel sorumluluk olarak kabul etmektedir. İş Bankası mutlu ve üretken çalışanlarla iş başarısının sağlanacağına inanmakta; nitelikli çalışanların tercih ettiği, çalışan bağlılığı ve memnuniyetinin yüksek olduğu bir işveren olmak için uygulamalar yürütmektedir. </br></br>İş Bankası ücretlendirmede eşitlikçi ve adil bir yaklaşımı benimser, yeni çalışma modellerine uyumlu şekilde daha esnek ve çevik çalışma koşulları sunar, cinsiyet ve fırsat eşitliğini sağlamaya yönelik çalışmalar yürütür. Banka, çalışanların yetkinliklerini artırmak için çeşitli eğitim programları ve öğrenme imkânları sunmaktadır. İş Bankası, çalışan haklarının eksiksiz şekilde korunduğu bir iş ortamı taahhüt etmektedir.  </br></br>İş Bankası insana yakışır iş anlayışını gösterge ve hedeflerle takip etmekte, konuya dair çalışma ve uygulamalar hayata geçirmektedir. </br></br>İş Bankası’nın insana yakışır iş anlayışına yaklaşımı ve konu hakkındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" target="_blank">tıklayınız</a>. </br></br>İş Bankası; çalışan memnuniyeti ve bağlılığının başarısının temeli olduğuna inanmakta ve bunu sağlamaya yönelik çalışmalar yürütmektedir. Banka, en değerli sermayesi olarak gördüğü çalışanlarına mutlu ve üretken bir şekilde çalışabilecekleri bir iş ortamı sunmayı temel sorumluluğu kabul etmektedir. </br></br>İş Bankası’nın çalışan memnuniyeti ve bağlılığına yönelik çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=60" target="_blank">tıklayınız</a>. </br></br>İş Bankası’nda toplu iş sözleşmesi, Banka’nın dahili düzenlemeleri ve yasal mevzuat hükümleri temelinde çalışanların tüm ekonomik ve sosyal hakları tanımlanmıştır ve İş Bankası çalışan haklarını eksiksiz şekilde korumayı taahhüt eder.  </br></br>İş Bankası’nda çalışanlara sağlanan haklar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, değişen çalışma alışkanlıklarına uyum sağlamak amacıyla  çalışanlara daha esnek ve çevik çalışma imkanı sunan yeni nesil çalışma modelini uygulamaya koymuştur.  </br></br>İş Bankası’nda işin geleceği ve yeni çalışma modelleri hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, her kademede cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. Banka, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br></br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası’nda köklü kurum kültürünün getirdiği çalışma ilkelerine tüm çalışanların uyması için denetim faaliyetleri yürütülür, çalışan iletişimi uygulamaları hayata geçirilir. </br></br>İş Bankası’nda çalışma ilkelerine uyum çalışmaları ve çalışan iletişimi uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası; Bankalar Birliği Bankacılık Etik İlkeleri doğrultusunda oluşturduğu "Etik İlkeler ve Çalışma Kuralları”, “İnsan Hakları ve İnsan Kaynakları Politikası” ve İş Bankası Toplu İş Sözleşmesi doğrultusunda; tüm paydaşlarını kapsayacak şekilde yüksek iş etiği standartları çerçevesinde faaliyetlerini sürdürmektedir. Banka’da paydaşların herhangi bir ihlal durumunu Banka yetkili birimlerine iletebilmeleri amacıyla Etik Hat uygulaması bulunmaktadır. Bu kanalla iletilen bildirimler Teftiş Kurulu Başkanlığı tarafından takip edilmekte ve gerekli aksiyonlar alınmaktadır. İş Bankasında; Banka etik ilkeleri ve çalışma kuralları, kalite, uyum ve risk politikaları, Finansal Suçlarla Mücadele ve Yaptırımların uygulanması, Rekabet Hukukuna Uyum ve Bilgi Güvenliğinin sağlanması ve insan hakları gibi konularda eğitimler sağlanmaktadır.  </br></br>İş Bankası’nın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>: </br></br>İş Bankası uluslararası standartlara uygun, sağlıklı ve güvenli bir iş ortamı sağlamayı amaçlar ve bu doğrultuda çalışmalar yürütür. </br></br>İş Bankası’nın çalışan sağlığı ve güvenliği uygulamaları ve çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=64" target="_blank">tıklayınız</a>: </br></br>İş Bankası en değerli sermayesi olarak gördüğü çalışanları için çalışan ihtiyacına göre kurgulanmış, yüksek teknolojilerle desteklenen eğitimler sağlamaktadır. İş Bankası çalışanlarına düzenli olarak performans değerlendirmesi yapmakta, terfi ve eğitim çalışmalarını bu doğrultuda şekillendirmektedir.  </br></br>İş Bankasının yetenek yönetimi ve eğitim uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" target="_blank">tıklayınız</a>:
++ *değer modeli*
+- DenizBank, sürdürülebilirlik dönüşümünün kolaylaştırıcısı olma misyonuyla;<br /><br />
+^ finansmanı, yeşil dönüşüme hizmet eden sektör ve alanlara yönlendirmek üzere Sürdürülebilir Finansman, dijitalleşme ve inovasyon yardımıyla müşteri deneyimi ve operasyonel verimliliği yukarı taşımak üzere Yeni Nesil Bankacılık;<br /><br />
+^ fırsat eşitliği, çeşitlilik ve gelişimi destekleyen çalışma ortamı için Geleceğin Yeteneği stratejik odak alanlarıyla değer yaratma modelini şekillendirmektedir.<br /><br />
+^ DenizBank'ın değer yaratma modeli için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=33" title="Sayfa 64" target="_blank">tıklayınız</a>.<br /><br />
 
-+ *cinsiyet*
-- İş Bankası, her kademesinde cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. İş Bankası, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br> </br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>:
++ değer modeli*
+@ *değer modeli*
++ [*] değer modeli [*]
+@ *değer modeli*
++ *denizbank değer modeli*
+@ *değer modeli*
++ denizbank değer modeli*
+@ *değer modeli*
++ [*] denizbank değer modeli [*]
+@ *değer modeli*
++ *bankanın değer modeli*
+@ *değer modeli*
++ bankanın değer modeli*
+@ *değer modeli*
++ [*] bankanın değer modeli [*]
+@ *değer modeli*
++ *değer yaratma modeli*
+@ *değer modeli*
++ değer yaratma modeli*
+@ *değer modeli*
++ [*] değer yaratma modeli [*]
+@ *değer modeli*
++ *finansal sermaye*
+@ *değer modeli*
++ finansal sermaye*
+@ *değer modeli*
++ [*] finansal sermaye [*]
+@ *değer modeli*
++ *sosyal ilişkisel sermaye*
+@ *değer modeli*
++ sosyal ilişkisel sermaye*
+@ *değer modeli*
++ [*] sosyal ilişkisel sermaye [*]
+@ *değer modeli*
++ *insan sermayesi*
+@ *değer modeli*
++ insan sermayesi*
+@ *değer modeli*
++ [*] insan sermayesi [*]
+@ *değer modeli*
++ *fikri sermaye*
+@ *değer modeli*
++ fikri sermaye*
+@ *değer modeli*
++ [*] fikri sermaye [*]
+@ *değer modeli*
++ *üretilmiş sermaye*
+@ *değer modeli*
++ üretilmiş sermaye*
+@ *değer modeli*
++ [*] üretilmiş sermaye [*]
+@ *değer modeli*
++ *doğal sermaye*
+@ *değer modeli*
++ doğal sermaye*
+@ *değer modeli*
++ [*] doğal sermaye [*]
+@ *değer modeli*
++ *sermaye öğelerimiz*
+@ *değer modeli*
++ sermaye öğelerimiz*
+@ *değer modeli*
++ [*] sermaye öğelerimiz [*]
+@ *değer modeli*
++ *üretilen değer*
+@ *değer modeli*
++ üretilen değer*
+@ *değer modeli*
++ [*] üretilen değer [*]
+@ *değer modeli*
++ *etki*
+@ *değer modeli*
++ etki*
+@ *değer modeli*
++ [*] etki [*]
+@ *değer modeli*
++ *değer alanı*
+@ *değer modeli*
++ değer alanı*
+@ *değer modeli*
++ [*] değer alanı [*]
+@ *değer modeli*
 
-+ net-sıfır*
-- İş Bankası, finans sektörünün öncülüğünde Birleşmiş Milletler tarafından kurulan Net-Sıfır Bankacılık Birliği’nin bir üyesi olarak 2050 yılına kadar yatırım ve kredi portföylerini net sıfır emisyon hedefi ile uyumlu hale getirme taahhüdünde bulunmuştur. Banka 2023 yılında, karbon yoğun sektörlerden enerji üretimi, çimento ve demir çelik sektörlerinde emisyon azaltımına ilişkin 2030 yılı hedeflerini açıkladı. </br></br> İş Bankası’nın NZBA taahhütleri kapsamındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.
 
++ öncelikli konular
+- DenizBank sürdürülebilirlik stratejisi, öncelikli konular ışığında şekillenen değer alanları üzerine inşa edilmiştir.<br /><br />
+^ Strateji belirleme süreci kapsamında, detaylı bir önceliklendirme analizi gerçekleştirilmiştir.<br /><br />
+^ DenizBank'ın öncelikli konuları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=34" title="Sayfa 66" target="_blank">tıklayınız</a>.<br /><br />
+
++ öncelikli konular*
+@ öncelikli konular
++ [*] öncelikli konular [*]
+@ öncelikli konular
++ *denizbank öncelikli konuları*
+@ öncelikli konular
++ denizbank öncelikli konuları*
+@ öncelikli konular
++ [*] denizbank öncelikli konuları [*]
+@ öncelikli konular
++ *bankanın öncelikli konuları*
+@ öncelikli konular
++ bankanın öncelikli konuları*
+@ öncelikli konular
++ [*] bankanın öncelikli konuları [*]
+@ öncelikli konular
++ *çifte önemlilik*
+@ öncelikli konular
++ çifte önemlilik*
+@ öncelikli konular
++ [*] çifte önemlilik [*]
+@ öncelikli konular
++ *önceliklendirme analizi*
+@ öncelikli konular
++ önceliklendirme analizi*
+@ öncelikli konular
++ [*] önceliklendirme analizi [*]
+@ öncelikli konular
+
+
++ *yeni nesil bankacılık*
+- Yenilikçi ürün ve hizmetlerin geliştirilmesi ve bunların sürdürülebilirlik etkisinin daha geniş bir müşteri kitlesine ulaştırılması, müşterilerin bankacılık ürün ve hizmet deneyimlerinin iyileştirilmesi DenizBank'ın öncelikli hedefleri arasında yer almaktadır.<br /><br />
+^ DenizBank'ın Yeni Nesil Bankacılık anlayışı ile gerçekleştirdiği çalışmaların detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=41" title="Sayfa 80" target="_blank">tıklayınız</a>.<br /><br />
+
++ yeni nesil bankacılık*
+@ *yeni nesil bankacılık*
++ [*] yeni nesil bankacılık [*]
+@ *yeni nesil bankacılık*
++ *denizbank yeni nesil bankacılık*
+@ *yeni nesil bankacılık*
++ denizbank yeni nesil bankacılık*
+@ *yeni nesil bankacılık*
++ [*] denizbank yeni nesil bankacılık [*]
+@ *yeni nesil bankacılık*
++ *bankanın yeni nesil bankacılık*
+@ *yeni nesil bankacılık*
++ bankanın yeni nesil bankacılık*
+@ *yeni nesil bankacılık*
++ [*] bankanın yeni nesil bankacılık [*]
+@ *yeni nesil bankacılık*
+
+
++ *müşteri deneyimi*
+- DenizBank, müşteri bildirimlerine hızlı ve doğru bir şekilde yanıt verilmesini sağlarken, banka süreçlerinin dijitalleşmesi ve mevzuatla uyumlu olmasını da temin etmektedir.<br /><br />
+^ DenizBank'ın müşteri deneyimini iyileştirme çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" title="Sayfa 82" target="_blank">tıklayınız</a>.<br /><br />
+
++ müşteri deneyimi*
+@ *müşteri deneyimi*
++ [*] müşteri deneyimi [*]
+@ *müşteri deneyimi*
++ *denizbank müşteri deneyimi*
+@ *müşteri deneyimi*
++ denizbank müşteri deneyimi*
+@ *müşteri deneyimi*
++ [*] denizbank müşteri deneyimi [*]
+@ *müşteri deneyimi*
++ *bankanın müşteri deneyimi*
+@ *müşteri deneyimi*
++ bankanın müşteri deneyimi*
+@ *müşteri deneyimi*
++ [*] bankanın müşteri deneyimi [*]
+@ *müşteri deneyimi*
++ *geri bildirim*
+@ *müşteri deneyimi*
++ geri bildirim*
+@ *müşteri deneyimi*
++ [*] geri bildirim [*]
+@ *müşteri deneyimi*
++ *nps*
+@ *müşteri deneyimi*
++ nps*
+@ *müşteri deneyimi*
++ [*] nps [*]
+@ *müşteri deneyimi*
++ *şikayet*
+@ *müşteri deneyimi*
++ şikayet*
+@ *müşteri deneyimi*
++ [*] şikayet [*]
+@ *müşteri deneyimi*
+
+
++ *dijitalleşme*
+- DenizBank, sürdürülebilirlik ve dijital dönüşüm stratejilerini entegre ederek, finansal hizmetlerde yenilikçi çözümler sunmaktadır.<br /><br />
+^ Dijital robotik süreçler ve Tüzel Dijital Onay gibi uygulamalarla müşteri deneyimini iyileştirmeye devam etmektedir.<br /><br />
+^ Denizbank, "Uzaktan Müşteri Edinimi" fonksiyonu ile geleneksel kanallar aracılığıyla ulaşılamayan müşterilere %100 dijital bir deneyim sunarak banka müşterisi olma fırsatı sağlamaktadır.<br /><br />
+^ DenizBank, "Şubeye Gitmeden Yap" özelliği gibi çevre dostu uygulamalarla, kağıt ve plastik tüketimini azaltmak, dijitalleşmeyi teşvik etmek ve aynı zamanda müşteri dijital deneyimini iyileştirmeyi amaçlamaktadır.<br /><br />
+^ DenizBank'ın Dijitalleşme ve dijital uygulamalar alanında gerçekleştirdiği çalışmalar hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=44" title="Sayfa 86-87" target="_blank">tıklayınız</a>.<br /><br />
+^ İş analitiği ve CRM'nin entegrasyonu sayesinde DenizBank, müşterilerine daha etkili hizmet sunma imkânı bulmakta ve müşteri ilişkilerini güçlendirmektedir.<br /><br />
+^ DenizBank'ın İş Analitiği ve Veri Yönetişimi uygulamaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=45" title="Sayfa 88" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ta kredi süreçlerinde dijitalleşme sayesinde, kredi başvuru süreçleri daha hızlı, doğru ve güvenli hale gelmiştir.<br /><br />
+^ DenizBank'ın Kredi Süreçlerinde Dijitalleşme çalışmaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=46" title="Sayfa 89" target="_blank">tıklayınız</a>.<br /><br />
+^ Finans sektörünün bilgi teknolojileri ihtiyacını karşılamak amacıyla kurulan INTERTECH, insanı, inovasyonu, kaliteyi ve müşteriyi odağına alarak yeni nesil teknolojilerle geliştirdiği ürün ve hizmetleri sayesinde sektöründe fark yaratmakta ve rekabet avantajı elde etmektedir.<br /><br />
+^ DenizBank'ın Bilgi Teknolojisi (BT) Hizmetleri uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=46" title="Sayfa 90" target="_blank">tıklayınız</a>.<br /><br />
+
++ dijitalleşme*
+@ *dijitalleşme*
++ [*] dijitalleşme [*]
+@ *dijitalleşme*
++ *denizbank dijitalleşme*
+@ *dijitalleşme*
++ denizbank dijitalleşme*
+@ *dijitalleşme*
++ [*] denizbank dijitalleşme [*]
+@ *dijitalleşme*
++ *bankanın dijitalleşme*
+@ *dijitalleşme*
++ bankanın dijitalleşme*
+@ *dijitalleşme*
++ [*] bankanın dijitalleşme [*]
+@ *dijitalleşme*
++ *dijital bankacılık*
+@ *dijitalleşme*
++ dijital bankacılık*
+@ *dijitalleşme*
++ [*] dijital bankacılık [*]
+@ *dijitalleşme*
++ *dijital erişim*
+@ *dijitalleşme*
++ dijital erişim*
+@ *dijitalleşme*
++ [*] dijital erişim [*]
+@ *dijitalleşme*
++ *uzaktan müşteri edinimi*
+@ *dijitalleşme*
++ uzaktan müşteri edinimi*
+@ *dijitalleşme*
++ [*] uzaktan müşteri edinimi [*]
+@ *dijitalleşme*
++ *şubeye gitmeden yap*
+@ *dijitalleşme*
++ şubeye gitmeden yap*
+@ *dijitalleşme*
++ [*] şubeye gitmeden yap [*]
+@ *dijitalleşme*
++ *dijital dönüşüm*
+@ *dijitalleşme*
++ dijital dönüşüm*
+@ *dijitalleşme*
++ [*] dijital dönüşüm [*]
+@ *dijitalleşme*
++ *intertech*
+@ *dijitalleşme*
++ intertech*
+@ *dijitalleşme*
++ [*] intertech [*]
+@ *dijitalleşme*
+
+
++ *inovasyon*
+- DenizBank, dijitalleşme ve inovasyon yardımıyla geliştirilen yenilikçi ürün ve hizmetlerinin sürdürülebilirlik etkisini daha geniş bir müşteri kitlesine ulaştırmaya ve müşteri deneyimi ile operasyonel verimliliği yukarı taşımaya öncelikli hedefleri arasında yer vermektedir.<br /><br />
+^ DenizBank'ın inovasyon yaklaşımı ve çalışmaları hakkındaki detaylar için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=44" title="Sayfa 86" target="_blank">tıklayınız</a>.<br /><br />
+
++ inovasyon*
+@ *inovasyon*
++ [*] inovasyon [*]
+@ *inovasyon*
++ *denizbank inovasyon*
+@ *inovasyon*
++ denizbank inovasyon*
+@ *inovasyon*
++ [*] denizbank inovasyon [*]
+@ *inovasyon*
++ *bankanın inovasyon*
+@ *inovasyon*
++ bankanın inovasyon*
+@ *inovasyon*
++ [*] bankanın inovasyon [*]
+@ *inovasyon*
+
+
++ *yapay zeka*
+- DenizBank, 2024 yılında ileri düzey veri analitiği ve yapay zeka projelerini hayata geçirmiştir.<br /><br />
+^ Derin öğrenme ve üretken yapay zeka teknolojileri kullanılarak, kredi politikalarının daha esnek ve müşteri odaklı hale getirilmesi hedeflenmiştir.<br /><br />
+^ Bu projeler, pazarlama ve risk yönetimi süreçlerine entegre edilmiş ve banka bünyesinde kredi modelleme çalışmalarıyla yeni, verimli ve katma değer sağlayan modeller geliştirilmiştir.<br /><br />
+^ DenizBank'ın yapay zeka alanındaki çalışmaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=29" title="Sayfa 56" target="_blank">tıklayınız</a>.<br /><br />
+
++ yapay zeka*
+@ *yapay zeka*
++ [*] yapay zeka [*]
+@ *yapay zeka*
++ *denizbank yapay zeka*
+@ *yapay zeka*
++ denizbank yapay zeka*
+@ *yapay zeka*
++ [*] denizbank yapay zeka [*]
+@ *yapay zeka*
++ *bankanın yapay zeka*
+@ *yapay zeka*
++ bankanın yapay zeka*
+@ *yapay zeka*
++ [*] bankanın yapay zeka [*]
+@ *yapay zeka*
++ *ai*
+@ *yapay zeka*
++ ai*
+@ *yapay zeka*
++ [*] ai [*]
+@ *yapay zeka*
+
+
++ *sürdürülebilir finansman*
+- DenizBank, "Sürdürülebilir Finansman" değer alanındaki mevcut uygulamalarını iklim değişikliği ile ortaya çıkan riskleri ve fırsatları göz önünde bulundurarak uluslararası finans kuruluşlarının, yatırımcıların ve güncel piyasa beklentilerine paralel olarak geliştirmeye devam etmektedir.<br /><br />
+^ DenizBank sürdürülebilir finansman desteğini güçlendirmek amacıyla, yıllardır süren köklü ilişkileri ile uluslararası finans kuruluşlarından çeşitli temalarda uzun vadeli kaynaklar temin etmektedir.<br /><br />
+^ Banka bu kaynakları, odak alanlarından olan enerji verimliliği, yenilenebilir enerji, kaynak verimliliğinin teşviki, kırsal kalkınma, tarım, üretim ve reel sektörün desteklenmesi, depremden etkilenen bölgelerin finansman ihtiyaçlarının karşılanması, istihdamın devam etmesi, mikro işletmeler ve kadın girişimciliğinin güçlendirilmesi ile Türkiye ekonomisinin lokomotifi olan KOBİ'lerin finansmanı amacıyla kullandırmaktadır.<br /><br />
+^ DenizBank'ın sürdürülebilir finansman ve çevresel etki finansmanı hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=51" title="Sayfa 99" target="_blank">tıklayınız</a>.<br /><br />
+
++ sürdürülebilir finansman*
+@ *sürdürülebilir finansman*
++ [*] sürdürülebilir finansman [*]
+@ *sürdürülebilir finansman*
++ *denizbank sürdürülebilir finansman*
+@ *sürdürülebilir finansman*
++ denizbank sürdürülebilir finansman*
+@ *sürdürülebilir finansman*
++ [*] denizbank sürdürülebilir finansman [*]
+@ *sürdürülebilir finansman*
++ *bankanın sürdürülebilir finansman*
+@ *sürdürülebilir finansman*
++ bankanın sürdürülebilir finansman*
+@ *sürdürülebilir finansman*
++ [*] bankanın sürdürülebilir finansman [*]
+@ *sürdürülebilir finansman*
++ *yeşil dönüşüm*
+@ *sürdürülebilir finansman*
++ yeşil dönüşüm*
+@ *sürdürülebilir finansman*
++ [*] yeşil dönüşüm [*]
+@ *sürdürülebilir finansman*
++ *yeşil ekonomi*
+@ *sürdürülebilir finansman*
++ yeşil ekonomi*
+@ *sürdürülebilir finansman*
++ [*] yeşil ekonomi [*]
+@ *sürdürülebilir finansman*
++ *çevresel etki finansmanı*
+@ *sürdürülebilir finansman*
++ çevresel etki finansmanı*
+@ *sürdürülebilir finansman*
++ [*] çevresel etki finansmanı [*]
+@ *sürdürülebilir finansman*
+
+
++ *sorumlu hizmetler*
+- DenizBank, müşteri ihtiyaçlarına ve beklentilerine göre çözümler sunmakta ve toplumun tüm kesimlerini kapsayan ürün ve hizmetler geliştirmektedir.<br /><br />
+^ Özellikle; tarım, mikro, küçük işletmeler ve kadınlara ait işletmeler için kurgulanmış finansman ürünleri sunulmakta ve işletmelere hem finansal hem de finansal olmayan destekler verilmektedir.<br /><br />
+^ DenizBank, Türk ekonomisini kalkındırmaya yönelik gerçekleştirilen işlerin hemen hemen tüm kategorilerini, sağladığı finansmanla desteklemektedir. Banka;<br /><br />
+^ telekomünikasyon, enerji, altyapı, sağlık, eğitim, turizm ve denizcilik gibi öncelikli sektörlere finansman desteği sağlamaktadır.<br /><br />
+^ DenizBank'ın sorumlu hizmetler ve ürünler alanındaki çalışmalarının detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=53" title="Sayfa 104" target="_blank">tıklayınız</a>.<br /><br />
+
++ sorumlu hizmetler*
+@ *sorumlu hizmetler*
++ [*] sorumlu hizmetler [*]
+@ *sorumlu hizmetler*
++ *denizbank sorumlu hizmetleri*
+@ *sorumlu hizmetler*
++ denizbank sorumlu hizmetleri*
+@ *sorumlu hizmetler*
++ [*] denizbank sorumlu hizmetleri [*]
+@ *sorumlu hizmetler*
++ *bankanın sorumlu hizmetleri*
+@ *sorumlu hizmetler*
++ bankanın sorumlu hizmetleri*
+@ *sorumlu hizmetler*
++ [*] bankanın sorumlu hizmetleri [*]
+@ *sorumlu hizmetler*
+
+
++ tarım bankacılığı
+- DenizBank, Türkiye'de tarım bankacılığına giriş yapan ve kesintisiz hizmet sunmayı sürdüren ilk özel sektör bankasıdır.<br /><br />
+^ Tarımsal sektörün gelişimi, büyümesi ve küresel ölçekte rekabet gücü kazanması Banka'nın öncelikli amaçları arasında önemli bir yer tutmaktadır.<br /><br />
+^ DenizBank'ın tarım bankacılığı hakkındaki çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=54" title="Sayfa 105" target="_blank">tıklayınız</a>.<br /><br />
+
++ tarım bankacılığı*
+@ tarım bankacılığı
++ [*] tarım bankacılığı [*]
+@ tarım bankacılığı
++ *denizbank tarım bankacılığı*
+@ tarım bankacılığı
++ denizbank tarım bankacılığı*
+@ tarım bankacılığı
++ [*] denizbank tarım bankacılığı [*]
+@ tarım bankacılığı
++ *bankanın tarım bankacılığı*
+@ tarım bankacılığı
++ bankanın tarım bankacılığı*
+@ tarım bankacılığı
++ [*] bankanın tarım bankacılığı [*]
+@ tarım bankacılığı
++ *tarımsal bankacılık*
+@ tarım bankacılığı
++ tarımsal bankacılık*
+@ tarım bankacılığı
++ [*] tarımsal bankacılık [*]
+@ tarım bankacılığı
+
+
++ kobi bankacılığı
+- DenizBank, küçük ve orta ölçekli işletmelerin (KOBİ) her türlü finansman ihtiyaçlarını ve taleplerini karşılamak için çalışmaktadır.<br /><br />
+^ Banka, KOBİ'lerin ihtiyaçlarını zamanında tespit ederek, onlar için en uygun finansman çözümleri sağlamak için inovatif adımlar atmaktadır.<br /><br />
+^ DenizBank'ın KOBİ bankacılığı hakkındaki çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=56" title="Sayfa 110" target="_blank">tıklayınız</a>.<br /><br />
+
++ kobi bankacılığı*
+@ kobi bankacılığı
++ [*] kobi bankacılığı [*]
+@ kobi bankacılığı
++ *denizbank kobi bankacılığı*
+@ kobi bankacılığı
++ denizbank kobi bankacılığı*
+@ kobi bankacılığı
++ [*] denizbank kobi bankacılığı [*]
+@ kobi bankacılığı
++ *bankanın kobi bankacılığı*
+@ kobi bankacılığı
++ bankanın kobi bankacılığı*
+@ kobi bankacılığı
++ [*] bankanın kobi bankacılığı [*]
+@ kobi bankacılığı
++ *küçük ve orta ölçekli işletme bankacılığı*
+@ kobi bankacılığı
++ küçük ve orta ölçekli işletme bankacılığı*
+@ kobi bankacılığı
++ [*] küçük ve orta ölçekli işletme bankacılığı [*]
+@ kobi bankacılığı
+
+
++ *kadın girişimci*
+- DenizBank, benimsediği sürdürülebilirlik ilkeleri doğrultusunda, toplumsal gelişime olumlu etkisinin de önemiyle kadınların iş hayatında aktif olarak yer almasına katkı sunacak hizmetlerini sürdürmektedir.<br /><br />
+^ Gerek işletmesini kurmuş gerekse girişimci olmak isteyen tüm kadın girişimcilere finansal çözümler sunarak destek olmaya devam etmektedir.<br /><br />
+^ DenizBank'ın kadın girişimcilere ve işletmelere destek anlayışıyla gerçekleştirdiği çalışmaların detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=58" title="Sayfa 114" target="_blank">tıklayınız</a>.<br /><br />
+
++ kadın girişimci*
+@ *kadın girişimci*
++ [*] kadın girişimci* [*]
+@ *kadın girişimci*
++ *denizbank kadın girişimci*
+@ *kadın girişimci*
++ denizbank kadın girişimci*
+@ *kadın girişimci*
++ [*] denizbank kadın girişimci* [*]
+@ *kadın girişimci*
++ *bankanın kadın girişimci*
+@ *kadın girişimci*
++ bankanın kadın girişimci*
+@ *kadın girişimci*
++ [*] bankanın kadın girişimci* [*]
+@ *kadın girişimci*
+
+
++ emekli bankacılığı
+- DenizBank, emeklilerin yaşamlarını kolaylaştırma ve güzelleştirme öncelikli hedefiyle faaliyetlerini sürdürmektedir.<br /><br />
+^ Banka, sunduğu ayrıcalıklı bankacılık hizmetleri ile sektörde ilklere imza atarak emeklilerin finansal konforlarını artırmayı hedeflemektedir.<br /><br />
+^ DenizBank'ın emekli bankacılığı hakkındaki çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" title="Sayfa 115" target="_blank">tıklayınız</a>.<br /><br />
+
++ emekli bankacılığı*
+@ emekli bankacılığı
++ [*] emekli bankacılığı [*]
+@ emekli bankacılığı
++ *denizbank emekli bankacılığı*
+@ emekli bankacılığı
++ denizbank emekli bankacılığı*
+@ emekli bankacılığı
++ [*] denizbank emekli bankacılığı [*]
+@ emekli bankacılığı
++ *bankanın emekli bankacılığı*
+@ emekli bankacılığı
++ bankanın emekli bankacılığı*
+@ emekli bankacılığı
++ [*] bankanın emekli bankacılığı [*]
+@ emekli bankacılığı
+
+
++ *engelsiz bankacılık*
+- DenizBank tüm müşterilerinin bankacılık hizmetlerine eşit imkanlarla ulaşmalarını önemsemekte ve dezavantajlı gruplara yönelik çeşitli ürün ve hizmetler geliştirmektedir.<br /><br />
+^ Banka tüm kanallarında, engelli müşterilerinin ürün ve hizmetlere kolaylıkla erişebilmesi için geliştirme ve iyileştirme çalışmaları yürütmektedir.<br /><br />
+^ DenizBank'ın engelsiz bankacılık anlayışı ve finansal hizmetlere erişim hakkındaki çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" title="Sayfa 116" target="_blank">tıklayınız</a>.<br /><br />
+
++ engelsiz bankacılık*
+@ *engelsiz bankacılık*
++ [*] engelsiz bankacılık [*]
+@ *engelsiz bankacılık*
++ *denizbank engelsiz bankacılık*
+@ *engelsiz bankacılık*
++ denizbank engelsiz bankacılık*
+@ *engelsiz bankacılık*
++ [*] denizbank engelsiz bankacılık [*]
+@ *engelsiz bankacılık*
++ *bankanın engelsiz bankacılık*
+@ *engelsiz bankacılık*
++ bankanın engelsiz bankacılık*
+@ *engelsiz bankacılık*
++ [*] bankanın engelsiz bankacılık [*]
+@ *engelsiz bankacılık*
+
+
++ insan kaynakları
+- DenizBank Finansal Hizmetler Grubu (DFHG) iş mükemmelliğini sağlamak için tüm süreçlerinde doğru işe doğru insan politikasını izlemektedir.<br /><br />
+^ Potansiyel iş gücünü çekmek ve mevcut çalışanlarıyla uzun soluklu iş birliği için çalışmalar yürüten Grup, tercih edilen ve çalışan bağlılığı yüksek bir kurum olmayı amaçlamaktadır.<br /><br />
+^ İşe alım süreçlerinde geleceğin bankacıları olacak genç yetenekleri bünyesine katarak, çeşitli etkinlikler ve eğitim programlarıyla genç yetenekleri kariyer yolculuklarında destekleyerek geleceğin yöneticileri olmaları için yetiştirir.<br /><br />
+^ DenizBank, ücret yönetim sistemi politikasını başarıyı ödüllendiren, performansı teşvik eden, piyasa koşullarına uygun, adil ve güvenilir bir yaklaşımla oluşturur.<br /><br />
+^ Bu politika, eşit fırsat ilkesine dayanarak uygulanır ve uluslararası normlar ile yasal mevzuatlara uygun şekilde liyakat ve eşitlik prensipleri doğrultusunda şekillendirilir.<br /><br />
+^ DenizBank'ın yetenek çekme ve elde tutmaya yönelik çalışmaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" title="Sayfa 120" target="_blank">tıklayınız</a>.<br /><br />
+^ Çeşitliliğe sahip bir insan kaynağının ve kapsayıcı bir çalışma ortamının gücüne inanan DenizBank, kurumsal değerleri ve kültürü ışığında dil, din, ırk ve cinsiyet farkı gözetmeksizin çalışanlarına insana yakışır iş koşulları sunmaktadır.<br /><br />
+^ DenizBank, tüm insan kaynakları uygulamalarında sosyal çeşitlilik ve eşitlik ilkesine uygun aksiyonlar almakta;<br /><br />
+^ performans, gelişim ve geribildirim programlarıyla çalışanlarının kişisel ve mesleki hedeflerine ulaşmalarına katkı sağlamaktadır.<br /><br />
+^ DenizBank'ın çeşitlilik ve kapsayıcılık hakkındaki çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=63" title="Sayfa 124" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, çalışan memnuniyeti ve kariyer gelişimi odaklı yaklaşımlarıyla, çalışanlarına mutlu ve destekleyici bir iş ortamı sunmaktadır.<br /><br />
+^ DenizBank'ın çalışan memnuniyeti ve bağlılığına yönelik çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" title="Sayfa 128" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ta çalışanlardan gelen görüşler dikkate alınarak çalışma modeli yeniden düzenlenmiştir.<br /><br />
+^ Bu doğrultuda hibrit çalışma modeli uygulamasıyla iş süreçlerinin sürdürülebilirliğini sağlayan opsiyonlar çalışanlara sunulmuştur.<br /><br />
+^ DenizBank'ta işin geleceği ve yeni çalışma modelleri hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=63" title="Sayfa 123" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, Birleşmiş Milletler Küresel İlkeler Sözleşmesi'ni destekleyerek, insan haklarına verilen değerin somut bir örneğini sergilemektedir.<br /><br />
+^ Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=63" title="Sayfa 124" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, çalışanların zimmet, suistimal, rüşvet, yolsuzluk gibi Banka itibarının zedelenmesine, çıkar çatışmalarına ve finansal kayıplara neden olabilecek işlemleri güvenli ve gizli bir şekilde bildirebilmesine yönelik "Etik Bildirim Hattı"nı devreye almıştır.<br /><br />
+^ Bildirimler; telefon, e-posta ve Banka içi portal dahil her türlü iletişim yöntemiyle doğrudan Uyum Görevlisi'ne yapılabilmektedir.<br /><br />
+^ Çalışanlar, ilkelerin uygulanmasına yönelik tereddüt oluşması veya ilkelere uyulup uyulmadığına dair şüphelerinin olması durumunda bir üst yöneticisinden veya Etik Hattı'ndan yardım isteme konusunda teşvik edilmektedir.<br /><br />
+^ Tüm çalışanlar zorunlu olarak Kurumsal Uyum ve Etik İlkeler, Rüşvet ve Yolsuzlukla Mücadele, Suç Gelirlerinin Aklanması ve Terörizmin Finansmanı ile Mücadele eğitimlerini almaktadır.<br /><br />
+^ DenizBank'ın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=79" title="Sayfa 156" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, tüm çalışanlarının ve iş ortaklarının sağlık ve güvenliklerini önemsemektedir.<br /><br />
+^ İş Sağlığı ve Güvenliği Prosedürü kapsamında, güvenli ve sağlıklı bir çalışma ortamını sağlamakta olup, süreçlerinde ulusal ve uluslararası yasal gereklilikleri yerine getirerek, faaliyetleriyle takibini sağlamaktadır.<br /><br />
+^ DenizBank'ın çalışan sağlığı ve güvenliği uygulamaları ve çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=67" title="Sayfa 132" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ta yeni işe başlayan çalışanların kurum kültürüne adapte edilmesi, deneyimli çalışanların ise performans ve potansiyelleri doğrultusunda yetkinliklerini daha da artırıp farklı rollere hazırlanmak amacıyla hayata geçirilen Deniz Akademi ile birbirinden verimli çalışma, eğitim ve programlara imza atılmıştır.<br /><br />
+^ DenizBank'ın yetenek yönetimi ve eğitim uygulamaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" title="Sayfa 128" target="_blank">tıklayınız</a>.<br /><br />
+^ DFHG çalışanları ile yüz yüze veya online platformlar üzerinden görüşmeler yapılmaktadır.<br /><br />
+^ Gerçekleştirilen görüşmelerde çalışanlar ile bire bir görüşmeler yapılmakta, önerileri ve ihtiyaç duydukları konular ile ilgili çalışan ve yöneticilerden geri bildirimler alınmaktadır.<br /><br />
+^ DenizBank'ta çalışan iletişimi uygulamaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" title="Sayfa 128" target="_blank">tıklayınız</a>.<br /><br />
+
++ insan kaynakları*
+@ insan kaynakları
++ [*] insan kaynakları [*]
+@ insan kaynakları
++ *denizbank insan kaynakları*
+@ insan kaynakları
++ denizbank insan kaynakları*
+@ insan kaynakları
++ [*] denizbank insan kaynakları [*]
+@ insan kaynakları
++ *bankanın insan kaynakları*
+@ insan kaynakları
++ bankanın insan kaynakları*
+@ insan kaynakları
++ [*] bankanın insan kaynakları [*]
+@ insan kaynakları
++ *çalışan hakları*
+@ insan kaynakları
++ *çalışan memnuniyeti*
+@ insan kaynakları
++ *çalışan bağlılığı*
+@ insan kaynakları
++ *çalışan eğitimi*
+@ insan kaynakları
++ *çalışan iletişimi*
+@ insan kaynakları
++ *çalışan sağlığı*
+@ insan kaynakları
++ *çalışan güvenliği*
+@ insan kaynakları
++ *yetenek yönetimi*
+@ insan kaynakları
++ *yetenek çekme*
+@ insan kaynakları
++ *iş gücü*
+@ insan kaynakları
++ *iş hayatı*
+@ insan kaynakları
++ *çalışma ortamı*
+@ insan kaynakları
++ *deniz akademi*
+@ insan kaynakları
+
+
++ *toplumsal cinsiyet eşitliği*
+- Çeşitliliğe sahip bir insan kaynağının ve kapsayıcı bir çalışma ortamının gücüne inanan DenizBank, kurumsal değerleri ve kültürü ışığında dil, din, ırk ve cinsiyet farkı gözetmeksizin çalışanlarına insana yakışır iş koşulları sunmaktadır.<br /><br />
+^ DenizBank, Birleşmiş Milletler Küresel İlkeler Sözleşmesi'ni destekleyerek, insan haklarına verilen değerin somut bir örneğini sergilemektedir.<br /><br />
+^ Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=63" title="Sayfa 124" target="_blank">tıklayınız</a>.<br /><br />
+
++ toplumsal cinsiyet eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ [*] toplumsal cinsiyet eşitliği [*]
+@ *toplumsal cinsiyet eşitliği*
++ *denizbank toplumsal cinsiyet eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ denizbank toplumsal cinsiyet eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ [*] denizbank toplumsal cinsiyet eşitliği [*]
+@ *toplumsal cinsiyet eşitliği*
++ *bankanın toplumsal cinsiyet eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ bankanın toplumsal cinsiyet eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ [*] bankanın toplumsal cinsiyet eşitliği [*]
+@ *toplumsal cinsiyet eşitliği*
++ *fırsat eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ fırsat eşitliği*
+@ *toplumsal cinsiyet eşitliği*
++ [*] fırsat eşitliği [*]
+@ *toplumsal cinsiyet eşitliği*
++ *çeşitlilik*
+@ *toplumsal cinsiyet eşitliği*
++ çeşitlilik*
+@ *toplumsal cinsiyet eşitliği*
++ [*] çeşitlilik [*]
+@ *toplumsal cinsiyet eşitliği*
++ *kapsayıcılık*
+@ *toplumsal cinsiyet eşitliği*
++ kapsayıcılık*
+@ *toplumsal cinsiyet eşitliği*
++ [*] kapsayıcılık [*]
+@ *toplumsal cinsiyet eşitliği*
+
+
++ *bilgi güvenliği*
+- DenizBank, bilginin doğruluğunu, erişilebilirliğini ve yalnızca yetkilendirilmiş kişilerce kullanılmasını sağlayacak güvenlik önlemlerini en yüksek öncelik olarak belirlemiştir.<br /><br />
+^ Risklerin doğru yönetilmesi, güncel güvenlik önlemlerinin alınması ve çalışanların siber güvenlik konusunda bilinçlendirilmesi, veri güvenliğini sağlamanın en etkili yollarıdır.<br /><br />
+^ Bu doğrultuda, güvenlik uygulamaları, etkili kimlik doğrulama ve çok katmanlı koruma stratejileriyle desteklenmekte, güvenlik politikalarının sürekli olarak güncellenmesi sağlanmaktadır.<br /><br />
+^ DenizBank'ın bilgi güvenliği uygulamaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=69" title="Sayfa 136" target="_blank">tıklayınız</a>.<br /><br />
+
++ bilgi güvenliği*
+@ *bilgi güvenliği*
++ [*] bilgi güvenliği [*]
+@ *bilgi güvenliği*
++ *denizbank bilgi güvenliği*
+@ *bilgi güvenliği*
++ denizbank bilgi güvenliği*
+@ *bilgi güvenliği*
++ [*] denizbank bilgi güvenliği [*]
+@ *bilgi güvenliği*
++ *bankanın bilgi güvenliği*
+@ *bilgi güvenliği*
++ bankanın bilgi güvenliği*
+@ *bilgi güvenliği*
++ [*] bankanın bilgi güvenliği [*]
+@ *bilgi güvenliği*
++ *veri güvenliği*
+@ *bilgi güvenliği*
++ veri güvenliği*
+@ *bilgi güvenliği*
++ [*] veri güvenliği [*]
+@ *bilgi güvenliği*
++ *gizlilik*
+@ *bilgi güvenliği*
++ gizlilik*
+@ *bilgi güvenliği*
++ [*] gizlilik [*]
+@ *bilgi güvenliği*
++ *siber güvenlik*
+@ *bilgi güvenliği*
++ siber güvenlik*
+@ *bilgi güvenliği*
++ [*] siber güvenlik [*]
+@ *bilgi güvenliği*
+
+
++ *finansal okuryazarlık*
+- DenizBank, müşterilerinin finansal okuryazarlığını artırmayı öncelikli hedefleri arasında konumlandırmakta ve bu doğrultuda çeşitli girişimler gerçekleştirmektedir.<br /><br />
+^ Banka, birçok kurumla gerçekleştirilen iş birlikleri sayesinde müşterilerinin finansal yönetim becerilerinin geliştirilmesine yönelik projeler hayata geçirmekte ve finansal okuryazarlık konusunda farkındalık çalışmaları yürütmektedir.<br /><br />
+^ Bu doğrultuda, Finansal Okuryazarlık ve Erişim Derneği (FODER) ile üretici kesiminin tasarruflarını artırmaya ve bütçelerini etkin bir şekilde yönetmelerine yönelik özel bir çalışma gerçekleştirilmiştir.<br /><br />
+^ DenizBank'ın finansal okuryazarlık uygulamaları ile ilgili detaylar için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=56" title="Sayfa 109" target="_blank">tıklayınız</a>.<br /><br />
+
++ finansal okuryazarlık*
+@ *finansal okuryazarlık*
++ [*] finansal okuryazarlık [*]
+@ *finansal okuryazarlık*
++ *denizbank finansal okuryazarlık*
+@ *finansal okuryazarlık*
++ denizbank finansal okuryazarlık*
+@ *finansal okuryazarlık*
++ [*] denizbank finansal okuryazarlık [*]
+@ *finansal okuryazarlık*
++ *bankanın finansal okuryazarlık*
+@ *finansal okuryazarlık*
++ bankanın finansal okuryazarlık*
+@ *finansal okuryazarlık*
++ [*] bankanın finansal okuryazarlık [*]
+@ *finansal okuryazarlık*
+
+
++ *kurumsal yönetim*
+- DenizBank'ın kurumsal yönetim anlayışı;<br /><br />
+^ şeffaflık, eşitlik, sorumluluk ve hesap verebilirlik ilkelerini esas almaktadır. Banka faaliyetlerini, yürürlükte olan Bankacılık Mevzuatı, Türk Ticaret Kanunu ve ilgili düzenlemeler ile ulusal ve uluslararası uygulamalar uyarınca yürütmektedir.<br /><br />
+^ Banka, paydaşlarıyla ilişkilerinin düzenlenmesi, Yönetim Kurulu ve ona bağlı olarak çalışan yönetim basamaklarının görev, yetki ve sorumluluklarının belirlenmesi konularında söz konusu ilkeleri titizlikle gözetmektedir.<br /><br />
+^ DenizBank'ın kurumsal yönetim yapısı hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" title="Sayfa 164" target="_blank">tıklayınız</a>.<br /><br />
+
++ kurumsal yönetim*
+@ *kurumsal yönetim*
++ [*] kurumsal yönetim [*]
+@ *kurumsal yönetim*
++ *denizbank kurumsal yönetim*
+@ *kurumsal yönetim*
++ denizbank kurumsal yönetim*
+@ *kurumsal yönetim*
++ [*] denizbank kurumsal yönetim [*]
+@ *kurumsal yönetim*
++ *bankanın kurumsal yönetim*
+@ *kurumsal yönetim*
++ bankanın kurumsal yönetim*
+@ *kurumsal yönetim*
++ [*] bankanın kurumsal yönetim [*]
+@ *kurumsal yönetim*
++ *yönetişim*
+@ *kurumsal yönetim*
++ yönetişim*
+@ *kurumsal yönetim*
++ [*] yönetişim [*]
+@ *kurumsal yönetim*
+
+
++ *denetim*
+- DenizBank'ın faaliyetlerinin mevzuata, Esas Sözleşme'ye, iç düzenlemelere ve bankacılık ilkelerine uygunluğu Teftiş Kurulu Başkanlığı bünyesinde görev yapan müfettişler tarafından denetlenmektedir.<br /><br />
+^ Titiz bir seçim ve yoğun eğitim programı sürecinden geçerek göreve başlayan müfettişler, meslek ilkeleri doğrultusunda tarafsız, bağımsız ve özenli bir biçimde iç denetim faaliyetlerini yürütmektedir.<br /><br />
+^ DenizBank'ın iç denetim çalışmaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=73" title="Sayfa 143" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ın, Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) ve Sermaye Piyasası Kurulu (SPK) tarafından belirlenen yıllık faaliyet raporu ve finansal raporlama düzenlemelerine uygun olarak hazırladığı raporda yer alan finansal bilgiler, bağımsız denetçi tarafından denetlenmiş olup, bağımsız denetçi raporu düzenlenmiştir.<br /><br />
+^ DenizBank'ın finansal tabloları ve Bağımsız Denetçi Raporu için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=110" title="Sayfa 218" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, finansal olmayan çevresel ve sosyal seçili göstergelerini bağımsız denetim süreçlerinden geçirmektedir.<br /><br />
+^ DenizBank, 2024 Entegre Faaliyet Raporu'nda yer alan finansal olmayan bilgiler, Uluslararası Güvence Denetimi Standardı-ISAE 3000 (Tarihi Finansal Bilgilerin Bağımsız Denetimi veya Sınırlı Bağımsız Denetimi Dışındaki Güvence Denetimleri Standardına-GDS 3000) çerçevesinde bağımsız denetçi tarafından sınırlı güvence denetimine tabi tutulmuştur.<br /><br />
+^ Finansal olmayan bilgiler için Raporlama Kılavuzu ve Bağımsız Güvence Raporu'na ulaşmak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=233" title="Sayfa 463" target="_blank">tıklayınız</a>.<br /><br />
+
++ denetim*
+@ *denetim*
++ [*] denetim [*]
+@ *denetim*
++ *denizbank denetim*
+@ *denetim*
++ denizbank denetim*
+@ *denetim*
++ [*] denizbank denetim [*]
+@ *denetim*
++ *bankanın denetim*
+@ *denetim*
++ bankanın denetim*
+@ *denetim*
++ [*] bankanın denetim [*]
+@ *denetim*
++ *iç denetim*
+@ *denetim*
++ iç denetim*
+@ *denetim*
++ [*] iç denetim [*]
+@ *denetim*
++ *bağımsız denetim*
+@ *denetim*
++ bağımsız denetim*
+@ *denetim*
++ [*] bağımsız denetim [*]
+@ *denetim*
+
+
++ *iç kontrol*
+- DenizBank, İç Kontrol Merkezi Başkanlığı ile iç kontrol faaliyetlerini yürütmektedir. İç Kontrol Merkezi Başkanlığının amacı;<br /><br />
+^ banka varlıklarının korunması, faaliyetlerin etkin verimli bir şekilde kanun ve diğer mevzuata, banka içi politika ve kurallara ve bankacılık teamüllerine uygun olarak yürütülmesini, operasyonel ve diğer risklerin azaltılması, muhasebe ve finansal raporlama sisteminin güvenilirliğini, bütünlüğünü ve bilgileri zamanında elde edilebilmesini sağlamaktır.<br /><br />
+^ DenizBank'ın iç kontrol çalışmaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=73" title="Sayfa 143" target="_blank">tıklayınız</a>.<br /><br />
+
++ iç kontrol*
+@ *iç kontrol*
++ [*] iç kontrol [*]
+@ *iç kontrol*
++ *denizbank iç kontrol*
+@ *iç kontrol*
++ denizbank iç kontrol*
+@ *iç kontrol*
++ [*] denizbank iç kontrol [*]
+@ *iç kontrol*
++ *bankanın iç kontrol*
+@ *iç kontrol*
++ bankanın iç kontrol*
+@ *iç kontrol*
++ [*] bankanın iç kontrol [*]
+@ *iç kontrol*
+
+
++ *uyum*
+- DenizBank'ta Kurumsal Uyum Bölümü;<br /><br />
+^ temel uyum kurallarının belirlenmesi, ilgili politika ve prosedürlerin oluşturulması/ entegrasyonu, uyum risklerinin yönetilmesinin koordinasyonu, uyum izleme planlarının yönetilmesi, Grup standartlarına, yerel mevzuata uyumun gözetilmesi, iştirak ağında uyum açısından bilgi akışı ve raporlama düzeninin sağlanması, mevcut uyum uygulamalarının DenizBank iştiraklerine entegre edilerek sürdürülebilir bir uyum bilincinin oluşturulmasında görev almaktadır.<br /><br />
+^ DenizBank'ın uyum çalışmaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=73" title="Sayfa 143" target="_blank">tıklayınız</a>.<br /><br />
+
++ uyum*
+@ *uyum*
++ [*] uyum [*]
+@ *uyum*
++ *denizbank uyum*
+@ *uyum*
++ denizbank uyum*
+@ *uyum*
++ [*] denizbank uyum [*]
+@ *uyum*
++ *bankanın uyum*
+@ *uyum*
++ bankanın uyum*
+@ *uyum*
++ [*] bankanın uyum [*]
+@ *uyum*
++ *uygunluk*
+@ *uyum*
++ uygunluk*
+@ *uyum*
++ [*] uygunluk [*]
+@ *uyum*
++ *kurumsal uyum*
+@ *uyum*
++ kurumsal uyum*
+@ *uyum*
++ [*] kurumsal uyum [*]
+@ *uyum*
+
+
++ *risk yönetimi*
+- DenizBank'ta risk yönetimi faaliyetleri;<br /><br />
+^ riskin belirlenmesi, ölçülmesi ve yönetilmesi süreçlerini içermektedir. Bankada operasyonel süreçlerde riske dayalı karar vermek ve gözetime destek olmak amacıyla riskleri tespit etme, ölçme, yönetme, kontrol etme ve raporlama için yapılandırılmış bir risk yönetişim modeli mevcuttur.<br /><br />
+^ Düzenlemeler ve en iyi uygulamalar dikkate alınarak Banka'nın risk yönetimi sisteminin kurulması, nihai olarak Yönetim Kurulu'nun sorumluluğundadır.<br /><br />
+^ DenizBank'ın risk yönetimi yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=74" title="Sayfa 146" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank'ın bankacılık faaliyetleri, riskin analiz edilmesini ve uygun limitler dâhilinde izlenmesini amaçlayan risk yönetimi politikalarına sıkı sıkıya bağlı kalınarak yürütülmektedir.<br /><br />
+^ DenizBank'ın risk yönetimi politikalarına ilişkin bilgilere ulaşmak için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=75" title="Sayfa 147" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, düşük karbon ekonomisine geçiş yaklaşımı doğrultusunda iklim riskleri ve fırsatlarının kurumsal risk yönetimi sistemi içerisine entegrasyonunun tamamlanmasını hedeflemektedir.<br /><br />
+^ DenizBank'ın iklim riskleri yönetimi hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=53" title="Sayfa 103" target="_blank">tıklayınız</a>.<br /><br />
+
++ risk yönetimi*
+@ *risk yönetimi*
++ [*] risk yönetimi [*]
+@ *risk yönetimi*
++ *denizbank risk yönetimi*
+@ *risk yönetimi*
++ denizbank risk yönetimi*
+@ *risk yönetimi*
++ [*] denizbank risk yönetimi [*]
+@ *risk yönetimi*
++ *bankanın risk yönetimi*
+@ *risk yönetimi*
++ bankanın risk yönetimi*
+@ *risk yönetimi*
++ [*] bankanın risk yönetimi [*]
+@ *risk yönetimi*
++ *iklim riskleri yönetimi*
+@ *risk yönetimi*
++ iklim riskleri yönetimi*
+@ *risk yönetimi*
++ [*] iklim riskleri yönetimi [*]
+@ *risk yönetimi*
+
+
++ *iş etiği*
+- DenizBank, çalışanların zimmet, suistimal, rüşvet, yolsuzluk gibi Banka itibarının zedelenmesine, çıkar çatışmalarına ve finansal kayıplara neden olabilecek işlemleri güvenli ve gizli bir şekilde bildirebilmesine yönelik "Etik Bildirim Hattı"nı devreye almıştır.<br /><br />
+^ Bildirimler; telefon, e-posta ve Banka içi portal dahil her türlü iletişim yöntemiyle doğrudan Uyum Görevlisi'ne yapılabilmektedir.<br /><br />
+^ Çalışanlar, ilkelerin uygulanmasına yönelik tereddüt oluşması veya ilkelere uyulup uyulmadığına dair şüphelerinin olması durumunda bir üst yöneticisinden veya Etik Hattı'ndan yardım isteme konusunda teşvik edilmektedir.<br /><br />
+^ Tüm çalışanlar zorunlu olarak Kurumsal Uyum ve Etik İlkeler, Rüşvet ve Yolsuzlukla Mücadele, Suç Gelirlerinin Aklanması ve Terörizmin Finansmanı ile Mücadele eğitimlerini almaktadır.<br /><br />
+^ DenizBank'ın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=79" title="Sayfa 156" target="_blank">tıklayınız</a>.<br /><br />
+
++ iş etiği*
+@ *iş etiği*
++ [*] iş etiği [*]
+@ *iş etiği*
++ *denizbank iş etiği*
+@ *iş etiği*
++ denizbank iş etiği*
+@ *iş etiği*
++ [*] denizbank iş etiği [*]
+@ *iş etiği*
++ *bankanın iş etiği*
+@ *iş etiği*
++ bankanın iş etiği*
+@ *iş etiği*
++ [*] bankanın iş etiği [*]
+@ *iş etiği*
++ *etik bildirim hattı*
+@ *iş etiği*
++ etik bildirim hattı*
+@ *iş etiği*
++ [*] etik bildirim hattı [*]
+@ *iş etiği*
+
+
++ *rüşvet*
+- DenizBank, rüşvet ve yolsuzluğu önlemek adına ulusal ve uluslararası yasal düzenlemelere, etik ve mesleki ilkelere tam uyum göstermek konusunda kararlıdır.<br /><br />
+^ Banka, hizmet ve faaliyetlerinde dürüstlük, saydamlık, hesap verebilirlik, tarafsızlık ilkeleri doğrultusunda en yüksek standartları sağlamaktadır. DenizBank;<br /><br />
+^ ilgili kanunlar, güncel mevzuat, iş ilkeleri ve en iyi uygulamalar çerçevesinde "DenizBank Yolsuzlukla Mücadele Politikası"nı oluşturmuştur.<br /><br />
+^ Banka, yolsuzlukla mücadeleye ilişkin görevlerini, sorumluluklarını, amaçlarını ve sistemin temel ilkelerini tanımlamıştır.<br /><br />
+^ DenizBank'ın rüşvet ve yolsuzluk karşıtlığı yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=80" title="Sayfa 157" target="_blank">tıklayınız</a>.<br /><br />
+
++ *yolsuzluk*
+@ *rüşvet*
 + rüşvet*
-- İş Bankası; çalışanın görevini kötüye kullanması, rüşvet ve yolsuzlukla mücadele yasalarına ve iç düzenlemelere uygun hareket etmemesi durumlarında doğabilecek riskleri; ölçüm, önceliklendirme, risk değerlendirmesi, etki-olasılık analizi, kayıp olay veri analizi, senaryo analizi ve denetim çalışmaları aracılığıyla önleme çalışmaları yürütür. Rüşvet ve yolsuzluk karşıtlığı, İş Bankası’nın tavizsiz yönettiği öncelikli konular arasındadır. </br></br>İş Bankası’nın rüşvet ve yolsuzluk karşıtlığı yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>:
-
+@ *rüşvet*
 + yolsuzluk*
-- İş Bankası; çalışanın görevini kötüye kullanması, rüşvet ve yolsuzlukla mücadele yasalarına ve iç düzenlemelere uygun hareket etmemesi durumlarında doğabilecek riskleri; ölçüm, önceliklendirme, risk değerlendirmesi, etki-olasılık analizi, kayıp olay veri analizi, senaryo analizi ve denetim çalışmaları aracılığıyla önleme çalışmaları yürütür. Rüşvet ve yolsuzluk karşıtlığı, İş Bankası’nın tavizsiz yönettiği öncelikli konular arasındadır. </br></br>İş Bankası’nın rüşvet ve yolsuzluk karşıtlığı yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>:
+@ *rüşvet*
++ [*] rüşvet [*]
+@ *rüşvet*
++ [*] yolsuzluk [*]
+@ *rüşvet*
++ *denizbank rüşvet politikası*
+@ *rüşvet*
++ denizbank rüşvet politikası*
+@ *rüşvet*
++ [*] denizbank rüşvet politikası [*]
+@ *rüşvet*
++ *bankanın rüşvet politikası*
+@ *rüşvet*
++ bankanın rüşvet politikası*
+@ *rüşvet*
++ [*] bankanın rüşvet politikası [*]
+@ *rüşvet*
++ *denizbank yolsuzluk politikası*
+@ *rüşvet*
++ denizbank yolsuzluk politikası*
+@ *rüşvet*
++ [*] denizbank yolsuzluk politikası [*]
+@ *rüşvet*
++ *bankanın yolsuzluk politikası*
+@ *rüşvet*
++ bankanın yolsuzluk politikası*
+@ *rüşvet*
++ [*] bankanın yolsuzluk politikası [*]
+@ *rüşvet*
++ *rüşvet ve yolsuzluk*
+@ *rüşvet*
++ rüşvet ve yolsuzluk*
+@ *rüşvet*
++ [*] rüşvet ve yolsuzluk [*]
+@ *rüşvet*
++ *rüşvet ve yolsuzluk karşıtlığı*
+@ *rüşvet*
++ rüşvet ve yolsuzluk karşıtlığı*
+@ *rüşvet*
++ [*] rüşvet ve yolsuzluk karşıtlığı [*]
+@ *rüşvet*
++ *rüşvet ve yolsuzlukla mücadele*
+@ *rüşvet*
++ rüşvet ve yolsuzlukla mücadele*
+@ *rüşvet*
++ [*] rüşvet ve yolsuzlukla mücadele [*]
+@ *rüşvet*
 
-+ cinsiyet*
-- İş Bankası, her kademesinde cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. İş Bankası, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br> </br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>:
 
-+ insan*
-- İş Bankası, çalışanlarına tatmin edici, destekleyici, adil ve huzurlu bir çalışma ortamı sunmayı temel sorumluluk olarak kabul etmektedir. İş Bankası mutlu ve üretken çalışanlarla iş başarısının sağlanacağına inanmakta; nitelikli çalışanların tercih ettiği, çalışan bağlılığı ve memnuniyetinin yüksek olduğu bir işveren olmak için uygulamalar yürütmektedir. </br></br>İş Bankası ücretlendirmede eşitlikçi ve adil bir yaklaşımı benimser, yeni çalışma modellerine uyumlu şekilde daha esnek ve çevik çalışma koşulları sunar, cinsiyet ve fırsat eşitliğini sağlamaya yönelik çalışmalar yürütür. Banka, çalışanların yetkinliklerini artırmak için çeşitli eğitim programları ve öğrenme imkânları sunmaktadır. İş Bankası, çalışan haklarının eksiksiz şekilde korunduğu bir iş ortamı taahhüt etmektedir.  </br></br>İş Bankası insana yakışır iş anlayışını gösterge ve hedeflerle takip etmekte, konuya dair çalışma ve uygulamalar hayata geçirmektedir. </br></br>İş Bankası’nın insana yakışır iş anlayışına yaklaşımı ve konu hakkındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" target="_blank">tıklayınız</a>. </br></br>İş Bankası; çalışan memnuniyeti ve bağlılığının başarısının temeli olduğuna inanmakta ve bunu sağlamaya yönelik çalışmalar yürütmektedir. Banka, en değerli sermayesi olarak gördüğü çalışanlarına mutlu ve üretken bir şekilde çalışabilecekleri bir iş ortamı sunmayı temel sorumluluğu kabul etmektedir. </br></br>İş Bankası’nın çalışan memnuniyeti ve bağlılığına yönelik çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=60" target="_blank">tıklayınız</a>. </br></br>İş Bankası’nda toplu iş sözleşmesi, Banka’nın dahili düzenlemeleri ve yasal mevzuat hükümleri temelinde çalışanların tüm ekonomik ve sosyal hakları tanımlanmıştır ve İş Bankası çalışan haklarını eksiksiz şekilde korumayı taahhüt eder.  </br></br>İş Bankası’nda çalışanlara sağlanan haklar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, değişen çalışma alışkanlıklarına uyum sağlamak amacıyla  çalışanlara daha esnek ve çevik çalışma imkanı sunan yeni nesil çalışma modelini uygulamaya koymuştur.  </br></br>İş Bankası’nda işin geleceği ve yeni çalışma modelleri hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, her kademede cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. Banka, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br></br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası’nda köklü kurum kültürünün getirdiği çalışma ilkelerine tüm çalışanların uyması için denetim faaliyetleri yürütülür, çalışan iletişimi uygulamaları hayata geçirilir. </br></br>İş Bankası’nda çalışma ilkelerine uyum çalışmaları ve çalışan iletişimi uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası; Bankalar Birliği Bankacılık Etik İlkeleri doğrultusunda oluşturduğu "Etik İlkeler ve Çalışma Kuralları”, “İnsan Hakları ve İnsan Kaynakları Politikası” ve İş Bankası Toplu İş Sözleşmesi doğrultusunda; tüm paydaşlarını kapsayacak şekilde yüksek iş etiği standartları çerçevesinde faaliyetlerini sürdürmektedir. Banka’da paydaşların herhangi bir ihlal durumunu Banka yetkili birimlerine iletebilmeleri amacıyla Etik Hat uygulaması bulunmaktadır. Bu kanalla iletilen bildirimler Teftiş Kurulu Başkanlığı tarafından takip edilmekte ve gerekli aksiyonlar alınmaktadır. İş Bankasında; Banka etik ilkeleri ve çalışma kuralları, kalite, uyum ve risk politikaları, Finansal Suçlarla Mücadele ve Yaptırımların uygulanması, Rekabet Hukukuna Uyum ve Bilgi Güvenliğinin sağlanması ve insan hakları gibi konularda eğitimler sağlanmaktadır.  </br></br>İş Bankası’nın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>: </br></br>İş Bankası uluslararası standartlara uygun, sağlıklı ve güvenli bir iş ortamı sağlamayı amaçlar ve bu doğrultuda çalışmalar yürütür. </br></br>İş Bankası’nın çalışan sağlığı ve güvenliği uygulamaları ve çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=64" target="_blank">tıklayınız</a>: </br></br>İş Bankası en değerli sermayesi olarak gördüğü çalışanları için çalışan ihtiyacına göre kurgulanmış, yüksek teknolojilerle desteklenen eğitimler sağlamaktadır. İş Bankası çalışanlarına düzenli olarak performans değerlendirmesi yapmakta, terfi ve eğitim çalışmalarını bu doğrultuda şekillendirmektedir.  </br></br>İş Bankasının yetenek yönetimi ve eğitim uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" target="_blank">tıklayınız</a>:
++ *iklim eylemi*
+- DenizBank düşük karbon ekonomisine geçiş nihai hedefi doğrultusunda "İklim Eylemi";<br /><br />
+^ stratejik yaklaşım ve yol haritası geliştirmek üzere yoğun çaba sarf ettiği yüksek öncelikli konular arasında yer almaktadır.<br /><br />
+^ Bu bağlamda Banka, çevresel sürdürülebilirliği sağlamak ve iklim değişikliğine karşı etkili bir mücadele yürütmek amacıyla, tüm faaliyetleri ve karar alma süreçlerinde iklim odaklı strateji ve politikaları entegre etmeye yönelik çalışmaktadır.<br /><br />
+^ İklim Eylemi bağlamındaki riskleri ve fırsatları yönetmek için Denizbank A.Ş. seviyesinde Karbonsuzlaşma Stratejisi geliştirmeye yönelik çalışmalar devam etmektedir.<br /><br />
+^ DenizBank'ın iklim eylemi yaklaşımı için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=55" title="Sayfa 108" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, Türkiye Cumhuriyeti ve ana hissedarı Emirates NBD'nin Net Sıfır hedefleri doğrultusunda, Bankanın Karbonsuzlaşma stratejisini sağlam temeller üzerine inşa etmeyi amaçlamakta ve bu yöndeki çalışmalarını sürdürmektedir.<br /><br />
+^ Banka bu doğrultuda, Türkiye'nin 2053 yılı "Net Sıfır" hedefi adil geçişin finansmanı ilkeleri kapsamında yapılacak yatırımlar ile müşterilerinin karbon ayak izini ve maliyetlerinin azaltılmasını sağlamak adına yenilenebilir enerji yatırımlarını önemli bir fırsat olarak değerlendirmektedir.<br /><br />
+^ DenizBank'ın net sıfır yaklaşımı ve uygulamaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=51" title="Sayfa 100" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, operasyonel çevresel etkileri azaltmak için hedeflerle bağlantılı olarak önlemler almakta olup, sürdürülebilirlik stratejilerini 2024 yılında da proje ve uygulamalarla desteklemeye devam etmiştir.<br /><br />
+^ Banka, sürdürülebilirlik stratejilerini tüm iş süreçlerine entegre etmeyi amaçlayan çalışmalar yürütmektedir. Önceki dönemlerde sadece Denizbank A.Ş.<br /><br />
+^ olarak hesaplanan emisyonlar, 2024 yılında ilk defa DFHG seviyesinde hesaplanmış (GHG Protokolü, Kapsam 1, 2 & Kapsam 3 Kategori 1-14) ve bağımsız sınırlı güvence denetimi alınmıştır.<br /><br />
+^ DenizBank'ın operasyonel çevresel etki yönetimi hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=81" title="Sayfa 159" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, kredilendirme süreçlerine çevresel, sosyal ve yönetişim (ÇSY) kriterlerini entegre etmeye yönelik çalışmalarıyla sürdürülebilir finans hedeflerine yönelik adımlarını güçlendirmiştir.<br /><br />
+^ DenizBank Sürdürülebilirlik Yönetim Sistemi (SYS) kapsamında geliştirilen Çevresel ve Sosyal (Ç&S) Risk Değerlendirme metodolojisi ile 2022 yılından bu yana Banka kredilendirme süreçlerinin bir parçası olarak kredilerin (bireysel hariç) Ç&S risk kategorisi tanımlanmakta, değerlendirme neticesinde atanan iyileştirici aksiyonların takibi yapılmaktadır.<br /><br />
+^ DenizBank'ın ÇSY entegrasyonu süreçlerinin detayları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=53" title="Sayfa 103" target="_blank">tıklayınız</a>.<br /><br />
+^ DenizBank, yeşil ekonomiye katkı sağlayacak ürünler kapsamında faiz avantajları sağlayan çeşitli kredi ürünlerine sahiptir.<br /><br />
+^ Bu ürünler, çevresel sürdürülebilirlik hedeflerine ulaşmayı amaçlayan işletmelerin yatırım yapmalarına destek olmayı hedeflemektedir.<br /><br />
+^ DenizBank'ın yeşil ekonomiye katkı sağlayan ürün ve hizmetleri hakkında detaylı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=52" title="Sayfa 102" target="_blank">tıklayınız</a>.<br /><br />
 
++ iklim eylemi*
+@ *iklim eylemi*
++ [*] iklim eylemi [*]
+@ *iklim eylemi*
++ *denizbank iklim eylemi*
+@ *iklim eylemi*
++ denizbank iklim eylemi*
+@ *iklim eylemi*
++ [*] denizbank iklim eylemi [*]
+@ *iklim eylemi*
++ *bankanın iklim eylemi*
+@ *iklim eylemi*
++ bankanın iklim eylemi*
+@ *iklim eylemi*
++ [*] bankanın iklim eylemi [*]
+@ *iklim eylemi*
++ *düşük karbon ekonomisi*
+@ *iklim eylemi*
++ düşük karbon ekonomisi*
+@ *iklim eylemi*
++ [*] düşük karbon ekonomisi [*]
+@ *iklim eylemi*
++ *net sıfır*
+@ *iklim eylemi*
 + net sıfır*
-- İş Bankası, finans sektörünün öncülüğünde Birleşmiş Milletler tarafından kurulan Net-Sıfır Bankacılık Birliği’nin bir üyesi olarak 2050 yılına kadar yatırım ve kredi portföylerini net sıfır emisyon hedefi ile uyumlu hale getirme taahhüdünde bulunmuştur. Banka 2023 yılında, karbon yoğun sektörlerden enerji üretimi, çimento ve demir çelik sektörlerinde emisyon azaltımına ilişkin 2030 yılı hedeflerini açıkladı. </br></br> İş Bankası’nın NZBA taahhütleri kapsamındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=42" target="_blank">tıklayınız</a>.
+@ *iklim eylemi*
++ [*] net sıfır [*]
+@ *iklim eylemi*
++ *yeşil ekonomi*
+@ *iklim eylemi*
++ yeşil ekonomi*
+@ *iklim eylemi*
++ [*] yeşil ekonomi [*]
+@ *iklim eylemi*
++ *karbonsuzlaşma stratejisi*
+@ *iklim eylemi*
++ karbonsuzlaşma stratejisi*
+@ *iklim eylemi*
++ [*] karbonsuzlaşma stratejisi [*]
+@ *iklim eylemi*
++ *operasyonel çevresel etki*
+@ *iklim eylemi*
++ operasyonel çevresel etki*
+@ *iklim eylemi*
++ [*] operasyonel çevresel etki [*]
+@ *iklim eylemi*
 
-+ kadın*
-- İş Bankası, her kademesinde cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. İş Bankası, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br> </br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>:
 
-+ kadın
-- İş Bankası, her kademesinde cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. İş Bankası, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br> </br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>:
++ *sosyal sorumluluk*
+- DenizBank, kurulduğu günden itibaren, toplumdan aldığını topluma geri kazandırma yaklaşımıyla, finansal faaliyetlerini topluma karşı sorumluluklarıyla bütün olarak ele almış;<br /><br />
+^ sosyal sorumluluk çalışmalarının odağına eğitim, sanat, çevre, spor gibi gelişimi destekleyen alanları yerleştirmiştir.<br /><br />
+^ DenizBank'ın kurumsal sosyal sorumluluk yaklaşımı ve yürüttüğü projeler hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=81" title="Sayfa 160" target="_blank">tıklayınız</a>.<br /><br />
 
-+ insan
-- İş Bankası, çalışanlarına tatmin edici, destekleyici, adil ve huzurlu bir çalışma ortamı sunmayı temel sorumluluk olarak kabul etmektedir. İş Bankası mutlu ve üretken çalışanlarla iş başarısının sağlanacağına inanmakta; nitelikli çalışanların tercih ettiği, çalışan bağlılığı ve memnuniyetinin yüksek olduğu bir işveren olmak için uygulamalar yürütmektedir. </br></br>İş Bankası ücretlendirmede eşitlikçi ve adil bir yaklaşımı benimser, yeni çalışma modellerine uyumlu şekilde daha esnek ve çevik çalışma koşulları sunar, cinsiyet ve fırsat eşitliğini sağlamaya yönelik çalışmalar yürütür. Banka, çalışanların yetkinliklerini artırmak için çeşitli eğitim programları ve öğrenme imkânları sunmaktadır. İş Bankası, çalışan haklarının eksiksiz şekilde korunduğu bir iş ortamı taahhüt etmektedir.  </br></br>İş Bankası insana yakışır iş anlayışını gösterge ve hedeflerle takip etmekte, konuya dair çalışma ve uygulamalar hayata geçirmektedir. </br></br>İş Bankası’nın insana yakışır iş anlayışına yaklaşımı ve konu hakkındaki çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=59" target="_blank">tıklayınız</a>. </br></br>İş Bankası; çalışan memnuniyeti ve bağlılığının başarısının temeli olduğuna inanmakta ve bunu sağlamaya yönelik çalışmalar yürütmektedir. Banka, en değerli sermayesi olarak gördüğü çalışanlarına mutlu ve üretken bir şekilde çalışabilecekleri bir iş ortamı sunmayı temel sorumluluğu kabul etmektedir. </br></br>İş Bankası’nın çalışan memnuniyeti ve bağlılığına yönelik çalışmaları için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=60" target="_blank">tıklayınız</a>. </br></br>İş Bankası’nda toplu iş sözleşmesi, Banka’nın dahili düzenlemeleri ve yasal mevzuat hükümleri temelinde çalışanların tüm ekonomik ve sosyal hakları tanımlanmıştır ve İş Bankası çalışan haklarını eksiksiz şekilde korumayı taahhüt eder.  </br></br>İş Bankası’nda çalışanlara sağlanan haklar için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, değişen çalışma alışkanlıklarına uyum sağlamak amacıyla  çalışanlara daha esnek ve çevik çalışma imkanı sunan yeni nesil çalışma modelini uygulamaya koymuştur.  </br></br>İş Bankası’nda işin geleceği ve yeni çalışma modelleri hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=61" target="_blank">tıklayınız</a>. </br></br>İş Bankası, her kademede cinsiyet ve fırsat eşitliğine önem veren bir yaklaşımı benimser ve kendini kadınların istihdama katılımını destekleyen ve kolaylaştıran bir işveren olarak konumlandırır. Bu yaklaşım doğrultusunda kadın çalışanlarını teşvik eder ve destekler. İş Bankası Birleşmiş Milletler Kadının Güçlenmesi Prensiplerinin (WEPs) imzacısı, tüm dünyadaki şirketlerin yönetim kademelerinde kadın sayısını artırmayı amaçlayan uluslararası inisiyatif %30 Kulübü’nün de üyesidir. Banka, cinsiyet eşitliğini taahhüt eden şirketlerin performansını ölçmek için  yapılan en kapsamlı çalışmalardan olan Bloomberg Cinsiyet Eşitliği Endeksi’ne (GEI) 2022 yılında dâhil olmuştur. </br></br>Bankanın toplumsal cinsiyet eşitliği ve çeşitlilik hakkındaki yaklaşımı ve çalışmaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası’nda köklü kurum kültürünün getirdiği çalışma ilkelerine tüm çalışanların uyması için denetim faaliyetleri yürütülür, çalışan iletişimi uygulamaları hayata geçirilir. </br></br>İş Bankası’nda çalışma ilkelerine uyum çalışmaları ve çalışan iletişimi uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=62" target="_blank">tıklayınız</a>: </br></br>İş Bankası; Bankalar Birliği Bankacılık Etik İlkeleri doğrultusunda oluşturduğu "Etik İlkeler ve Çalışma Kuralları”, “İnsan Hakları ve İnsan Kaynakları Politikası” ve İş Bankası Toplu İş Sözleşmesi doğrultusunda; tüm paydaşlarını kapsayacak şekilde yüksek iş etiği standartları çerçevesinde faaliyetlerini sürdürmektedir. Banka’da paydaşların herhangi bir ihlal durumunu Banka yetkili birimlerine iletebilmeleri amacıyla Etik Hat uygulaması bulunmaktadır. Bu kanalla iletilen bildirimler Teftiş Kurulu Başkanlığı tarafından takip edilmekte ve gerekli aksiyonlar alınmaktadır. İş Bankasında; Banka etik ilkeleri ve çalışma kuralları, kalite, uyum ve risk politikaları, Finansal Suçlarla Mücadele ve Yaptırımların uygulanması, Rekabet Hukukuna Uyum ve Bilgi Güvenliğinin sağlanması ve insan hakları gibi konularda eğitimler sağlanmaktadır.  </br></br>İş Bankası’nın iş etiği yaklaşımı ve uygulamaları hakkında ayrıntılı bilgi için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=83" target="_blank">tıklayınız</a>: </br></br>İş Bankası uluslararası standartlara uygun, sağlıklı ve güvenli bir iş ortamı sağlamayı amaçlar ve bu doğrultuda çalışmalar yürütür. </br></br>İş Bankası’nın çalışan sağlığı ve güvenliği uygulamaları ve çalışmaları için <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=64" target="_blank">tıklayınız</a>: </br></br>İş Bankası en değerli sermayesi olarak gördüğü çalışanları için çalışan ihtiyacına göre kurgulanmış, yüksek teknolojilerle desteklenen eğitimler sağlamaktadır. İş Bankası çalışanlarına düzenli olarak performans değerlendirmesi yapmakta, terfi ve eğitim çalışmalarını bu doğrultuda şekillendirmektedir.  </br></br>İş Bankasının yetenek yönetimi ve eğitim uygulamaları hakkında detaylı bilgi için lütfen <a href="/denizefr24/DenizBank_EFR_2024.pdf#page=65" target="_blank">tıklayınız</a>:
++ sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ [*] sosyal sorumluluk [*]
+@ *sosyal sorumluluk*
++ *denizbank sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ denizbank sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ [*] denizbank sosyal sorumluluk [*]
+@ *sosyal sorumluluk*
++ *bankanın sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ bankanın sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ [*] bankanın sosyal sorumluluk [*]
+@ *sosyal sorumluluk*
++ *kurumsal sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ kurumsal sosyal sorumluluk*
+@ *sosyal sorumluluk*
++ [*] kurumsal sosyal sorumluluk [*]
+@ *sosyal sorumluluk*
++ *kss*
+@ *sosyal sorumluluk*
++ kss*
+@ *sosyal sorumluluk*
++ [*] kss [*]
+@ *sosyal sorumluluk*
 
-+ what are you
-- I am an artificial intelligence programmed \n
-^ using RiveScript.
 
-+ greetings
-- Hi there!{weight=20}
-- Hello!{weight=25}
-- Yos kyoco duckeb!
-
-+ tell me a poem
-- Little Miss Muffit sat on her tuffet,\n
-^ In a nonchalant sort of way.\n
-^ With her forcefield around her,\n
-^ The Spider, the bounder,\n
-^ Is not in the picture today.
++ *
+- Üzgünüm, bu konuda size yardımcı olamıyorum. Başka bir konu hakkında bilgi almak ister misiniz?
+- Bu konuyu anlayamadım. Lütfen sorunuzu farklı bir şekilde ifade eder misiniz?
+- DenizBank 2024 Entegre Faaliyet Raporu ile ilgili başka hangi konuda yardımcı olabilir
